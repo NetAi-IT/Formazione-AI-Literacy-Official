@@ -87,3 +87,62 @@ Titolo: "Contenuti aggiornati a ottobre 2026", con nota sui dati che cambiano (f
 
 ### Controlli eseguiti
 validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 71 · note su tutte le 72 slide (circa 10.900 parole, circa 78 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 3 · Capacità, limiti e affidabilità dell'AI
+
+**File modificati:** `Tema3_Capacita_limiti_affidabilita_AI.pptx` (da 68 a 70 slide), `sorgenti_slide.zip` (aggiornati `body3.js` e `build3.js`, con `build3.js` = `common3.js` + `helpers.js` + `body3.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Verifica delle fonti
+- Confermati: Mata v. Avianca (S.D.N.Y., sanzione del 22 giugno 2023); Kalai et al. 2025 (arXiv 2509.04664); Dastin, Reuters 2018; Doshi e Hauser, Science Advances 10(28), 2024; esempio sull'AI Act (art. 3, in vigore dal 1° agosto 2024).
+- Sharma et al.: citato nella versione pubblicata, ICLR 2024 (prima "2023, Anthropic").
+- Dell'Acqua et al.: versione pubblicata, Organization Science 37(2), 2026; ora nominato anche nelle note di "Prestazioni diverse in base al compito", che prima rimandava solo al Tema 1.
+- Aggiunto Parasuraman e Manzey (2010), Human Factors 52(3), come fonte dell'automation bias (note di "Supervisione umana e verifica proporzionata" e fonti).
+
+### Correzioni grafiche
+- Sette fattori (ora 52): i quattro fattori "sotto il nostro controllo" ora hanno un bordo colorato, come la legenda; prima il colore era quasi indistinguibile da quello degli altri.
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: nessun rimando, salvo la slide facoltativa "Prossimo passo: il Tema 4" (ora 69), dichiarata tale nelle note.
+- Note: rimandi generici resi precisi (Temi 5 e 6; Tema 6; Temi 12 e 15; Tema 15; Temi 17 e 18; Tema 17; Tema 18).
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota sui dati che cambiano (ragionamento, allucinazioni, funzioni). Fonti: "Dati verificati a ottobre 2026".
+
+### Slide aggiunte (struttura standard)
+- **Il filo conduttore** (5): che cosa sa fare, dove può sbagliare, quanto è affidabile, quando usarla, con i sottotemi; tre cose da tenere distinte (capacità dimostrate, affidabilità effettiva, adeguatezza al compito).
+- **Che cosa evitare** (68): sei semplificazioni (3.2, 3.3, 3.4, 3.5, 3.6, 3.8), cinque verso la fiducia eccessiva e una verso la sfiducia totale.
+- La scheda pratica esisteva già: "Prima di usare un risultato AI: una checklist" (67).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 70 slide (circa 10.500 parole, circa 75 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 4 · Ecosistema AI: modelli, strumenti e piattaforme
+
+**File modificati:** `Tema4_Ecosistema_AI.pptx` (da 68 a 70 slide), `sorgenti_slide.zip` (aggiornati `body4.js` e `build4.js`, con `build4.js` = `common4.js` + `helpers.js` + `helpers4.js` + `body4.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Attualità a ottobre 2026 (note del relatore)
+- Copilot (note degli assistenti generalisti): non più "in larga parte modelli di OpenAI", ma modelli di più fornitori (OpenAI, Anthropic, Microsoft) con scelta automatica. Esempio aggiunto anche in "Più modelli, modelli che cambiano" (scelta del modello, disattivazione da parte degli amministratori) e in "Disponibilità delle funzionalità" (modelli Anthropic disattivati per impostazione predefinita per le organizzazioni europee). **Fonti secondarie: da verificare prima di ogni sessione.**
+- Modelli open-weight (note di "Quattro famiglie" e "Modelli proprietari e modelli con pesi accessibili"): esempi aggiornati a Gemma (Google), Mistral, gpt-oss (OpenAI, agosto 2025), Qwen e DeepSeek; Meta indicata con il cambio di strategia verso modelli prevalentemente chiusi nel 2026. **Fonti secondarie: da verificare prima di ogni sessione.**
+- "Che cosa cambia" (4.8): aggiunti i due esempi recenti nelle note.
+- Confermati: Open Source AI Definition 1.0 dell'OSI (2024); i quattro assistenti citati e i loro fornitori.
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: nessun rimando, salvo la slide facoltativa "Prossimo passo: il Tema 5" (ora 69), dichiarata tale nelle note.
+- Note: formule generiche ("area dell'adozione aziendale", "tema dedicato", "area sicurezza e normativa", "prossimi temi") rese precise (Temi 5 e 6; 7; 8-11; 11; 12; 13; 15; 16; 17; 18).
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026". Slide "Nota sull'aggiornamento dei contenuti" (ora 70): "ultima verifica: ottobre 2026".
+
+### Slide aggiunte (struttura standard)
+- **Il filo conduttore** (4): struttura e modelli, prodotti e approcci, autonomia e accesso, scelta ed evoluzione, con i sottotemi; messaggio "sapersi orientare, non conoscere a memoria tutti i prodotti".
+- **Che cosa evitare** (68): sei semplificazioni (4.1, 4.2, 4.3, 4.5, 4.6, 4.7).
+- La scheda pratica esisteva già: "Prima di scegliere uno strumento AI: una checklist" (67).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 70 slide (circa 10.300 parole, circa 74 minuti di esposizione). Due didascalie (slide 45 e 70) sono vicine al piè di pagina ma leggibili: lasciate invariate.

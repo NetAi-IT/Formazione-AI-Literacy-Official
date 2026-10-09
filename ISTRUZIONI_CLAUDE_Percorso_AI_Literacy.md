@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
 
 ---
 
@@ -17,7 +17,7 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regol
   - **La vecchia cartella `/Users/michelebarchi/Claude/Projects/Formazione Ai literacy` è obsoleta:** non leggere né scrivere lì. Contiene ancora una copia dei file, che l'utente può eliminare.
   - **La cartella è un repository git locale:** contiene `.git` e `.gitattributes`, un commit iniziale e nessun remote configurato. Al 9 ottobre 2026 `Base/` e questo file non erano ancora sotto versione.
     - Non eseguire commit, push o altre operazioni git senza richiesta esplicita dell'utente.
-    - Se l'utente lo chiede, git può sostituire la cartella `_versioni_precedenti/` per conservare la storia delle modifiche.
+    - **Le versioni precedenti le gestisce l'utente su GitHub, manualmente** (decisione del 9 ottobre 2026). Non creare copie di backup dei file e non usare cartelle come `_versioni_precedenti/`.
     - Nella shell sul computer dell'utente la cancellazione di file è disattivata finché l'utente non la autorizza. Per questo alcune operazioni git (commit, checkout, merge) possono lasciare file `.lock` o fallire. In quel caso chiedere il permesso di cancellazione per questa cartella.
   - **Nel progetto Claude** "Formazione AI Literacy" esiste una copia dei file sotto `Formazione AI Literacy Official/...`. La fonte di riferimento per lavorare resta la cartella sul computer; la copia del progetto serve alla consultazione da altre conversazioni.
 - **Struttura della cartella** (riorganizzata il 9 ottobre 2026):
@@ -36,7 +36,7 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regol
   - `sorgenti_slide.zip` contiene i sorgenti JavaScript (vedi sezione 6).
 - **Regole di organizzazione dei file:**
   1. **La cartella `Base/` non si modifica**, salvo una revisione della base richiesta esplicitamente dall'utente (attività A, B, C, E, F della sezione 5).
-     - In quel caso, prima di sovrascrivere un file, conservarne la versione precedente: per esempio in `Base/_versioni_precedenti/` con la data nel nome.
+     - In quel caso si sovrascrive direttamente il file: le versioni precedenti sono su GitHub, gestite dall'utente.
      - Annotare ogni modifica in `Base/registro_revisione.md`.
   2. **Ogni nuova formazione ha una sottocartella propria** in `Formazioni/`, con un nome breve e la data, per esempio `Formazioni/2026-11_Management_AI_Awareness/`. Contiene:
      - `scheda_formazione.md`: committente, pubblico, obiettivi, durata, formato, date, brand;
@@ -45,7 +45,7 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regol
      - `note_scelte.md`: che cosa è stato preso dalla base, che cosa adattato e perché.
   3. I file delle formazioni si creano come **nuovi file**: si copiano o si selezionano contenuti dalla base, senza spostare né rinominare i file di `Base/`.
   4. Questo file di istruzioni resta nella cartella principale. Va aggiornato quando cambia la struttura o la base. Dopo ogni modifica, aggiornare anche la copia nei documenti del progetto Claude: `Formazione AI Literacy Official/ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`.
-- **Stato:** tutte le 18 presentazioni sono state prodotte e consegnate. **Revisione tema per tema in corso:** Temi 1 e 2 revisionati il 9 ottobre 2026 (fatti verificati, fonti complete, data di validità, aggiunte le slide filo conduttore, scheda pratica e Che cosa evitare; tema neutro confermato). Dettagli e punti rimasti aperti in `Base/registro_revisione.md`. **Il passo successivo, indicato dai documenti di perimetro, è la revisione trasversale dei 18 temi.** Dopo la revisione, la base potrà essere usata per progettare formazioni specifiche.
+- **Stato:** tutte le 18 presentazioni sono state prodotte e consegnate. **Revisione tema per tema in corso:** Temi 1-4 (area "Comprendere l'AI") revisionati il 9 ottobre 2026 (fatti verificati, fonti complete, data di validità, aggiunte le slide filo conduttore, scheda pratica e Che cosa evitare; tema neutro confermato). Dettagli e punti rimasti aperti in `Base/registro_revisione.md`. **Il passo successivo, indicato dai documenti di perimetro, è la revisione trasversale dei 18 temi.** Dopo la revisione, la base potrà essere usata per progettare formazioni specifiche.
 
 ---
 
@@ -90,8 +90,8 @@ Le aree vanno tenute con questi nomi in tutti i deck.
 |---|---|---|---|---|
 | 1 | Comprendere l'AI | Evoluzione e rilevanza dell'AI | Tema1_Evoluzione_e_rilevanza_AI.pptx | 59 |
 | 2 | Comprendere l'AI | Fondamenti e funzionamento | Tema2_Fondamenti_e_funzionamento_AI.pptx | 72 |
-| 3 | Comprendere l'AI | Capacità, limiti, affidabilità | Tema3_Capacita_limiti_affidabilita_AI.pptx | 68 |
-| 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 68 |
+| 3 | Comprendere l'AI | Capacità, limiti, affidabilità | Tema3_Capacita_limiti_affidabilita_AI.pptx | 70 |
+| 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 70 |
 | 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 61 |
 | 6 | Interagire con l'AI | Prompting e tecniche di interazione | Tema6_Prompting_tecniche_interazione.pptx | 72 |
 | 7 | Interagire con l'AI | Verifica degli output e pensiero critico | Tema7_Verifica_output_pensiero_critico.pptx | 73 |
@@ -153,8 +153,8 @@ Servono per non perdere il filo nella revisione.
 |---|---|
 | T1 | Storia (Turing, Dartmouth), transformer, crescita del calcolo (Epoch AI), studi di produttività (Brynjolfsson QJE 2025: +15%, +36%; Dell'Acqua Organization Science 2026: +12,2%, +25,1%, +32%, -19 punti), hype cycle (Gartner 2025: GenAI in disillusione). **Revisionato il 9 ottobre 2026** |
 | T2 | **Revisionato il 9 ottobre 2026.** Definizione AI Act (art. 3, non modificato dal Digital Omnibus) e OCSE, ELIZA, transformer, RLHF (Ouyang 2022), RAG (Lewis 2020), "Lost in the Middle" (Liu 2024, TACL 12) |
-| T3 | Allucinazioni (Mata v. Avianca, Kalai 2025), piaggeria (Sharma 2023), bias (caso Amazon), frontiera irregolare. Esempio didattico di frase vera e falsa sull'AI Act |
-| T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo** |
+| T3 | **Revisionato il 9 ottobre 2026.** Allucinazioni (Mata v. Avianca, Kalai 2025), piaggeria (Sharma, ICLR 2024), bias (caso Amazon), frontiera irregolare. Esempio didattico di frase vera e falsa sull'AI Act |
+| T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo.** **Revisionato il 9 ottobre 2026:** Copilot multi-modello (OpenAI, Anthropic, Microsoft); esempi open-weight aggiornati (Gemma, Mistral, gpt-oss, Qwen, DeepSeek; Meta verso modelli chiusi) |
 | T5 | ELIZA, automation bias (Parasuraman e Manzey 2010), Lee et al. 2025 sul pensiero critico |
 | T6 | Tecniche di prompting |
 
@@ -244,7 +244,7 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 |---|---|
 | T1 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare solo i dati bibliografici aggiunti a memoria (Rosenblatt, Shortliffe, Rumelhart, Deng, Krizhevsky, Radford, Brown, Kaplan, Ouyang) |
 | T2 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare sul testo in GUUE che il Reg. 2026/1744 non tocchi l'art. 3 |
-| T3 | Mata v. Avianca 2023; Kalai et al. 2025; Sharma 2023; Dastin 2018; Doshi e Hauser 2024; Dell'Acqua 2023 |
+| T3 | **Verificate il 9 ottobre 2026** (vedi registro). Aggiunta la fonte Parasuraman e Manzey 2010 per l'automation bias |
 | T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
 | T5 | Parasuraman e Manzey 2010; Lee et al. 2025 (CHI) |
 | T6 | Verificare le fonti nel deck (non estratte automaticamente) |
@@ -402,7 +402,7 @@ La base è volutamente completa. Ogni formazione futura va progettata a partire 
 2. Estrarre i 18 deck in testo con markitdown e tenerli nello scratchpad per le analisi.
 3. Porre le domande della sezione 7. Chiedere anche del brand, come da preferenza.
 4. Creare una lista di attività visibile all'utente e procedere con l'attività A, poi B e C, consegnando i rapporti prima di modificare i deck.
-5. Tenere un registro delle modifiche in `Base/registro_revisione.md`, conservando le versioni precedenti in `Base/_versioni_precedenti/`.
+5. Tenere un registro delle modifiche in `Base/registro_revisione.md`. Non conservare copie delle versioni precedenti: le gestisce l'utente su GitHub.
 
 ---
 
@@ -449,48 +449,48 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Glossario essenziale (1 di 2) (67) · Glossario essenziale (2 di 2) (68) · Da dove viene questa risposta? Una scheda pratica (69) · Che cosa evitare (70) · Prossimo passo: il Tema 3 (71) · Fonti e riferimenti (72)
 
 ### Tema 3 · Capacità, limiti e affidabilità dell'Intelligenza Artificiale
-*Area: Comprendere l'AI · 68 slide · file `Tema3_Capacita_limiti_affidabilita_AI.pptx` · esposizione stimata circa 1 h 12 min*
+*Area: Comprendere l'AI · 70 slide · file `Tema3_Capacita_limiti_affidabilita_AI.pptx` · esposizione stimata circa 1 h 15 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Calibrare la fiducia (3) · Otto domande guida per questo modulo (4) · Il percorso del modulo (5)
-- **3.1 Le principali capacità dell'AI**: Una mappa delle capacità (7) · Dalle capacità alle attività (8) · Non tutti i sistemi hanno le stesse capacità (9)
+- **Introduzione**: Obiettivo del modulo (2) · Calibrare la fiducia (3) · Otto domande guida per questo modulo (4) · Il filo conduttore (5) · Il percorso del modulo (6)
+- **3.1 Le principali capacità dell'AI**: Una mappa delle capacità (8) · Dalle capacità alle attività (9) · Non tutti i sistemi hanno le stesse capacità (10)
   - *Messaggio chiave:* Le capacità dell'AI sono ampie, ma variano in funzione dei sistemi e dei compiti; non tutti i prodotti AI dispongono delle stesse funzioni.
-- **3.2 Ragionamento, problem solving e creatività**: Ragionamento logico, matematico e analitico (12) · Problemi strutturati e non strutturati (13) · Scomporre, pianificare, valutare alternative (14) · Generazione di idee e supporto creativo (15) · Limiti nelle situazioni nuove, ambigue o complesse (16)
+- **3.2 Ragionamento, problem solving e creatività**: Ragionamento logico, matematico e analitico (13) · Problemi strutturati e non strutturati (14) · Scomporre, pianificare, valutare alternative (15) · Generazione di idee e supporto creativo (16) · Limiti nelle situazioni nuove, ambigue o complesse (17)
   - *Messaggio chiave:* L'AI può supportare attività cognitive avanzate, ma non garantisce ragionamenti sempre corretti o coerenti.
-- **3.3 Allucinazioni e informazioni false**: Che cos'è un'allucinazione (19) · Citazioni, riferimenti e fonti inesistenti (20) · Perché si verificano le allucinazioni (21) · Plausibilità linguistica e veridicità (22) · L'autorevolezza apparente (23) · Dove le allucinazioni sono più probabili (24)
+- **3.3 Allucinazioni e informazioni false**: Che cos'è un'allucinazione (20) · Citazioni, riferimenti e fonti inesistenti (21) · Perché si verificano le allucinazioni (22) · Plausibilità linguistica e veridicità (23) · L'autorevolezza apparente (24) · Dove le allucinazioni sono più probabili (25)
   - *Messaggio chiave:* La fluidità o la sicurezza del tono non dimostra che un'affermazione sia corretta o verificata.
-- **3.4 Bias e distorsioni nei risultati**: Che cosa sono bias e distorsioni (27) · Da dove nascono le distorsioni (28) · Stereotipi e rappresentazioni non equilibrate (29) · L'influenza del contesto e delle istruzioni (30) · Bias di conferma e tendenza ad assecondare (31) · Neutralità apparente e oggettività effettiva (32)
+- **3.4 Bias e distorsioni nei risultati**: Che cosa sono bias e distorsioni (28) · Da dove nascono le distorsioni (29) · Stereotipi e rappresentazioni non equilibrate (30) · L'influenza del contesto e delle istruzioni (31) · Bias di conferma e tendenza ad assecondare (32) · Neutralità apparente e oggettività effettiva (33)
   - *Messaggio chiave:* I sistemi AI possono riprodurre o amplificare distorsioni; le risposte non devono essere considerate automaticamente imparziali.
-- **3.5 Accuratezza, affidabilità e consistenza**: Quattro concetti da distinguere (35) · Prestazioni diverse in base al compito (36) · Coerenza, ripetibilità e robustezza (37) · I limiti di benchmark e dimostrazioni (38) · Valutare le prestazioni nel contesto reale (39) · Il modello e il sistema completo (40)
+- **3.5 Accuratezza, affidabilità e consistenza**: Quattro concetti da distinguere (36) · Prestazioni diverse in base al compito (37) · Coerenza, ripetibilità e robustezza (38) · I limiti di benchmark e dimostrazioni (39) · Valutare le prestazioni nel contesto reale (40) · Il modello e il sistema completo (41)
   - *Messaggio chiave:* L'affidabilità non è una proprietà unica e universale di un modello; deve essere valutata per compiti e condizioni d'uso specifici.
-- **3.6 Verificabilità e controllo dei risultati**: Che cosa verificare (43) · Verificare fatti, fonti e riferimenti (44) · Controllare calcoli, dati e informazioni (45) · Completezza, coerenza e tracciabilità (46) · I limiti dell'autoverifica (47) · Supervisione umana e verifica proporzionata (48)
+- **3.6 Verificabilità e controllo dei risultati**: Che cosa verificare (44) · Verificare fatti, fonti e riferimenti (45) · Controllare calcoli, dati e informazioni (46) · Completezza, coerenza e tracciabilità (47) · I limiti dell'autoverifica (48) · Supervisione umana e verifica proporzionata (49)
   - *Messaggio chiave:* La verifica è parte dell'uso consapevole dell'AI e deve essere proporzionata all'importanza del compito e alle possibili conseguenze di un errore.
-- **3.7 I fattori che influenzano le prestazioni**: Sette fattori (51) · Tecnologia, informazioni e modalità operative (52) · Differenze tra ambiti applicativi (53)
+- **3.7 I fattori che influenzano le prestazioni**: Sette fattori (52) · Tecnologia, informazioni e modalità operative (53) · Differenze tra ambiti applicativi (54)
   - *Messaggio chiave:* Le prestazioni derivano dall'interazione tra caratteristiche tecnologiche, qualità delle informazioni e modalità operative.
-- **3.8 Quando utilizzare o limitare l'AI**: Possibilità tecnica e opportunità di utilizzo (56) · Le conseguenze di un errore (57) · Attività a basso e alto impatto (58) · Affidabilità adeguata allo scopo (59) · Supporto, supervisione e delega (60) · Quando limitare o evitare l'uso (61) · La responsabilità resta umana (62)
+- **3.8 Quando utilizzare o limitare l'AI**: Possibilità tecnica e opportunità di utilizzo (57) · Le conseguenze di un errore (58) · Attività a basso e alto impatto (59) · Affidabilità adeguata allo scopo (60) · Supporto, supervisione e delega (61) · Quando limitare o evitare l'uso (62) · La responsabilità resta umana (63)
   - *Messaggio chiave:* L'AI va utilizzata quando le sue prestazioni e i controlli disponibili sono compatibili con il rischio del compito, non soltanto quando il sistema sembra capace di eseguirlo.
-- **Conclusioni**: Le domande guida: le nostre risposte (64) · Che cosa portiamo a casa (65) · Prima di usare un risultato AI: una checklist (66) · Prossimo passo: il Tema 4 (67) · Fonti e riferimenti (68)
+- **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Prima di usare un risultato AI: una checklist (67) · Che cosa evitare (68) · Prossimo passo: il Tema 4 (69) · Fonti e riferimenti (70)
 
 ### Tema 4 · Ecosistema AI: modelli, strumenti e piattaforme
-*Area: Comprendere l'AI · 68 slide · file `Tema4_Ecosistema_AI.pptx` · esposizione stimata circa 1 h 09 min*
+*Area: Comprendere l'AI · 70 slide · file `Tema4_Ecosistema_AI.pptx` · esposizione stimata circa 1 h 14 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il percorso del modulo (4)
-- **4.1 La struttura dell'ecosistema AI**: Modello, sistema, applicazione, piattaforma (6) · Foundation models e modelli specializzati (7) · Gli attori dell'ecosistema (8) · Com'è fatta un'applicazione AI (9) · Più modelli, modelli che cambiano (10) · Ecosistemi integrati e soluzioni composte (11)
+- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
+- **4.1 La struttura dell'ecosistema AI**: Modello, sistema, applicazione, piattaforma (7) · Foundation models e modelli specializzati (8) · Gli attori dell'ecosistema (9) · Com'è fatta un'applicazione AI (10) · Più modelli, modelli che cambiano (11) · Ecosistemi integrati e soluzioni composte (12)
   - *Messaggio chiave:* Un'applicazione AI è spesso composta da più elementi tecnologici e non coincide necessariamente con il modello che utilizza.
-- **4.2 Le principali famiglie di modelli AI**: Quattro famiglie di modelli (14) · Capacità, dimensioni e requisiti (15) · Modelli proprietari e modelli con pesi accessibili (16) · Open-weight non significa open-source (17) · Modelli aperti, chiusi e controllo tecnologico (18)
+- **4.2 Le principali famiglie di modelli AI**: Quattro famiglie di modelli (15) · Capacità, dimensioni e requisiti (16) · Modelli proprietari e modelli con pesi accessibili (17) · Open-weight non significa open-source (18) · Modelli aperti, chiusi e controllo tecnologico (19)
   - *Messaggio chiave:* Modelli differenti rispondono a esigenze differenti; non esiste un unico modello migliore per qualunque attività.
-- **4.3 Le principali piattaforme e gli strumenti AI**: Gli assistenti AI generalisti (21) · Le categorie di strumenti (22) · Funzionalità comuni e differenze principali (23) · Capacità del modello e funzionalità dell'applicazione (24) · Disponibilità delle funzionalità (25) · Capacità dichiarate e funzionalità disponibili (26)
+- **4.3 Le principali piattaforme e gli strumenti AI**: Gli assistenti AI generalisti (22) · Le categorie di strumenti (23) · Funzionalità comuni e differenze principali (24) · Capacità del modello e funzionalità dell'applicazione (25) · Disponibilità delle funzionalità (26) · Capacità dichiarate e funzionalità disponibili (27)
   - *Messaggio chiave:* Due prodotti dall'interfaccia simile possono offrire capacità, integrazioni, controlli e condizioni molto diversi.
-- **4.4 AI generalista, specializzata e integrata**: Tre approcci (29) · L'AI nei software di produttività e nei gestionali (30) · Soluzioni pronte all'uso e personalizzate (31) · Vantaggi e limiti dei diversi approcci (32) · Usare uno strumento o integrare l'AI in un processo (33)
+- **4.4 AI generalista, specializzata e integrata**: Tre approcci (30) · L'AI nei software di produttività e nei gestionali (31) · Soluzioni pronte all'uso e personalizzate (32) · Vantaggi e limiti dei diversi approcci (33) · Usare uno strumento o integrare l'AI in un processo (34)
   - *Messaggio chiave:* Le capacità AI possono essere disponibili in prodotti generalisti, strumenti dedicati o software già presenti in azienda; adottare AI non richiede necessariamente un nuovo applicativo separato. Sottot
-- **4.5 Chatbot, assistenti, agenti e automazioni**: Uno spettro di autonomia (36) · Chatbot e assistenti configurati (37) · Sistemi con strumenti e agenti (38) · Automazioni tradizionali e workflow con AI (39) · Livelli di autonomia e supervisione umana (40) · Una terminologia non standardizzata (41)
+- **4.5 Chatbot, assistenti, agenti e automazioni**: Uno spettro di autonomia (37) · Chatbot e assistenti configurati (38) · Sistemi con strumenti e agenti (39) · Automazioni tradizionali e workflow con AI (40) · Livelli di autonomia e supervisione umana (41) · Una terminologia non standardizzata (42)
   - *Messaggio chiave:* Conversare, ricevere assistenza, automatizzare e delegare l'esecuzione di attività rappresentano modalità e livelli di autonomia differenti.
-- **4.6 Modalità di accesso e utilizzo dell'AI**: Le principali modalità di accesso (44) · Applicazioni e API: due modi di usare lo stesso modello (45) · Cloud ed esecuzione locale (46) · Soluzioni individuali, team ed enterprise (47)
+- **4.6 Modalità di accesso e utilizzo dell'AI**: Le principali modalità di accesso (45) · Applicazioni e API: due modi di usare lo stesso modello (46) · Cloud ed esecuzione locale (47) · Soluzioni individuali, team ed enterprise (48)
   - *Messaggio chiave:* Capacità analoghe possono essere rese disponibili attraverso modalità differenti, con implicazioni tecniche, economiche e organizzative diverse.
-- **4.7 Criteri per confrontare e scegliere**: Undici criteri (50) · Adeguatezza, qualità e facilità d'uso (51) · Funzionalità, integrazione e costi complessivi (52) · Dati, sicurezza e controlli amministrativi (53) · Indipendenza tecnologica e vendor lock-in (54) · Verificare ciò che è davvero disponibile (55) · Una scheda di confronto (56)
+- **4.7 Criteri per confrontare e scegliere**: Undici criteri (51) · Adeguatezza, qualità e facilità d'uso (52) · Funzionalità, integrazione e costi complessivi (53) · Dati, sicurezza e controlli amministrativi (54) · Indipendenza tecnologica e vendor lock-in (55) · Verificare ciò che è davvero disponibile (56) · Una scheda di confronto (57)
   - *Messaggio chiave:* Lo strumento più noto o il modello più potente non è necessariamente la scelta migliore per l'azienda.
-- **4.8 L'evoluzione e la dinamicità dell'ecosistema AI**: Che cosa cambia (59) · Obsolescenza di strumenti, procedure e competenze (60) · Competenze e conoscenze trasferibili (61) · Orientarsi senza inseguire ogni novità (62)
+- **4.8 L'evoluzione e la dinamicità dell'ecosistema AI**: Che cosa cambia (60) · Obsolescenza di strumenti, procedure e competenze (61) · Competenze e conoscenze trasferibili (62) · Orientarsi senza inseguire ogni novità (63)
   - *Messaggio chiave:* I principi di funzionamento e valutazione hanno maggiore durata rispetto alle caratteristiche di una singola versione di un prodotto.
-- **Conclusioni**: Le domande guida: le nostre risposte (64) · Che cosa portiamo a casa (65) · Prima di scegliere uno strumento AI: una checklist (66) · Prossimo passo: il Tema 5 (67) · Nota sull'aggiornamento dei contenuti (68)
+- **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Prima di scegliere uno strumento AI: una checklist (67) · Che cosa evitare (68) · Prossimo passo: il Tema 5 (69) · Nota sull'aggiornamento dei contenuti (70)
 
 ### Tema 5 · Il dialogo uomo-AI
 *Area: Interagire con l'AI · 61 slide · file `Tema5_Dialogo_uomo_AI.pptx` · esposizione stimata circa 1 h 01 min*
@@ -845,3 +845,41 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Variabilità e correttezza | trattato (2.7) | Temi 3 e 7 |
 | Multimodalità | introdotta (2.2) | Tema 10 |
 | Strumenti e azioni dei sistemi | accennato (2.5) | Tema 11 |
+
+### Tema 3 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliato il Tema 2 per modello e applicazione, conoscenza incorporata, data limite, variabilità; le note richiamano brevemente questi concetti. **Concetti introdotti e ripresi in seguito:** calibrare la fiducia; allucinazione e sue forme; autorevolezza apparente; bias e sycophancy; accuratezza, affidabilità, consistenza, utilità; robustezza; verifica proporzionata; affidabilità adeguata allo scopo; supporto, supervisione, delega; responsabilità umana.
+
+| Concetto | Nel Tema 3 | Approfondito o ripreso in |
+|---|---|---|
+| Frontiera frastagliata (Dell'Acqua 2026) | richiamata (3.5) | Temi 1 e 12 |
+| Mata v. Avianca, citazioni inventate | trattato (3.3) | Tema 7 |
+| Sycophancy (Sharma 2024) | trattata (3.4) | Tema 7 |
+| Caso Amazon (Dastin 2018) | trattato (3.4) | Tema 17 |
+| Automation bias (Parasuraman e Manzey 2010) | accennato (3.6, 3.8) | Temi 5, 7 e 17 |
+| Verifica di fatti, fonti e numeri | principi (3.6) | Tema 7 (metodo); Tema 9 per i dati |
+| Tecniche di formulazione delle richieste | accennate (3.4, 3.7) | Temi 5 e 6 |
+| Valutare un sistema sui casi reali | approccio semplice (3.5) | Tema 15 |
+| ROI e selezione dei progetti | escluso | Temi 12 e 15 |
+| Dati riservati e strumenti autorizzati | accennato (3.8) | Temi 14 e 17 |
+| Responsabilità, AI Act | accennato (3.8) | Tema 18 |
+| Agenti e livelli di delega | accennato (3.8) | Temi 5 (5.5) e 11 |
+| Benchmark e dimostrazioni | trattato (3.5) | Temi 1 (1.6) e 4 |
+
+### Tema 4 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (modello e applicazione, token, contesto) e il Tema 3 (affidabilità, benchmark e dimostrazioni), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** modello, sistema, applicazione, piattaforma; foundation models; open-weight e open-source; generalista, specializzata, integrata; spettro chatbot, assistente, sistema con strumenti, agente, automazione; persona nel, sopra e fuori dal ciclo; app, API, cloud, locale; versioni individuali, team, enterprise; undici criteri di scelta; vendor lock-in e portabilità. **Contenuto più sensibile al tempo dell'intera base: esempi da ricontrollare prima di ogni edizione (slide 70).**
+
+| Concetto | Nel Tema 4 | Approfondito o ripreso in |
+|---|---|---|
+| Modello e applicazione | trattato (4.1, 4.3) | introdotto nel Tema 2 (2.5) |
+| Affidabilità come criterio di scelta, benchmark | usato (4.7) | Tema 3 (3.5) |
+| Assistenti configurati, prompt e istruzioni riutilizzabili | accennato (4.4, 4.5) | Temi 5 e 6 (6.8) |
+| Agenti, workflow con AI, livelli di autonomia | categorie (4.5) | Tema 11; livelli di delega nei Temi 3 (3.8) e 5 (5.5) |
+| RAG e assistenti su documenti aziendali | accennato (4.4) | Temi 2, 8 e 14 |
+| Applicazioni per tipo di attività | esempi (4.3, 4.4) | Temi 8-11 |
+| Processi e trasformazione | accennato (4.4) | Tema 13 |
+| Scelta del caso d'uso, pilota, criteri di successo | escluso o accennato (4.7) | Temi 15 e 16 |
+| Costi complessivi | criterio (4.7) | Tema 12 |
+| Account personali e Shadow AI | accennato (4.6) | Temi 16, 17 e 18 |
+| Dati, sicurezza, permessi minimi, prompt injection | criteri (4.5, 4.7) | Temi 11, 14 e 17 |
+| Normativa e governance | escluso | Tema 18 |
+| Competenze trasferibili | trattato (4.8) | Tema 1 (1.6) |
