@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12, 13 e 14; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12-16, area "Comprendere il valore per l'azienda", completata; revisione dei Temi 17 e 18, area "Utilizzare l'AI responsabilmente", completata: revisione dei 18 temi conclusa; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
 
 ---
 
@@ -175,17 +175,20 @@ Servono per non perdere il filo nella revisione.
 |---|---|
 | T13 | Compito, processo, ruolo; esposizione e trasformazione (Eloundou, Science 2024; analisi completa 2023); bancomat e cassieri (Bessen); Autor 2003. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati (compresa la mappa competenze e temi della slide 48) e le etichette interne; aggiunta "Che cosa evitare" |
 | T14 | Quattro condizioni (disponibilità, accessibilità, utilizzabilità, affidabilità); iceberg della conoscenza tacita; RAG concettuale; classificazione delle informazioni; oversharing; scenario a 5 errori. **Revisionato il 9 ottobre 2026:** fonti completate (Liu uniformato); tolti i rimandi proiettati e le etichette interne (A)-(D); grafico con percentuali inventate (slide 64) sostituito da un elenco senza numeri; "Che cosa evitare" nel formato standard a sei voci |
-| T15 | Percorso individuare, descrivere, valutare, confrontare, verificare; scenario delle richieste commerciali; matrice valore e fattibilità; limiti dei punteggi; criteri di insuccesso definiti prima |
-| T16 | Da disponibilità a valore; scenario A e B; Shadow AI; TAM e UTAUT; transfer della formazione; Kirkpatrick; sicurezza psicologica; diffusione rapida e graduale |
-| T17 | Esempi A-D (identificabilità, prompt injection, supervisione apparente, divulgazione via output); checklist in 5 domande; procedere, verificare, chiedere, interrompere |
-| T18 | Verificato a ottobre 2026: AI Act modificato dal **Digital Omnibus**. Dettagli sotto |
+| T15 | Percorso individuare, descrivere, valutare, confrontare, verificare; scenario delle richieste commerciali; matrice valore e fattibilità; limiti dei punteggi; criteri di insuccesso definiti prima. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati (anche nelle tabelle) e le etichette interne (A)-(D); grafici dello scenario mantenuti, perché calcoli dichiarati fittizi; "Che cosa evitare" nel formato standard a sei voci |
+| T16 | Da disponibilità a valore; scenario A e B; Shadow AI; TAM e UTAUT; transfer della formazione; Kirkpatrick; sicurezza psicologica; diffusione rapida e graduale. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati e le etichette interne (A)-(D); hype cycle solo richiamato (slide 31, grafico tolto); grafico dell'uso per funzione (slide 22) sostituito da un elenco senza numeri; dato del Work Trend Index 2024 precisato (78%); "Che cosa evitare" nel formato standard a sei voci |
+| T17 | Esempi A-D (identificabilità, prompt injection, supervisione apparente, divulgazione via output); checklist in 5 domande; procedere, verificare, chiedere, interrompere. **Revisionato il 9 ottobre 2026:** OWASP 2026 come nel T11; tolti i rimandi proiettati e le lettere tra parentesi; lettere A-D mantenute come nome dei quattro esempi, ora "fittizi"; slide 68 rinominata "La checklist essenziale"; "Che cosa evitare" nel formato standard a sei voci |
+| T18 | Verificato a ottobre 2026: AI Act modificato dal **Digital Omnibus**. Dettagli sotto. **Revisionato il 9 ottobre 2026:** dati normativi verificati sui testi ufficiali (EUR-Lex, Gazzetta Ufficiale); tolti i rimandi proiettati e le lettere tra parentesi; equivoci numerati da 1 a 4, lettere solo per gli esempi; tolta dalla slide 76 la nota di lavoro; "Che cosa evitare" nel formato standard a sei voci |
 
 **Dettagli del Tema 18 (normativa verificata a ottobre 2026)**
-- Il Digital Omnibus è il Reg. (UE) 2026/1744, pubblicato in GUUE il 24 luglio 2026 e in vigore dal 27 luglio 2026.
-- Alto rischio: Allegato III dal 2 dicembre 2027; Allegato I dal 2 agosto 2028.
-- Articolo 4 riscritto: obbligo di "sostenere lo sviluppo" dell'alfabetizzazione, senza garantire un livello individuale.
-- Nuovi divieti dal 2 dicembre 2026.
-- Legge italiana 132/2025, in vigore dal 10 ottobre 2025.
+- Il Digital Omnibus è il Reg. (UE) 2026/1744, pubblicato in GUUE (serie L) il 24 luglio 2026 e in vigore dal 27 luglio 2026. **Verificato sul testo ufficiale il 9 ottobre 2026** (EUR-Lex: considerando 38, 40 e 46; articolo 1, punto 5, per l'articolo 4).
+- Alto rischio: Allegato III dal 2 dicembre 2027; Allegato I dal 2 agosto 2028 (considerando 40, verificato).
+- Marcatura dei contenuti sintetici (art. 50, par. 2): transitorio di quattro mesi, fino al 2 dicembre 2026, per i sistemi già sul mercato prima del 2 agosto 2026 (considerando 38, verificato).
+- Art. 3, punto 1 (definizione di sistema di AI): non modificato; le modifiche all'art. 3 riguardano i punti 14, 14 bis e 14 ter (verificato).
+- Articolo 4 riscritto: obbligo di "sostenere lo sviluppo" dell'alfabetizzazione, senza garantire un livello individuale (verificato sul testo ufficiale).
+- Nuovi divieti (art. 5, par. 1, lettere ba e bb: contenuti intimi senza consenso, materiale pedopornografico): esistenza verificata; **data di applicazione non verificata sul testo ufficiale, quindi non riportata nelle slide** (indicazione dell'utente: non usare dati senza riferimento ufficiale).
+- Standard armonizzati: stato non verificato su fonte ufficiale; nelle slide "verificarne lo stato".
+- Legge italiana 132/2025 (GU Serie Generale n. 223 del 25 settembre 2025), in vigore dal 10 ottobre 2025; artt. 7, 11, 13, 20 e 25 verificati sul testo; deleghe al Governo entro dodici mesi dall'entrata in vigore.
 - Esempi A-D, checklist di governance in 9 punti, esempio di policy di una pagina (fittizio).
 
 ---
@@ -212,7 +215,7 @@ Ordine consigliato: A, B e C prima di D; E ed F in parallelo dopo D. **Prima di 
 | Classificazione delle informazioni (pubbliche, interne, riservate, sensibili o personali) | T14, T17 |
 | Shadow AI | T16 (adozione), T17 (rischio), T18 (governance) |
 | Waterfall da beneficio teorico a reale | T12, T15 |
-| Hype cycle | T1, T16 (punto 11 ancora aperto: decidere con la revisione del T16) |
+| Hype cycle | T1, T16. **Deciso il 9 ottobre 2026 (punto 11):** presentato per intero nel T1 (1.6, con lo schema); nel T16 solo richiamato nelle note della slide 31, senza grafico |
 | Formazione | T16 come leva di adozione, T18 come misura di alfabetizzazione |
 | Proporzionalità della verifica | T7, ripresa in T17 e T18 |
 
@@ -243,7 +246,7 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 | Tema | Fonti da verificare |
 |---|---|
 | T1 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare solo i dati bibliografici aggiunti a memoria (Rosenblatt, Shortliffe, Rumelhart, Deng, Krizhevsky, Radford, Brown, Kaplan, Ouyang) |
-| T2 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare sul testo in GUUE che il Reg. 2026/1744 non tocchi l'art. 3 |
+| T2 | **Verificate il 9 ottobre 2026** (vedi registro). Confermato sul testo ufficiale (revisione del T18) che il Reg. 2026/1744 non modifica l'art. 3, punto 1 |
 | T3 | **Verificate il 9 ottobre 2026** (vedi registro). Aggiunta la fonte Parasuraman e Manzey 2010 per l'automation bias |
 | T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
 | T5 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare il DOI di Lee et al. 2025 (10.1145/3706598.3713778, nelle note della slide fonti) |
@@ -251,15 +254,15 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 | T7 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare le pagine di Reber e Schwarz 1999 (338-342) e di Parasuraman e Manzey 2010 (381-410), indicate a memoria |
 | T8 | **Verificate il 9 ottobre 2026** (vedi registro): Liu uniformato al Tema 2, Lewis confermato |
 | T9 | **Verificate il 9 ottobre 2026** (vedi registro): Anscombe (27(1), 17-21) e Vigen confermati |
-| T10 | **Verificate il 9 ottobre 2026** (vedi registro): casi deepfake confermati (circa 220.000 euro; circa 25 milioni di dollari, Arup). Da confermare sul testo ufficiale: rinvio al 2 dicembre 2026 della marcatura (art. 50(2)) e codice di condotta sulla trasparenza di giugno 2026, verificati su fonti secondarie |
+| T10 | **Verificate il 9 ottobre 2026** (vedi registro): casi deepfake confermati (circa 220.000 euro; circa 25 milioni di dollari, Arup). Rinvio al 2 dicembre 2026 della marcatura (art. 50(2)) confermato sul testo ufficiale del Reg. 2026/1744 (considerando 38). Il codice di condotta sulla trasparenza di giugno 2026, non trovato su fonte ufficiale, è stato tolto dalle note (9 ottobre 2026) |
 | T11 | **Verificate il 9 ottobre 2026** (vedi registro): Parasuraman, Sheridan e Wickens confermato (30(3), 286-297); OWASP Top 10 for LLM Applications 2026 (settembre 2026). Da verificare: la nota su MCP, citata a memoria |
 | T12 | **Verificate il 9 ottobre 2026** (vedi registro): Brynjolfsson e Dell'Acqua nelle versioni pubblicate, Solow e Goldratt confermati. Da verificare: pagina dell'articolo di Solow (p. 36), citata a memoria |
 | T13 | **Verificate il 9 ottobre 2026** (vedi registro): Eloundou citato nella versione Science 2024 con l'analisi completa del 2023; Bessen e Autor confermati. Da verificare: se la sintesi su Science riporta gli stessi valori (80% e 19%) |
 | T14 | **Verificate il 9 ottobre 2026** (vedi registro): Polanyi con l'edizione Doubleday 1966 e la ristampa del 2009; Lewis, Liu e Saltzer e Schroeder con volumi e pagine; Nonaka e Takeuchi confermato. Da verificare: pagine di Lewis e di Saltzer e Schroeder, edizione di Polanyi |
-| T15 | Popper; Brown 2009 e IDEO; Ohno 1988 (cinque perché); Nickerson 1998; effetto Hawthorne (citato con cautela) |
-| T16 | Rogers; Davis 1989; Venkatesh 2003; Baldwin e Ford 1988; Kirkpatrick; Edmondson 1999; legge di Goodhart; Deming; modello 70-20-10; curva dell'oblio (Ebbinghaus); hype cycle; Work Trend Index 2024 (cifre) |
-| T17 | Greshake 2023; OWASP; Sweeney 2000 (87%); Gender Shades 2018 (valori del grafico approssimati: 0,3%, 7,1%, 12%, 34,7%); Parasuraman e Manzey 2010; Reuters 2018; casi deepfake |
-| T18 | Testo ufficiale del Reg. 2026/1744 in GUUE (le sintesi vengono da fonti secondarie); calendario completo; nuovo art. 4; art. 50 e periodo transitorio; nuovi divieti; Legge 132/2025 e stato dei decreti attuativi; linee guida della Commissione; ISO/IEC 42001 e 23894; NIST AI RMF |
+| T15 | **Verificate il 9 ottobre 2026** (vedi registro): Popper 1959 (ed. orig. 1934); Brown 2009 e IDEO; Ohno 1988 (cinque perché); Nickerson 1998 con le pagine; effetto Hawthorne (citato con cautela, solo nelle note). Da verificare: pagine di Nickerson, editori di Popper, Brown e Ohno |
+| T16 | Rogers; Davis 1989; Venkatesh 2003; Baldwin e Ford 1988; Kirkpatrick; Edmondson 1999; legge di Goodhart; Deming; modello 70-20-10; curva dell'oblio (Ebbinghaus); hype cycle (richiamo al T1); Work Trend Index 2024. **Verificate il 9 ottobre 2026** (vedi registro): Work Trend Index 2024 confermato (78% di chi usa l'AI al lavoro porta strumenti propri); aggiunte le pagine di Davis, Venkatesh, Baldwin e Ford, Edmondson. Da verificare: pagine ed editori |
+| T17 | **Verificate il 9 ottobre 2026** (vedi registro): Greshake 2023 (AISec '23, 79-90); OWASP Top 10 for LLM Applications 2026 (prompt injection al primo posto, come nel T11); Sweeney 2000 (87%); Gender Shades 2018 (valori dello studio per il sistema peggiore: 0,3%, 7,1%, 12,0%, 34,7%; pagine 77-91); Parasuraman e Manzey 2010 (381-410); Reuters 2018; casi deepfake (2019 e Arup 2024). Da verificare: versione OWASP 2026 (fonti secondarie), pagine, dettagli dei casi deepfake |
+| T18 | **Verificate il 9 ottobre 2026 sui testi ufficiali** (vedi registro): Reg. 2026/1744 (pubblicazione, entrata in vigore, date dell'alto rischio, transitorio art. 50, nuovo art. 4, art. 3 invariato); Legge 132/2025. Da verificare: data di applicazione dei nuovi divieti (non riportata), stato degli standard armonizzati e dei decreti attuativi della Legge 132/2025 |
 
 **Correzione dei grafici.** I grafici con "dati inventati" sono dichiarati come tali; verificare che l'etichetta sia presente su ognuno. Se una fonte risulta sbagliata, correggere slide e note e annotarlo in un registro delle modifiche.
 
@@ -772,7 +775,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* I contenuti generati non sono automaticamente liberi da vincoli: dipende dai materiali di origine, dai servizi e dalle finalità d'uso.
 - **17.7 Controllo umano e responsabilità**: Supporto o decisione (56) · Automation bias (57) · Quattro condizioni del controllo (58) · Esempio C: supervisione formale (59) · Controllo proporzionato (60) · Fermare e capire (61)
   - *Messaggio chiave:* La presenza di una persona nel processo non garantisce una supervisione efficace: servono competenze, informazioni, tempo e potere effettivo di intervento.
-- **17.8 Buone pratiche per un uso sicuro**: Prima dell'uso (64) · Durante l'uso (65) · Dopo l'uso (66) · Quattro azioni possibili (67) · La checklist del documento (68)
+- **17.8 Buone pratiche per un uso sicuro**: Prima dell'uso (64) · Durante l'uso (65) · Dopo l'uso (66) · Quattro azioni possibili (67) · La checklist essenziale (68)
   - *Messaggio chiave:* L'uso responsabile deriva da comportamenti quotidiani, dalla valutazione del contesto e dalla capacità di riconoscere quando fermarsi.
 - **Conclusioni**: Le domande guida: le nostre risposte (70) · Che cosa portiamo a casa (71) · I quattro esempi, in sintesi (72) · Che cosa evitare (73) · Che cosa viene dopo (74) · Fonti e riferimenti (75)
 
@@ -794,7 +797,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* I controlli sono efficaci quando funzionano nella pratica e sono mantenuti nel tempo, non soltanto quando risultano descritti.
 - **18.7 AI literacy e responsabilità**: Che cos'è l'AI literacy (59) · L'articolo 4, prima e dopo (60) · Misure commisurate (61) · Esempio C: il corso completato (62)
   - *Messaggio chiave:* Un corso di AI Awareness contribuisce all'alfabetizzazione, ma non equivale automaticamente alla conformità: le misure vanno commisurate a persone, ruoli, sistemi e contesti.
-- **18.8 Una governance proporzionata**: I presidi essenziali (65) · Esempio D: aziende diverse (66) · Framework e standard volontari (67) · Formazione e governance (68) · La checklist del documento (69) · Migliorare nel tempo (70)
+- **18.8 Una governance proporzionata**: I presidi essenziali (65) · Esempio D: aziende diverse (66) · Framework e standard volontari (67) · Formazione e governance (68) · La checklist essenziale (69) · Migliorare nel tempo (70)
   - *Messaggio chiave:* Non esiste un modello organizzativo unico, ma è necessario rispettare gli obblighi pertinenti e rendere effettivi i controlli scelti.
 - **Conclusioni**: Le domande guida: le nostre risposte (72) · Che cosa portiamo a casa (73) · Quattro equivoci, quattro esempi (74) · Che cosa evitare (75) · Il percorso completato (76) · Fonti e riferimenti (77)
 
@@ -821,7 +824,7 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Dati aziendali | accennato (1.2) | Tema 14 |
 | Individuazione delle opportunità | accennato (1.5) | Tema 15 |
 | Strategia e adozione | accennato (1.5) | Temi 12, 15 e 16 |
-| Hype cycle | trattato (1.6) | ripreso nel Tema 16 |
+| Hype cycle | trattato (1.6) | richiamato nel Tema 16 (16.3, solo nelle note) |
 | Studio Brynjolfsson (QJE 2025) | esempio (1.5) | Tema 12 |
 | Studio Dell'Acqua (Organization Science 2026) | esempio (1.6) | Temi 3 e 12 |
 | Shadow AI | accennato (1.5) | Temi 16, 17 e 18 |
@@ -1036,4 +1039,58 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Trasmissione della conoscenza tacita | ripreso (14.3) | Tema 13 |
 | Condizioni informative come criterio di scelta | accennato (14.8) | Tema 15 |
 | Classificazione delle informazioni, aspetti giuridici degli accessi | accennato (14.6) | Temi 17 e 18 |
+
+### Tema 15 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 12 (valore, costi, colli di bottiglia), il Tema 13 (attività trasformabili) e il Tema 14 (condizioni informative), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** partire dal problema; cause e sintomi; alternative non AI; descrizione di un caso d'uso; ipotesi da verificare; supporto o automazione parziale; complessità e utilità; valore teorico e ottenibile; costi completi; desiderabilità, fattibilità, sostenibilità; intrinseco e residuo; condizioni di esclusione; matrice valore e fattibilità; limiti dei punteggi; ipotesi verificabili; criteri di successo e insuccesso decisi prima; baseline; evidenze contrarie; tre decisioni possibili.
+
+| Concetto | Nel Tema 15 | Approfondito o ripreso in |
+|---|---|---|
+| Allucinazioni, omissioni, errori dell'AI | ripreso (15.6) | Temi 3 e 7 |
+| Ecosistema e dipendenza dai fornitori | ripreso (15.5) | Tema 4 |
+| Verifica realistica degli output | ripreso (15.6) | Tema 7 |
+| Automazione tradizionale e livelli di autonomia | accennato (15.3) | Tema 11 |
+| Valore, costi, colli di bottiglia | ripreso (15.4) | Tema 12 |
+| Attività trasformabili, nuovo lavoro | ripreso (15.4) | Tema 13 |
+| Dati e informazioni come condizione di fattibilità | ripreso (15.2, 15.5, 15.6) | Tema 14 |
+| Dalla sperimentazione all'adozione | accennato (15.8) | Tema 16 |
+| Condizioni di esclusione legali e di sicurezza | accennato (15.6) | Temi 17 e 18 |
+
+### Tema 16 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 12 (valore e indicatori), il Tema 13 (trasformazione del lavoro) e il Tema 15 (scelta e verifica delle opportunità), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** disponibilità, uso, adozione, valore; adozione individuale, di team, organizzativa; spontanea o coordinata; curva a S (Rogers); Shadow AI e adozione dal basso; utilità e facilità percepite (TAM, UTAUT); ostacoli individuali e strutturali; ruolo della leadership e dei manager; transfer della formazione; modello 70-20-10; curva dell'oblio; pilota ed estensione; sicurezza psicologica; obiezione fondata; indicazioni d'uso operative; metriche di adozione e di impatto; sostenibilità.
+
+| Concetto | Nel Tema 16 | Approfondito o ripreso in |
+|---|---|---|
+| Hype cycle | richiamato (16.3, nelle note) | Tema 1 (1.6) |
+| Fiducia calibrata, limiti e verifica | ripreso (16.6) | Temi 3 e 7 |
+| Prompting e uso efficace dell'AI generativa | accennato (16.2) | Temi 5 e 6 |
+| Valore e indicatori di impatto | ripreso (16.1, 16.8) | Tema 12 |
+| Competenze, esperienza, carichi aggiuntivi | ripreso (16.4, 16.6) | Tema 13 |
+| Strumenti senza informazioni adeguate | accennato (16.2, 16.8) | Tema 14 |
+| Scelta delle iniziative, evidenze, condizioni di esclusione | ripreso (16.3, 16.8) | Tema 15 |
+| Shadow AI come rischio, regole formali, governance | escluso | Temi 17 e 18 |
+
+### Tema 17 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 3 (limiti e spiegazioni), il Tema 7 (verifica proporzionata) e il Tema 11 (agenti e azioni), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** può fare ed è opportuno; errore, danno, rischio; livelli di criticità; servizi personali, aziendali, gestiti; limiti dell'esclusione dall'addestramento; minimizzazione; oscuramento, pseudonimizzazione, anonimizzazione; identificabilità indiretta; prompt injection diretto e indiretto; autorizzazioni e credenziali; bias, stereotipi, prestazioni diverse; discriminazione diretta e indiretta; deepfake e procedure di verifica; diritti sui contenuti; supporto o decisione; automation bias; quattro condizioni del controllo; checklist in cinque domande; quattro esempi A-D.
+
+| Concetto | Nel Tema 17 | Approfondito o ripreso in |
+|---|---|---|
+| Spiegazioni del modello e allucinazioni | ripreso (17.7) | Tema 3 |
+| Verifica proporzionata alla criticità | ripreso (17.1, 17.5, 17.7, 17.8) | Tema 7 |
+| Contenuti sintetici e deepfake (art. 50 AI Act) | ripreso (17.5) | Temi 10 e 18 |
+| Agenti, azioni, prompt injection, come fermare un processo | ripreso (17.3, 17.7) | Tema 11 |
+| Assistenti collegati a fonti ampie | ripreso (17.2) | Tema 14 |
+| Shadow AI, strumenti approvati, segnalazioni | ripreso (17.1, 17.3, 17.8) | Tema 16 |
+| Definizioni giuridiche, contratti, alto rischio, responsabilità formali | escluso | Tema 18 |
+
+### Tema 18 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 17 (rischi e precauzioni del singolo) e il Tema 16 (adozione e Shadow AI), richiamati brevemente nelle note. **Concetti introdotti:** governance e conformità; tre piani (obblighi, responsabilità, policy); ciclo di vita; AI Act e applicazione progressiva; Digital Omnibus; AI Act e GDPR; altre norme; Legge 132/2025; approccio basato sul rischio; pratiche vietate; alto rischio (Allegati I e III); trasparenza e modelli per finalità generali; ruoli della filiera (fornitore, deployer); policy aziendali; inventario, valutazione e controlli; incidenti; AI literacy e articolo 4; governance proporzionata; framework e standard volontari; quattro equivoci e quattro esempi.
+
+| Concetto | Nel Tema 18 | Approfondito o ripreso in |
+|---|---|---|
+| Contenuti sintetici e deepfake (art. 50) | ripreso (18.3) | Temi 10 e 17 |
+| Agenti, capacità operative, ciclo di vita | ripreso (18.1) | Tema 11 |
+| Assistenti collegati ai documenti, permessi | ripreso (18.4, 18.6) | Tema 14 |
+| Scelta delle opportunità, rischio residuo | ripreso (18.4, 18.6) | Tema 15 |
+| Shadow AI, formazione come leva di adozione | ripreso (18.1, 18.5, 18.7) | Tema 16 |
+| Precauzioni del singolo, bias, riservatezza, supervisione | ripreso (18.1, 18.2, 18.6) | Tema 17 |
 

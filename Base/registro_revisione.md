@@ -463,3 +463,151 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ### Controlli eseguiti
 validate.py: All validations PASSED · trattini medi e lunghi: 0 · confronto con il file precedente: cambia solo la slide 63 · slide 63 controllata a vista.
+
+---
+
+## 9 ottobre 2026 · Tema 15 · Individuazione e valutazione delle opportunità AI
+
+**File modificati:** `Tema15_Opportunita_valutazione_AI.pptx` (76 slide, numero invariato), `sorgenti_slide.zip` (aggiornati `body15a.js`, `body15b.js`, `body15c.js` e `build15.js`, con `build15.js` = `common15.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `charts11.js` + `helpers12.js` + `body15a.js` + `body15b.js` + `body15c.js`). Prima della revisione il file della cartella è stato confrontato con i sorgenti: nessuna modifica manuale. Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Fonti
+- Nickerson (1998): aggiunte le pagine, 175-220. Popper, Brown e Ohno confermati. L'effetto Hawthorne resta nelle note, con la cautela sulle interpretazioni.
+- **Da verificare:** pagine di Nickerson, editori di Popper, Brown e Ohno (citati a memoria).
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi nelle slide 18 (Tema 14), 28 (Temi 11 e 14, nella tabella), 33 (Temi 12 e 13), 34 (Temi 13 e 14), 39 e 40 (Tema 14), 42 (Tema 4), 47 (Temi 3, 7 e 14), 49 (Tema 7), 50 (Temi 17 e 18), 68 (Tema 16). Le note contenevano già i riferimenti precisi. Resta solo la slide facoltativa "Che cosa viene dopo" (75), dichiarata tale nelle note.
+- Il controllo dei rimandi ora comprende anche le celle delle tabelle; ripetuto sui Temi 1-14 già revisionati, nessun rimando trovato.
+
+### Coerenza
+- Tolte le lettere (A), (B), (C), (D) dal testo proiettato delle slide 13, 27, 28, 35, 41, 44, 51, 66 e 67; restano nelle note.
+- Filo conduttore (5): "Quattro integrazioni" diventa "Quattro messaggi trasversali", senza lettere (la slide ha già una riga "Precisazioni").
+- Etichette dei concetti chiave (15, 22, 29, 37, 45, 52, 60, 70): tolti i suffissi "Integrazione" e allineati i nomi ai titoli dei divisori.
+- Grafici dello scenario (25, 27, 32, 33, 49, 56, 58, 66): mantenuti, perché sono calcoli sull'azienda fittizia, coerenti ed etichettati come inventati o illustrativi.
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (76): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Struttura
+- Il filo conduttore (5) e la scheda pratica "La scheda dell'opportunità" (73) esistevano già.
+- **Che cosa evitare** (74): portata dall'elenco semplice a sette righe al formato standard a sei voci con il sottotema (15.1, 15.3, 15.4, 15.5, 15.7, 15.8); gli altri errori sono nelle note.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · titoli delle slide invariati · slide modificate controllate a vista · note su tutte le 76 slide (circa 11.400 parole, circa 81 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 16 · Adozione dell'AI e cambiamento organizzativo
+
+**File modificati:** `Tema16_Adozione_AI_cambiamento_organizzativo.pptx` (76 slide, numero invariato), `sorgenti_slide.zip` (aggiornati `body16a.js`, `body16b.js`, `body16c.js` e `build16.js`, con `build16.js` = `common16.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `charts11.js` + `helpers12.js` + `body16a.js` + `body16b.js` + `body16c.js`). Prima della revisione il file della cartella è stato confrontato con i sorgenti, tabelle comprese: nessuna modifica manuale. Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Hype cycle (punto 11, chiuso)
+Presentato per intero nel Tema 1 (1.6). Nel Tema 16 (slide 31) il grafico è stato tolto: le quattro righe sulle aspettative realistiche occupano tutta la larghezza e la nota richiama lo schema in due frasi, con il riferimento al Tema 1.
+
+### Fonti
+- Work Trend Index 2024 (Microsoft e LinkedIn, maggio 2024): la slide 14 riporta ora il dato preciso, il 78% di chi usa l'AI al lavoro porta strumenti propri; nella nota, l'indicazione di ricontrollarlo sulle edizioni più recenti.
+- Aggiunte le pagine: Davis 319-340, Venkatesh et al. 425-478, Baldwin e Ford 63-105, Edmondson 350-383. Rogers e Kirkpatrick confermati.
+- **Da verificare:** pagine ed editori (citati a memoria).
+
+### Grafici
+- Slide 22 "Differenze tra gruppi": il grafico con le percentuali inventate di uso per funzione è sostituito da un elenco senza numeri (più alto, intermedio, più basso, perché), con l'avvertenza "tendenze generali, non dati".
+- Mantenuti i grafici delle slide 12 e 67 (aziende fittizie), 13 e 40 (andamenti illustrativi di fenomeni noti) e 37 (modello 70-20-10, dichiarato indicativo e discusso).
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi nelle slide 12, 14, 18, 21, 27, 31, 36, 51, 53, 57, 60, 61, 65 e 68. Nella slide 57 "Le regole formali sono dei Temi 17 e 18" diventa "Le regole formali le definisce l'azienda". Le note contenevano già i riferimenti precisi. Resta solo la slide facoltativa "Che cosa viene dopo" (75), dichiarata tale nelle note.
+
+### Coerenza
+- Tolte le lettere (A), (B), (C), (D) dal testo proiettato delle slide 38, 46, 53, 61 e 67; restano nelle note.
+- Filo conduttore (5): "Quattro integrazioni" diventa "Quattro messaggi trasversali", senza lettere.
+- Etichette dei concetti chiave (16, 25, 33, 41, 48, 55, 62, 70): tolti i suffissi "Integrazione" e allineati i nomi ai titoli dei divisori.
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (76): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Struttura
+- Il filo conduttore (5), lo scenario A e B (7) e la scheda pratica (73) esistevano già.
+- **Che cosa evitare** (74): portata dall'elenco semplice a sette righe al formato standard a sei voci con il sottotema (16.1, 16.2, 16.3, 16.4, 16.5, 16.8); gli altri errori sono nelle note.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · titoli delle slide invariati · slide modificate controllate a vista · note su tutte le 76 slide (circa 11.600 parole, circa 82 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 17 · Utilizzo consapevole e responsabile dell'AI
+
+**File modificati:** `Tema17_Utilizzo_responsabile_rischi_sicurezza.pptx` (75 slide, numero invariato), `sorgenti_slide.zip` (aggiornati `body17a.js`, `body17b.js`, `body17c.js`, `build17.js` e `helpers.js`, con `build17.js` = `common17.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `charts11.js` + `helpers12.js` + `body17a.js` + `body17b.js` + `body17c.js`). In `helpers.js` la funzione `chartBarH` accetta ora un formato facoltativo per le etichette (`fmt`); il valore predefinito è invariato, quindi gli altri temi non cambiano. Prima della revisione il file della cartella è stato confrontato con i sorgenti, tabelle comprese: nessuna modifica manuale. Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Fonti
+- OWASP: allineato al Tema 11, Top 10 for LLM Applications 2026 (OWASP GenAI Security Project, settembre 2026), prompt injection al primo posto; slide 27, nota e fonti. **Da verificare** (fonti secondarie).
+- Greshake et al.: aggiunta la pubblicazione AISec '23 (ACM), 79-90. Buolamwini e Gebru: pagine 77-91. Parasuraman e Manzey: pagine 381-410, come nel Tema 7. Sweeney e Dastin confermati.
+- Gender Shades (slide 37): il grafico riporta i valori dello studio per il sistema con più errori, ora con un decimale (0,3%, 7,1%, 12,0%, 34,7%); prima lo 0,3% compariva come 0%.
+- Slide 46: nella nota, richiamo all'art. 50 dell'AI Act (dichiarazione dei deepfake dal 2 agosto 2026), coerente con il Tema 10.
+- **Da verificare:** pagine citate a memoria, dettagli dei casi deepfake (2019; Arup 2024).
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi nelle slide 12, 13, 17, 20, 26, 30, 32, 33, 40, 41, 46, 47, 56, 57, 60, 61, 64, 66 e 68; dove rimandavano alle regole del Tema 18, la frase è stata resa autonoma. Le note contenevano già i riferimenti precisi. Resta solo la slide facoltativa "Che cosa viene dopo" (74), dichiarata tale nelle note.
+
+### Coerenza
+- Le lettere A-D restano come nome dei quattro esempi (titoli, slide 5 e sintesi 72). Tolte invece le lettere tra parentesi a fine frase nelle slide 21, 23, 28, 30, 31, 58, 64, 65 e 66.
+- "Esempio A/C/D del documento" diventa "Esempio A/C/D (fittizio)"; slide 5: "Quattro esempi, ripresi nei sottotemi"; slide 68: titolo "La checklist del documento" diventa "La checklist essenziale".
+- Etichette dei concetti chiave allineate ai titoli dei divisori; slide 6: allineati i titoli del 17.4 e del 17.8.
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (75): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Struttura
+- Il filo conduttore (5), la checklist (68) e la sintesi dei quattro esempi (72) esistevano già.
+- **Che cosa evitare** (73): portata dall'elenco semplice a sette righe al formato standard a sei voci con il sottotema (17.1, 17.2, 17.3, 17.4, 17.6, 17.7); gli altri errori sono nelle note.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide modificate controllate a vista · note su tutte le 75 slide (circa 11.800 parole, circa 84 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 18 · Normativa, regole e governance dell'AI
+
+**File modificati:** `Tema18_Normativa_regole_governance_AI.pptx` (77 slide, numero invariato), `sorgenti_slide.zip` (aggiornati `body18a.js`, `body18b.js`, `body18c.js` e `build18.js`, con `build18.js` = `common18.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `charts11.js` + `helpers12.js` + `body18a.js` + `body18b.js` + `body18c.js`). Prima della revisione il file della cartella è stato confrontato con i sorgenti, tabelle comprese: nessuna modifica manuale. Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Verifiche sui testi ufficiali
+Indicazione dell'utente: usare solo dati con riferimento ufficiale.
+- **Reg. (UE) 2026/1744** (EUR-Lex): GUUE serie L del 24 luglio 2026; entrata in vigore il terzo giorno successivo, 27 luglio 2026 (considerando 46 e dati EUR-Lex); alto rischio dal 2 dicembre 2027 (Allegato III) e dal 2 agosto 2028 (Allegato I) (considerando 40); transitorio di quattro mesi per la marcatura dei sistemi già sul mercato prima del 2 agosto 2026, cioè fino al 2 dicembre 2026 (considerando 38); articolo 4 sostituito (articolo 1, punto 5); articolo 3, punto 1, non modificato (le modifiche riguardano i punti 14, 14 bis e 14 ter); nuovi divieti all'articolo 5, par. 1, lettere ba e bb.
+- **Non verificato, quindi tolto:** la data di applicazione dei nuovi divieti (prima indicata come 2 dicembre 2026) nelle slide 19 e 27 e nelle note; lo stato "in preparazione" degli standard armonizzati (slide 23 e 67), ora "verificarne lo stato".
+- **Legge 23 settembre 2025, n. 132** (Gazzetta Ufficiale, Serie Generale n. 223 del 25 settembre 2025, in vigore dal 10 ottobre 2025): verificati gli articoli 7, 11, 13, 20 e 25; nella nota della slide 22 aggiunto il termine di dodici mesi per i decreti legislativi.
+- Slide 60: la nota sul nuovo articolo 4 non dice più "secondo le sintesi disponibili", ma cita il testo ufficiale. Nota delle fonti (77) riscritta: che cosa è verificato e che cosa no.
+- Effetti sui temi precedenti: confermata la data della marcatura citata nel Tema 10 e la definizione dell'articolo 3 citata nel Tema 2. Il codice di condotta sulla trasparenza (giugno 2026) citato nel Tema 10 non è stato trovato su fonte ufficiale.
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi nelle slide 9, 10, 11, 12, 13, 20, 31, 33, 38, 41, 44, 45, 52, 54, 56 e 61. Le note contenevano già i riferimenti precisi.
+
+### Coerenza
+- Lettere: gli equivoci (filo conduttore 6 e sintesi 74) sono ora numerati da 1 a 4, perché le loro lettere non coincidevano con quelle degli esempi (l'equivoco A si illustra con l'esempio B); le lettere restano solo come nome degli esempi. Tolte le lettere tra parentesi nelle slide 14, 18, 31, 38, 44, 52, 56, 62, 66 e 68.
+- "Esempio A/C del documento" diventa "Esempio A/C (fittizio)"; slide 69: "La checklist del documento" diventa "La checklist essenziale".
+- Etichette dei concetti chiave allineate ai titoli dei divisori; slide 7: allineati i titoli del 18.6, 18.7 e 18.8.
+- Slide 76 "Il percorso completato": tolta dalla slide la nota di lavoro "Prossimo passaggio: revisione trasversale dei 18 temi e distribuzione nelle sessioni in presenza" (resta solo nelle note per il relatore); slide segnata come facoltativa nelle note.
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (77): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Struttura
+- **Che cosa evitare** (75): portata dall'elenco semplice a sette righe al formato standard a sei voci con il sottotema (18.1, 18.2, 18.3, 18.4, 18.5, 18.7); gli altri errori sono nelle note.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide modificate controllate a vista · note su tutte le 77 slide (circa 13.000 parole, circa 93 minuti di esposizione).
+
+**Con il Tema 18 si conclude la revisione dei 18 temi della base.**
+
+---
+
+## 9 ottobre 2026 · Tema 10 · dati dell'articolo 50 allineati al testo ufficiale
+
+**File modificati:** `Tema10_AI_multimodale_contenuti.pptx` (75 slide, numero invariato), `sorgenti_slide.zip` (aggiornati `body10c.js` e `build10.js`, con `build10.js` = `common10.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `body10a.js` + `body10b.js` + `body10c.js`). Prima della modifica il file della cartella è stato confrontato con i sorgenti: nessuna modifica manuale.
+
+- Indicazione dell'utente: non usare dati senza riferimento ufficiale. Tolto dalle note della slide 66 e della slide fonti (75) il codice di condotta europeo sulla trasparenza "finalizzato a giugno 2026", non trovato su fonte ufficiale.
+- Il rinvio al 2 dicembre 2026 della marcatura per i sistemi già sul mercato è ora indicato come verificato sul testo ufficiale del Regolamento 2026/1744 (considerando 38: transitorio di quattro mesi).
+- Il testo proiettato non cambia: cambiano solo le note delle slide 66 e 75.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 · confronto con il file precedente: cambiano solo le note delle slide 66 e 75.
