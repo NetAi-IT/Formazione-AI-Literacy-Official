@@ -146,3 +146,67 @@ Titolo: "Contenuti aggiornati a ottobre 2026". Slide "Nota sull'aggiornamento de
 
 ### Controlli eseguiti
 validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 70 slide (circa 10.300 parole, circa 74 minuti di esposizione). Due didascalie (slide 45 e 70) sono vicine al piè di pagina ma leggibili: lasciate invariate.
+
+---
+
+## 9 ottobre 2026 · Tema 5 · Il dialogo uomo-AI
+
+**File modificati:** `Tema5_Dialogo_uomo_AI.pptx` (da 61 a 63 slide), `sorgenti_slide.zip` (aggiornati `body5.js` e `build5.js`, con `build5.js` = `common5.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body5.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Fonti
+- Lee, H.-P. et al. (2025), CHI 2025: confermati esistenza, autori (Microsoft Research e Carnegie Mellon) e campione (319 lavoratori della conoscenza). Citazione completata con gli atti della conferenza; nelle note della slide fonti: dati autodichiarati, da presentare come indicazione; DOI 10.1145/3706598.3713778 **da verificare**.
+- Weizenbaum (1966): citazione completata (titolo intero, pagine 36-45), uniforme al Tema 2.
+- Parasuraman e Manzey (2010): confermata (già verificata nel Tema 3).
+- Nessun dato numerico o fatto datato da aggiornare.
+
+### Grafica
+- "Responsabilità e controllo ai diversi livelli" (ora 41): etichette "Livelli 3/4/5" corrette in "Livello 3/4/5".
+- Concetto chiave del 5.6 (ora 50): etichetta del sottotema allineata al titolo "La qualità dipende anche dalla persona".
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi ai Temi 4 e 6 nelle slide "Assistenza, collaborazione, delega, automazione" (39), "Obiettivi chiari e comprensione del problema" (46) e "Domande, interpretazione e feedback" (48). Resta solo la slide facoltativa "Prossimo passo: il Tema 6" (62), dichiarata tale nelle note.
+- Note: formule generiche ("tema dedicato", "area aziendale") rese precise (Tema 11; Temi 13 e 16; Temi 13, 16 e 18).
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (63): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Slide aggiunte (struttura standard)
+- **Il filo conduttore** (4): interfaccia naturale, dialogo e ruoli, collaborazione e delega, persona e rischi, con i sottotemi; messaggio "la tecnologia amplifica le capacità umane senza sostituire giudizio, competenze e responsabilità".
+- **Che cosa evitare** (61): sei errori tipici (5.1, 5.2, 5.3, 5.5, 5.6, 5.7).
+- La scheda pratica esisteva già: "Principi per un dialogo consapevole" (60).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 63 slide (circa 9.000 parole, circa 64 minuti di esposizione).
+
+---
+
+## 9 ottobre 2026 · Tema 6 · Prompting e tecniche di interazione con l'AI
+
+**File modificati:** `Tema6_Prompting_tecniche_interazione.pptx` (da 72 a 74 slide), `sorgenti_slide.zip` (aggiornati `body6.js` e `build6.js`, con `build6.js` = `common6.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body6.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
+**Tema grafico:** neutro.
+
+### Fonti e attualità
+- "Nota sulle fonti e sugli esempi" (ora 74): le guide dei fornitori citate per nome (Anthropic, Prompt engineering overview; OpenAI, Prompt engineering e Reasoning best practices; Google, Prompt design strategies per la Gemini API), con indirizzi nelle note.
+- Modelli che ragionano prima di rispondere: aggiunto nelle note di "Scegliere la tecnica in base al compito" (ora 38) che conviene partire senza esempi e non chiedere di "ragionare passo passo"; la scomposizione resta utile per il controllo della persona. **Verificato su fonti secondarie: da confermare sulla guida ufficiale OpenAI.**
+- Le altre indicazioni (delimitazione, few-shot, iterazione, formati strutturati) sono principi stabili, coerenti con le guide.
+
+### Grafica
+- "Template di prompt" (ora 64): "1. Partecipanti" e "2. Decisioni" su righe separate.
+- "Gestire i limiti della finestra di contesto" (ora 29): icona di "Ripetere le istruzioni" distinta da quella di "Ricominciare".
+
+### Rimandi ad altri temi (regola 11)
+- Testo proiettato: tolti i rimandi nelle slide 13, 45, 65 e 71. Resta solo la slide facoltativa "Prossimo passo: il Tema 7" (73), dichiarata tale nelle note.
+- Note: formule generiche ("area dedicata", "tema dedicato", "area delle applicazioni", "tema su assistenti e agenti") rese precise (Temi 14, 17 e 18; Tema 11; Temi 8-11).
+- Note allineate alle slide: "integrazione B" riformulata (37); voce "apertura" tolta dalla struttura dell'email (49); "verbale di riunione" al posto di "sintesi delle riunioni" (64).
+
+### Data di validità
+Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide fonti (74): "Fonti verificate a ottobre 2026: ricontrollarle prima di ogni edizione."
+
+### Slide aggiunte (struttura standard)
+- **Il filo conduttore** (4): definire, contesto e tecnica, iterare e dare forma, applicare e riutilizzare, con i sottotemi; messaggio "un buon prompt aumenta le probabilità di un risultato utile, ma non ne garantisce la correttezza".
+- **Che cosa evitare** (72): sei errori tipici (6.1, 6.2, 6.3, 6.5, 6.6, 6.8).
+- La scheda pratica esisteva già: "Uno schema per le richieste importanti" (71).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 74 slide (circa 10.300 parole, circa 74 minuti di esposizione).

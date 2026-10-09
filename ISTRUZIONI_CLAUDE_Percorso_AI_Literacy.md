@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5 e 6; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
 
 ---
 
@@ -92,8 +92,8 @@ Le aree vanno tenute con questi nomi in tutti i deck.
 | 2 | Comprendere l'AI | Fondamenti e funzionamento | Tema2_Fondamenti_e_funzionamento_AI.pptx | 72 |
 | 3 | Comprendere l'AI | Capacità, limiti, affidabilità | Tema3_Capacita_limiti_affidabilita_AI.pptx | 70 |
 | 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 70 |
-| 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 61 |
-| 6 | Interagire con l'AI | Prompting e tecniche di interazione | Tema6_Prompting_tecniche_interazione.pptx | 72 |
+| 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 63 |
+| 6 | Interagire con l'AI | Prompting e tecniche di interazione | Tema6_Prompting_tecniche_interazione.pptx | 74 |
 | 7 | Interagire con l'AI | Verifica degli output e pensiero critico | Tema7_Verifica_output_pensiero_critico.pptx | 73 |
 | 8 | Esplorare le possibilità | Testi, documenti, conoscenza | Tema8_AI_testi_documenti_conoscenza.pptx | 81 |
 | 9 | Esplorare le possibilità | Dati e analisi | Tema9_AI_dati_analisi.pptx | 84 |
@@ -155,8 +155,8 @@ Servono per non perdere il filo nella revisione.
 | T2 | **Revisionato il 9 ottobre 2026.** Definizione AI Act (art. 3, non modificato dal Digital Omnibus) e OCSE, ELIZA, transformer, RLHF (Ouyang 2022), RAG (Lewis 2020), "Lost in the Middle" (Liu 2024, TACL 12) |
 | T3 | **Revisionato il 9 ottobre 2026.** Allucinazioni (Mata v. Avianca, Kalai 2025), piaggeria (Sharma, ICLR 2024), bias (caso Amazon), frontiera irregolare. Esempio didattico di frase vera e falsa sull'AI Act |
 | T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo.** **Revisionato il 9 ottobre 2026:** Copilot multi-modello (OpenAI, Anthropic, Microsoft); esempi open-weight aggiornati (Gemma, Mistral, gpt-oss, Qwen, DeepSeek; Meta verso modelli chiusi) |
-| T5 | ELIZA, automation bias (Parasuraman e Manzey 2010), Lee et al. 2025 sul pensiero critico |
-| T6 | Tecniche di prompting |
+| T5 | ELIZA, automation bias (Parasuraman e Manzey 2010), Lee et al. 2025 sul pensiero critico. **Revisionato il 9 ottobre 2026:** nessun dato da aggiornare; tolti i rimandi proiettati ai Temi 4 e 6; aggiunte "Il filo conduttore" e "Che cosa evitare" |
+| T6 | Tecniche di prompting. **Revisionato il 9 ottobre 2026:** nota sui modelli che ragionano prima di rispondere (note di "Scegliere la tecnica in base al compito"); guide dei fornitori citate per nome nella slide finale; tolti i rimandi proiettati al Tema 7; aggiunte "Il filo conduttore" e "Che cosa evitare" |
 
 **Temi 7-12**
 
@@ -246,8 +246,8 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 | T2 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare sul testo in GUUE che il Reg. 2026/1744 non tocchi l'art. 3 |
 | T3 | **Verificate il 9 ottobre 2026** (vedi registro). Aggiunta la fonte Parasuraman e Manzey 2010 per l'automation bias |
 | T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
-| T5 | Parasuraman e Manzey 2010; Lee et al. 2025 (CHI) |
-| T6 | Verificare le fonti nel deck (non estratte automaticamente) |
+| T5 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare il DOI di Lee et al. 2025 (10.1145/3706598.3713778, nelle note della slide fonti) |
+| T6 | **Verificate il 9 ottobre 2026** (vedi registro). Il deck cita le guide al prompting di Anthropic, OpenAI e Google; resta da confermare sulla guida ufficiale OpenAI (Reasoning best practices) l'indicazione sui modelli che ragionano, verificata solo su fonti secondarie |
 | T7 | Reber e Schwarz 1999 |
 | T8 | Liu 2024; Lewis 2020 |
 | T9 | Anscombe 1973; Vigen 2015 |
@@ -493,46 +493,46 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Prima di scegliere uno strumento AI: una checklist (67) · Che cosa evitare (68) · Prossimo passo: il Tema 5 (69) · Nota sull'aggiornamento dei contenuti (70)
 
 ### Tema 5 · Il dialogo uomo-AI
-*Area: Interagire con l'AI · 61 slide · file `Tema5_Dialogo_uomo_AI.pptx` · esposizione stimata circa 1 h 01 min*
+*Area: Interagire con l'AI · 63 slide · file `Tema5_Dialogo_uomo_AI.pptx` · esposizione stimata circa 1 h 04 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il percorso del modulo (4)
-- **5.1 Il linguaggio naturale come interfaccia**: Dai comandi alle richieste (6) · Vantaggi e limiti della comunicazione conversazionale (7) · Flessibilità e ambiguità del linguaggio (8) · Testo, voce e immagini (9) · Cambia il rapporto tra utente e software (10)
+- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
+- **5.1 Il linguaggio naturale come interfaccia**: Dai comandi alle richieste (7) · Vantaggi e limiti della comunicazione conversazionale (8) · Flessibilità e ambiguità del linguaggio (9) · Testo, voce e immagini (10) · Cambia il rapporto tra utente e software (11)
   - *Messaggio chiave:* Il linguaggio naturale amplia l'accessibilità della tecnologia, ma richiede comunque obiettivi chiari e un'interpretazione critica delle risposte.
-- **5.2 Dalla domanda alla conversazione**: Richiesta isolata e dialogo articolato (13) · Un processo progressivo e iterativo (14) · Un esempio di dialogo (15) · Il contesto della conversazione (16) · L'AI come interlocutore che può porre domande (17) · L'AI come supporto alla definizione dei problemi (18)
+- **5.2 Dalla domanda alla conversazione**: Richiesta isolata e dialogo articolato (14) · Un processo progressivo e iterativo (15) · Un esempio di dialogo (16) · Il contesto della conversazione (17) · L'AI come interlocutore che può porre domande (18) · L'AI come supporto alla definizione dei problemi (19)
   - *Messaggio chiave:* Una buona interazione può svilupparsi attraverso più scambi e non richiede una richiesta iniziale perfetta.
-- **5.3 I diversi ruoli che l'AI può assumere**: Sette ruoli possibili (21) · Fonte, assistente operativo, supporto creativo (22) · Analista, revisore, tutor (23) · L'AI come strumento di confronto critico (24) · Ruolo assegnato e competenza effettiva (25)
+- **5.3 I diversi ruoli che l'AI può assumere**: Sette ruoli possibili (22) · Fonte, assistente operativo, supporto creativo (23) · Analista, revisore, tutor (24) · L'AI come strumento di confronto critico (25) · Ruolo assegnato e competenza effettiva (26)
   - *Messaggio chiave:* Assegnare un ruolo all'AI può orientarne il comportamento, ma non garantisce che abbia le competenze richieste.
-- **5.4 La collaborazione uomo-AI**: Ottenere una risposta o collaborare (28) · Suddividere le attività tra persona e sistema (29) · Capacità complementari (30) · Produrre, rivedere, migliorare (31) · Supporto al ragionamento e alla valutazione (32) · Competenze, contesto e responsabilità (33)
+- **5.4 La collaborazione uomo-AI**: Ottenere una risposta o collaborare (29) · Suddividere le attività tra persona e sistema (30) · Capacità complementari (31) · Produrre, rivedere, migliorare (32) · Supporto al ragionamento e alla valutazione (33) · Competenze, contesto e responsabilità (34)
   - *Messaggio chiave:* Il valore dell'AI può nascere dalla combinazione delle capacità del sistema con quelle della persona, senza implicare la sostituzione del giudizio umano.
-- **5.5 I livelli di delega all'Intelligenza Artificiale**: Cinque livelli di delega (36) · Che cosa fanno l'AI e la persona a ogni livello (37) · Assistenza, collaborazione, delega, automazione (38) · Come cambia il ruolo umano (39) · Responsabilità e controllo ai diversi livelli (40) · Scegliere il livello adeguato (41)
-  - *Messaggio chiave:* Una maggiore autonomia non determina automaticamente risultati migliori: il livello di delega deve essere adeguato al compito, alle capacità del sistema, ai rischi e ai controlli disponibili. Sottotem
-- **5.6 La qualità dipende anche dalla persona**: Otto fattori che dipendono dalla persona (44) · Obiettivi chiari e comprensione del problema (45) · Contesto e competenze di dominio (46) · Domande, interpretazione e feedback (47) · Utilizzo passivo e utilizzo attivo (48)
+- **5.5 I livelli di delega all'Intelligenza Artificiale**: Cinque livelli di delega (37) · Che cosa fanno l'AI e la persona a ogni livello (38) · Assistenza, collaborazione, delega, automazione (39) · Come cambia il ruolo umano (40) · Responsabilità e controllo ai diversi livelli (41) · Scegliere il livello adeguato (42)
+  - *Messaggio chiave:* Una maggiore autonomia non determina automaticamente risultati migliori: il livello di delega deve essere adeguato al compito, alle capacità del sistema, ai rischi e ai controlli disponibili.
+- **5.6 La qualità dipende anche dalla persona**: Otto fattori che dipendono dalla persona (45) · Obiettivi chiari e comprensione del problema (46) · Contesto e competenze di dominio (47) · Domande, interpretazione e feedback (48) · Utilizzo passivo e utilizzo attivo (49)
   - *Messaggio chiave:* Le competenze umane restano determinanti per formulare problemi, interpretare risultati e riconoscere output inadeguati.
-- **5.7 Limiti e rischi della relazione conversazionale**: Antropomorfizzazione (51) · Fiducia eccessiva e accettazione passiva (52) · Automation bias (53) · Il rischio della delega cognitiva (54) · Dipendenza e preservazione del giudizio (55)
+- **5.7 Limiti e rischi della relazione conversazionale**: Antropomorfizzazione (52) · Fiducia eccessiva e accettazione passiva (53) · Automation bias (54) · Il rischio della delega cognitiva (55) · Dipendenza e preservazione del giudizio (56)
   - *Messaggio chiave:* Un'interazione naturale e convincente non attribuisce al sistema intenzionalità, giudizio umano o responsabilità decisionale.
-- **Conclusioni**: Le domande guida: le nostre risposte (57) · Che cosa portiamo a casa (58) · Principi per un dialogo consapevole (59) · Prossimo passo: il Tema 6 (60) · Fonti e riferimenti (61)
+- **Conclusioni**: Le domande guida: le nostre risposte (58) · Che cosa portiamo a casa (59) · Principi per un dialogo consapevole (60) · Che cosa evitare (61) · Prossimo passo: il Tema 6 (62) · Fonti e riferimenti (63)
 
 ### Tema 6 · Prompting e tecniche di interazione con l'AI
-*Area: Interagire con l'AI · 72 slide · file `Tema6_Prompting_tecniche_interazione.pptx` · esposizione stimata circa 1 h 10 min*
+*Area: Interagire con l'AI · 74 slide · file `Tema6_Prompting_tecniche_interazione.pptx` · esposizione stimata circa 1 h 14 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il percorso del modulo (4)
-- **6.1 Fondamenti del prompting**: Che cos'è un prompt (6) · Domanda, istruzione, richiesta di esecuzione (7) · Richieste generiche e contestualizzate (8) · Chiarezza, specificità, pertinenza (9) · Qualità dell'input e utilità dell'output (10) · Prompting e programmazione tradizionale (11) · Prompting e limiti delle istruzioni (12)
+- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
+- **6.1 Fondamenti del prompting**: Che cos'è un prompt (7) · Domanda, istruzione, richiesta di esecuzione (8) · Richieste generiche e contestualizzate (9) · Chiarezza, specificità, pertinenza (10) · Qualità dell'input e utilità dell'output (11) · Prompting e programmazione tradizionale (12) · Prompting e limiti delle istruzioni (13)
   - *Messaggio chiave:* Il prompt comunica obiettivi e aspettative, ma non è un comando che assicura un risultato deterministico e corretto.
-- **6.2 Gli elementi di una richiesta efficace**: Prima il problema, poi il prompt (15) · Otto elementi possibili (16) · Anatomia di una richiesta (17) · Vincoli, formato e criteri di qualità (18) · Ruoli e prospettive (19) · Non serve sempre un prompt lungo (20)
+- **6.2 Gli elementi di una richiesta efficace**: Prima il problema, poi il prompt (16) · Otto elementi possibili (17) · Anatomia di una richiesta (18) · Vincoli, formato e criteri di qualità (19) · Ruoli e prospettive (20) · Non serve sempre un prompt lungo (21)
   - *Messaggio chiave:* Un prompt efficace rende espliciti i requisiti rilevanti; non deve necessariamente essere lungo o contenere tutti gli elementi in ogni situazione.
-- **6.3 Il ruolo del contesto nel prompting**: Che cosa è contesto (23) · Distinguere informazioni, istruzioni, esempi (24) · Qualità del contesto: pertinente, completo, comprensibile (25) · Chiedere all'AI di esplicitare le informazioni mancanti (26) · Informazioni contraddittorie (27) · Gestire i limiti della finestra di contesto (28)
+- **6.3 Il ruolo del contesto nel prompting**: Che cosa è contesto (24) · Distinguere informazioni, istruzioni, esempi (25) · Qualità del contesto: pertinente, completo, comprensibile (26) · Chiedere all'AI di esplicitare le informazioni mancanti (27) · Informazioni contraddittorie (28) · Gestire i limiti della finestra di contesto (29)
   - *Messaggio chiave:* Fornire più informazioni non produce automaticamente risultati migliori; è preferibile un contesto pertinente, sufficientemente completo e comprensibile.
-- **6.4 Tecniche fondamentali di prompting**: Una cassetta degli attrezzi (31) · Zero-shot e few-shot (32) · Istruzioni strutturate e delimitazione (33) · Scomporre i compiti complessi (34) · Alternative e confronto con criteri (35) · Chiedere chiarimenti prima dell'esecuzione (36) · Scegliere la tecnica in base al compito (37)
+- **6.4 Tecniche fondamentali di prompting**: Una cassetta degli attrezzi (32) · Zero-shot e few-shot (33) · Istruzioni strutturate e delimitazione (34) · Scomporre i compiti complessi (35) · Alternative e confronto con criteri (36) · Chiedere chiarimenti prima dell'esecuzione (37) · Scegliere la tecnica in base al compito (38)
   - *Messaggio chiave:* La complessità della tecnica deve essere proporzionata al compito; non esiste una strategia unica migliore in ogni situazione.
-- **6.5 Prompting iterativo**: Il ciclo del miglioramento progressivo (40) · Feedback efficaci (41) · Raffinare, approfondire, riformulare (42) · Modificare la richiesta o ricominciare (43) · I limiti dell'iterazione (44)
+- **6.5 Prompting iterativo**: Il ciclo del miglioramento progressivo (41) · Feedback efficaci (42) · Raffinare, approfondire, riformulare (43) · Modificare la richiesta o ricominciare (44) · I limiti dell'iterazione (45)
   - *Messaggio chiave:* L'iterazione consente di migliorare l'aderenza al compito, ma la verifica indipendente della correttezza appartiene a una fase distinta.
-- **6.6 Guidare il formato e la struttura degli output**: Definire il formato desiderato (47) · Report, documenti e comunicazioni professionali (48) · Dettaglio, tono e destinatario (49) · Introduzione agli output strutturati (50) · Vincoli di presentazione e criteri verificabili (51)
+- **6.6 Guidare il formato e la struttura degli output**: Definire il formato desiderato (48) · Report, documenti e comunicazioni professionali (49) · Dettaglio, tono e destinatario (50) · Introduzione agli output strutturati (51) · Vincoli di presentazione e criteri verificabili (52)
   - *Messaggio chiave:* La forma dell'output ne condiziona l'utilità nelle attività successive, ma la buona formattazione non dimostra la correttezza del contenuto.
-- **6.7 Prompting per attività professionali**: Attività creative, analitiche e operative (54) · Scrittura e revisione di contenuti (55) · Analisi e sintesi documentale (56) · Informazioni e dati (57) · Ricerca, alternative, brainstorming e problem solving (58) · Report e comunicazioni (59)
+- **6.7 Prompting per attività professionali**: Attività creative, analitiche e operative (55) · Scrittura e revisione di contenuti (56) · Analisi e sintesi documentale (57) · Informazioni e dati (58) · Ricerca, alternative, brainstorming e problem solving (59) · Report e comunicazioni (60)
   - *Messaggio chiave:* Il metodo deve adattarsi allo scopo e al contesto lavorativo; il tema insegna ad applicare i principi, non a memorizzare prompt universali.
-- **6.8 Istruzioni riutilizzabili e standardizzazione**: Prompt occasionali e ricorrenti (62) · Template di prompt (63) · Librerie, istruzioni persistenti, assistenti configurati (64) · Standardizzare, versionare, manutenere (65) · I limiti della standardizzazione (66)
+- **6.8 Istruzioni riutilizzabili e standardizzazione**: Prompt occasionali e ricorrenti (63) · Template di prompt (64) · Librerie, istruzioni persistenti, assistenti configurati (65) · Standardizzare, versionare, manutenere (66) · I limiti della standardizzazione (67)
   - *Messaggio chiave:* Istruzioni riutilizzabili possono favorire coerenza e produttività, ma devono essere manutenute e non sostituiscono il controllo dei risultati.
-- **Conclusioni**: Le domande guida: le nostre risposte (68) · Che cosa portiamo a casa (69) · Uno schema per le richieste importanti (70) · Prossimo passo: il Tema 7 (71) · Nota sulle fonti e sugli esempi (72)
+- **Conclusioni**: Le domande guida: le nostre risposte (69) · Che cosa portiamo a casa (70) · Uno schema per le richieste importanti (71) · Che cosa evitare (72) · Prossimo passo: il Tema 7 (73) · Nota sulle fonti e sugli esempi (74)
 
 ### Tema 7 · Verifica degli output e pensiero critico nell'utilizzo dell'AI
 *Area: Interagire con l'AI · 73 slide · file `Tema7_Verifica_output_pensiero_critico.pptx` · esposizione stimata circa 1 h 15 min*
@@ -883,3 +883,36 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Dati, sicurezza, permessi minimi, prompt injection | criteri (4.5, 4.7) | Temi 11, 14 e 17 |
 | Normativa e governance | escluso | Tema 18 |
 | Competenze trasferibili | trattato (4.8) | Tema 1 (1.6) |
+
+### Tema 5 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (contesto, effetto ELIZA), il Tema 3 (affidabilità, compiacenza, automation bias) e il Tema 4 (categorie di sistemi), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** linguaggio naturale come interfaccia; richiesta isolata e dialogo progressivo; contesto della conversazione; sette ruoli dell'AI; ruolo assegnato e competenza effettiva; AI come interlocutore critico (avvocato del diavolo, pre-mortem); suddivisione delle attività tra persona e sistema; cinque livelli di delega; assistenza, collaborazione, delega, automazione; otto fattori che dipendono dalla persona; utilizzo passivo e attivo; antropomorfizzazione; delega cognitiva.
+
+| Concetto | Nel Tema 5 | Approfondito o ripreso in |
+|---|---|---|
+| Effetto ELIZA, antropomorfizzazione | ripreso (5.7) | introdotto nel Tema 2 (2.1) |
+| Contesto della conversazione | ripreso (5.2) | Tema 2 |
+| Compiacenza, autorevolezza apparente | richiamato (5.3) | Tema 3 |
+| Automation bias, fiducia calibrata | trattato (5.7) | Temi 3 (3.8), 7 e 17 |
+| Chatbot, assistenti, agenti come categorie | richiamato (5.5) | Tema 4 (4.5) |
+| Tecniche di formulazione, ruoli e formati nel prompt | escluso (5.2, 5.3, 5.6) | Tema 6 |
+| Procedure di verifica degli output | escluso (5.4, 5.7) | Tema 7 |
+| Livelli di delega e progettazione di agenti e workflow | livelli trattati (5.5) | Tema 11 |
+| Riprogettazione di processi e ruoli | escluso (5.4) | Temi 13 e 16 |
+| Ruoli e responsabilità organizzative | escluso (5.5) | Temi 13, 16 e 18 |
+| Condivisione di dati riservati con l'AI | accennato (5.7) | Temi 14 e 17 |
+
+### Tema 6 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (prompt, istruzioni di sistema, finestra di contesto), il Tema 3 (allucinazioni, compiacenza, autorevolezza apparente) e il Tema 5 (dialogo, ruoli, interlocutore critico), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** prompt come comunicazione di obiettivi, aspettative, informazioni; prima il problema, poi il prompt; otto elementi di una richiesta; qualità del contesto; informazioni, istruzioni, esempi; zero-shot e few-shot; delimitazione; scomposizione; chiarimenti prima dell'esecuzione; ciclo iterativo e feedback efficace; aderenza e correttezza; formati strutturati (CSV, JSON); requisiti verificabili; template, librerie, istruzioni persistenti, assistenti configurati; manutenzione delle istruzioni. **Nota di attualità:** indicazioni sui modelli che ragionano prima di rispondere (note della slide 38), da ricontrollare prima di ogni edizione.
+
+| Concetto | Nel Tema 6 | Approfondito o ripreso in |
+|---|---|---|
+| Prompt, istruzioni di sistema, finestra di contesto | applicato (6.1, 6.3) | introdotto nel Tema 2 |
+| Allucinazioni, "sei sicuro?", calcoli con codice | richiamato (6.1, 6.5, 6.7) | Tema 3 |
+| Dialogo iterativo, ruoli, interlocutore critico | applicato (6.2, 6.4, 6.7) | Tema 5 |
+| Verifica della correttezza | escluso (6.1, 6.5, 6.6) | Tema 7 |
+| Testi, documenti, dati, contenuti per attività | esempi (6.7) | Temi 8-11 |
+| Assistenti configurati, agenti, flussi di lavoro | accennato (6.4, 6.8) | Tema 11; categorie nel Tema 4 |
+| Cambiamento dei modelli e manutenzione dei template | accennato (6.8) | Tema 4 (4.8) |
+| Librerie condivise, standard aziendali | accennato (6.8) | Temi 14 e 16 |
+| Dati riservati e strumenti autorizzati | avvertenza ricorrente | Temi 14, 17 e 18 |
+
