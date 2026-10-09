@@ -1,8 +1,8 @@
 # Istruzioni per Claude · Percorso di formazione AI Literacy
 
-> **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
+> **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
 
 ---
 
@@ -45,7 +45,7 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regol
      - `note_scelte.md`: che cosa è stato preso dalla base, che cosa adattato e perché.
   3. I file delle formazioni si creano come **nuovi file**: si copiano o si selezionano contenuti dalla base, senza spostare né rinominare i file di `Base/`.
   4. Questo file di istruzioni resta nella cartella principale. Va aggiornato quando cambia la struttura o la base. Dopo ogni modifica, aggiornare anche la copia nei documenti del progetto Claude: `Formazione AI Literacy Official/ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`.
-- **Stato:** tutte le 18 presentazioni sono state prodotte e consegnate. **Revisione tema per tema in corso:** Temi 1 e 2 revisionati il 9 ottobre 2026 (fatti verificati, fonti complete, data di validità, aggiunte le slide filo conduttore, scheda pratica e Che cosa evitare; tema neutro confermato). Dettagli e punti rimasti aperti in `Base/registro_revisione.md`. **Il passo successivo, indicato dai documenti di perimetro, è la revisione trasversale dei 18 temi.** Dopo la revisione, la base potrà essere usata per progettare formazioni specifiche.
+- **Stato:** tutte le 18 presentazioni sono state prodotte e consegnate. **Il passo successivo, indicato dai documenti di perimetro, è la revisione trasversale dei 18 temi.** Dopo la revisione, la base potrà essere usata per progettare formazioni specifiche.
 
 ---
 
@@ -63,15 +63,10 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1 e 2 completata; regol
    - Questo vale per la fase di produzione.
    - La riduzione per l'aula è un'attività separata (vedi attività D).
 5. **Note del relatore complete su ogni slide**, in forma di testo parlato e continuo.
-6. **Esercizi rimandati** (decisione del 9 ottobre 2026: per ora nessun intervento, né aggiunte né rimozioni; nelle slide proiettate non vanno esercizi): nelle note compare solo un suggerimento "Esercizio suggerito: ..." nella slide chiave di ogni sottotema. Gli esercizi veri vanno sviluppati in seguito (vedi attività E).
+6. **Esercizi rimandati:** nelle note compare solo un suggerimento "Esercizio suggerito: ..." nella slide chiave di ogni sottotema. Gli esercizi veri vanno sviluppati in seguito (vedi attività E).
 7. **Esempi aziendali sempre fittizi e dichiarati come tali.** Nessun dato riservato. I casi reali citati, come Mata v. Avianca, Arup o Amazon, sono indicati con la loro fonte.
 8. **Riferimenti citati a memoria:** vanno segnalati all'utente come "da verificare".
 9. **Temi normativi:** precisare sempre che non si tratta di un parere legale. Verificare le date sulle fonti ufficiali e non presentare mai una data unica come scadenza universale.
-11. **Rimandi ad altri temi** (decisione del 9 ottobre 2026; i moduli possono essere presentati anche da soli o in selezione):
-    - **mai nel testo proiettato** delle slide (niente "Approfondimento nel Tema N", "trattato in moduli dedicati");
-    - **precisi nelle note del relatore**: indicare il tema, ed eventualmente il sottotema, invece di formule generiche come "modulo dedicato";
-    - la slide finale "Prossimo passo" o "Che cosa viene dopo" resta, dichiarata nelle note come **facoltativa**;
-    - i collegamenti tra temi sono registrati nella **mappa della sezione 10**, che l'agente usa per i controlli di prerequisiti, ripetizioni e passaggi e per costruire le formazioni derivate.
 10. **Struttura delle risposte all'utente dopo ogni consegna:**
     - una riga su che cosa è stato consegnato;
     - la struttura in breve e i punti notevoli;
@@ -88,8 +83,8 @@ Le aree vanno tenute con questi nomi in tutti i deck.
 
 | # | Area | Tema | File PPTX | Slide |
 |---|---|---|---|---|
-| 1 | Comprendere l'AI | Evoluzione e rilevanza dell'AI | Tema1_Evoluzione_e_rilevanza_AI.pptx | 59 |
-| 2 | Comprendere l'AI | Fondamenti e funzionamento | Tema2_Fondamenti_e_funzionamento_AI.pptx | 72 |
+| 1 | Comprendere l'AI | Evoluzione e rilevanza dell'AI | Tema1_Evoluzione_e_rilevanza_AI.pptx | 55 |
+| 2 | Comprendere l'AI | Fondamenti e funzionamento | Tema2_Fondamenti_e_funzionamento_AI.pptx | 69 |
 | 3 | Comprendere l'AI | Capacità, limiti, affidabilità | Tema3_Capacita_limiti_affidabilita_AI.pptx | 68 |
 | 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 68 |
 | 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 61 |
@@ -151,8 +146,8 @@ Servono per non perdere il filo nella revisione.
 
 | Tema | Elementi notevoli |
 |---|---|
-| T1 | Storia (Turing, Dartmouth), transformer, crescita del calcolo (Epoch AI), studi di produttività (Brynjolfsson QJE 2025: +15%, +36%; Dell'Acqua Organization Science 2026: +12,2%, +25,1%, +32%, -19 punti), hype cycle (Gartner 2025: GenAI in disillusione). **Revisionato il 9 ottobre 2026** |
-| T2 | **Revisionato il 9 ottobre 2026.** Definizione AI Act (art. 3, non modificato dal Digital Omnibus) e OCSE, ELIZA, transformer, RLHF (Ouyang 2022), RAG (Lewis 2020), "Lost in the Middle" (Liu 2024, TACL 12) |
+| T1 | Storia (Turing, Dartmouth), transformer, crescita del calcolo (Epoch AI), studi di produttività (Brynjolfsson 2023, Dell'Acqua 2023), hype cycle |
+| T2 | Definizione AI Act (art. 3) e OCSE, ELIZA, transformer, RLHF (Ouyang 2022), RAG (Lewis 2020), "Lost in the Middle" (Liu) |
 | T3 | Allucinazioni (Mata v. Avianca, Kalai 2025), piaggeria (Sharma 2023), bias (caso Amazon), frontiera irregolare. Esempio didattico di frase vera e falsa sull'AI Act |
 | T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo** |
 | T5 | ELIZA, automation bias (Parasuraman e Manzey 2010), Lee et al. 2025 sul pensiero critico |
@@ -224,11 +219,11 @@ Ordine consigliato: A, B e C prima di D; E ed F in parallelo dopo D. **Prima di 
 **A3. Coerenza terminologica.**
 - Termini da uniformare: AI o IA; provider e deployer o fornitore e utilizzatore; prompt o richiesta; output o risultato; allucinazione.
 - Nomi delle aree identici in tutti i deck.
-- Formato delle citazioni uniforme. Liu et al. va citato come "(2024). Lost in the Middle: How Language Models Use Long Contexts. Transactions of the ACL, 12, 157-173": già corretto nel T2 (9 ottobre 2026), da uniformare nel T8 e T14.
+- Formato delle citazioni uniforme. Esempio di incoerenza già nota: Liu et al. è "2023 / TACL 2024" nel T2 e "2024" nel T8 e T14.
 
 **A4. Coerenza dei passaggi tra temi.**
 - Controllare in tutti i 18 deck le slide "Che cosa viene dopo" e "Il percorso del modulo".
-- Il T2 rimandava all'AI Act "in un modulo dedicato": corretto con il rimando al Tema 18 (9 ottobre 2026).
+- Il T2 dice che il quadro dell'AI Act "sarà eventualmente approfondito in un modulo dedicato": aggiornare con il rimando al Tema 18.
 
 **A5. Coerenza stilistica.**
 - I Temi 1-7 non hanno l'indicatore a pillole e usano un set di helper più ridotto.
@@ -242,8 +237,8 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 
 | Tema | Fonti da verificare |
 |---|---|
-| T1 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare solo i dati bibliografici aggiunti a memoria (Rosenblatt, Shortliffe, Rumelhart, Deng, Krizhevsky, Radford, Brown, Kaplan, Ouyang) |
-| T2 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare sul testo in GUUE che il Reg. 2026/1744 non tocchi l'art. 3 |
+| T1 | Turing 1950; proposta di Dartmouth 1955; Vaswani 2017; Epoch AI 2024 (crescita 4-5x all'anno); Brynjolfsson, Li e Raymond 2023; Dell'Acqua 2023; Reuters febbraio 2023 (stima UBS sugli utenti di ChatGPT) |
+| T2 | AI Act art. 3; OCSE 2023; Weizenbaum 1966; Brown 2020; Ouyang 2022; Lewis 2020; Liu (anno) |
 | T3 | Mata v. Avianca 2023; Kalai et al. 2025; Sharma 2023; Dastin 2018; Doshi e Hauser 2024; Dell'Acqua 2023 |
 | T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
 | T5 | Parasuraman e Manzey 2010; Lee et al. 2025 (CHI) |
@@ -411,42 +406,42 @@ La base è volutamente completa. Ogni formazione futura va progettata a partire 
 Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli delle slide e il messaggio della slide chiave, conclusioni. I numeri tra parentesi sono i numeri di slide. La durata è stimata dalle note del relatore (circa 140 parole al minuto, solo esposizione frontale).
 
 ### Tema 1 · Evoluzione e rilevanza dell'Intelligenza Artificiale
-*Area: Comprendere l'AI · 59 slide · file `Tema1_Evoluzione_e_rilevanza_AI.pptx` · esposizione stimata circa 1 h 01 min*
+*Area: Comprendere l'AI · 55 slide · file `Tema1_Evoluzione_e_rilevanza_AI.pptx` · esposizione stimata circa 0 h 54 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Sei domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
-- **1.1 Storia ed evoluzione dell'AI**: Le origini: si possono costruire macchine che pensano? (7) · Oltre settant'anni di evoluzione (8) · L'AI simbolica: la conoscenza scritta in regole (9) · Cicli di entusiasmo e disillusione (10) · Dalle regole all'apprendimento dai dati (11) · Machine Learning e Deep Learning (12) · Dall'AI specializzata all'AI generativa (13)
+- **Introduzione**: Obiettivo del modulo (2) · Sei domande guida per questo modulo (3) · Il percorso del modulo (4)
+- **1.1 Storia ed evoluzione dell'AI**: Le origini: si possono costruire macchine che pensano? (6) · Oltre settant'anni di evoluzione (7) · L'AI simbolica: la conoscenza scritta in regole (8) · Cicli di entusiasmo e disillusione (9) · Dalle regole all'apprendimento dai dati (10) · Machine Learning e Deep Learning (11) · Dall'AI specializzata all'AI generativa (12)
   - *Messaggio chiave:* L'AI è il risultato di decenni di ricerca ed evoluzione tecnologica, non un'invenzione recente.
-- **1.2 I fattori dell'accelerazione tecnologica**: Cinque fattori che si rafforzano a vicenda (16) · Potenza di calcolo (17) · Disponibilità di grandi quantità di dati (18) · Evoluzione degli algoritmi e delle architetture (19) · Lo sviluppo di modelli di grandi dimensioni (20) · Investimenti e infrastrutture tecnologiche (21)
+- **1.2 I fattori dell'accelerazione tecnologica**: Cinque fattori che si rafforzano a vicenda (15) · Potenza di calcolo (16) · Disponibilità di grandi quantità di dati (17) · Evoluzione degli algoritmi e delle architetture (18) · Lo sviluppo di modelli di grandi dimensioni (19) · Investimenti e infrastrutture tecnologiche (20)
   - *Messaggio chiave:* L'accelerazione deriva dalla convergenza di diversi fattori, non da una singola invenzione.
-- **1.3 La svolta dell'AI generativa**: Dal classificare e prevedere al generare (24) · Il linguaggio naturale diventa l'interfaccia (25) · La diffusione di chatbot e assistenti AI (26) · Che cosa può generare l'AI (27) · Un'AI accessibile a tutti (28)
+- **1.3 La svolta dell'AI generativa**: Dal classificare e prevedere al generare (23) · Il linguaggio naturale diventa l'interfaccia (24) · La diffusione di chatbot e assistenti AI (25) · Che cosa può generare l'AI (26) · Un'AI accessibile a tutti (27)
   - *Messaggio chiave:* L'AI generativa ha ampliato le persone e le attività che possono utilizzare direttamente capacità AI.
-- **1.4 Dalla digitalizzazione all'Intelligenza Artificiale**: Quattro passaggi di un'evoluzione (31) · Un esempio: la gestione delle richieste dei clienti (32) · Software deterministico e sistemi probabilistici (33)
+- **1.4 Dalla digitalizzazione all'Intelligenza Artificiale**: Quattro passaggi di un'evoluzione (30) · Un esempio: la gestione delle richieste dei clienti (31) · Software deterministico e sistemi probabilistici (32)
   - *Messaggio chiave:* Digitalizzazione, automazione e AI sono concetti collegati ma distinti; possono coesistere nello stesso processo aziendale.
-- **1.5 Rilevanza dell'AI per le aziende**: Un'applicazione trasversale alle funzioni aziendali (36) · L'AI come tecnologia abilitante (37) · Capacità AI accessibili tramite strumenti commerciali (38) · Effetti potenziali: produttività, qualità, innovazione (39) · Come evolvono il lavoro e le competenze (40) · Possibili implicazioni competitive (41) · Dal potenziale tecnologico al valore realizzato (42)
+- **1.5 Rilevanza dell'AI per le aziende**: Un'applicazione trasversale alle funzioni aziendali (35) · L'AI come tecnologia abilitante (36) · Capacità AI accessibili tramite strumenti commerciali (37) · Effetti potenziali: produttività, qualità, innovazione (38) · Come evolvono il lavoro e le competenze (39) · Possibili implicazioni competitive (40) · Dal potenziale tecnologico al valore realizzato (41)
   - *Messaggio chiave:* L'AI può abilitare cambiamenti in molte aree dell'impresa, ma il valore nasce da applicazioni appropriate a problemi reali.
-- **1.6 Tra hype e realtà**: Aspettative, promesse e narrazioni mediatiche (45) · Dimostrazione tecnologica e uso aziendale continuativo (46) · Maturità delle capacità e limiti attuali (47) · Opportunità concrete o affermazioni non dimostrate? (48) · I benefici non sono uguali per tutti (49) · Velocità del cambiamento e incertezza sul futuro (50) · Competenze adattabili, non dipendenza dagli strumenti (51)
+- **1.6 Tra hype e realtà**: Aspettative, promesse e narrazioni mediatiche (44) · Dimostrazione tecnologica e uso aziendale continuativo (45) · Maturità delle capacità e limiti attuali (46) · Opportunità concrete o affermazioni non dimostrate? (47) · I benefici non sono uguali per tutti (48) · Velocità del cambiamento e incertezza sul futuro (49) · Competenze adattabili, non dipendenza dagli strumenti (50)
   - *Messaggio chiave:* Occorre valutare criticamente le promesse dell'AI, distinguendo possibilità tecniche, affidabilità e convenienza.
-- **Conclusioni**: Le domande guida: le nostre risposte (53) · Che cosa portiamo a casa (54) · Davanti a una novità sull'AI: una scheda pratica (55) · Che cosa evitare (56) · Prossimo passo: il Tema 2 (57) · Fonti e riferimenti (1 di 2) (58) · Fonti e riferimenti (2 di 2) (59)
+- **Conclusioni**: Le domande guida: le nostre risposte (52) · Che cosa portiamo a casa (53) · Prossimo passo: il Tema 2 (54) · Fonti e riferimenti (55)
 
 ### Tema 2 · Fondamenti e funzionamento dell'Intelligenza Artificiale
-*Area: Comprendere l'AI · 72 slide · file `Tema2_Fondamenti_e_funzionamento_AI.pptx` · esposizione stimata circa 1 h 18 min*
+*Area: Comprendere l'AI · 69 slide · file `Tema2_Fondamenti_e_funzionamento_AI.pptx` · esposizione stimata circa 1 h 13 min*
 
-- **Introduzione**: Obiettivo del modulo (2) · Otto domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
-- **2.1 Che cos'è l'Intelligenza Artificiale**: Una definizione operativa (7) · Intelligenza artificiale e intelligenza umana (8) · Sistemi specializzati e intelligenza artificiale generale (9) · Comprensione apparente: l'effetto ELIZA (10) · Che cosa osserviamo e che cosa possiamo concludere (11)
+- **Introduzione**: Obiettivo del modulo (2) · Otto domande guida per questo modulo (3) · Il percorso del modulo (4)
+- **2.1 Che cos'è l'Intelligenza Artificiale**: Una definizione operativa (6) · Intelligenza artificiale e intelligenza umana (7) · Sistemi specializzati e intelligenza artificiale generale (8) · Comprensione apparente: l'effetto ELIZA (9) · Che cosa osserviamo e che cosa possiamo concludere (10)
   - *Messaggio chiave:* L'AI non è un'unica tecnologia e le prestazioni osservabili non autorizzano automaticamente ad attribuirle caratteristiche umane.
-- **2.2 Le principali categorie di AI**: Quattro criteri di classificazione diversi (14) · AI simbolica e Machine Learning (15) · Deep Learning e reti neurali (16) · AI predittiva, discriminativa e generativa (17) · AI multimodale (18) · Quale approccio per quale problema (19)
+- **2.2 Le principali categorie di AI**: Quattro criteri di classificazione diversi (13) · AI simbolica e Machine Learning (14) · Deep Learning e reti neurali (15) · AI predittiva, discriminativa e generativa (16) · AI multimodale (17) · Quale approccio per quale problema (18)
   - *Messaggio chiave:* Esistono approcci e capacità differenti, adatti a problemi differenti. Le categorie rispondono a criteri diversi e non sono tutte mutuamente esclusive.
-- **2.3 Come un sistema AI apprende dai dati**: Che cosa significa apprendere dai dati (22) · Dati di addestramento ed esempi (23) · Individuare schemi e regolarità (24) · I parametri del modello (25) · Il ciclo di addestramento (26) · Generalizzare verso nuovi input (27) · Addestramento e inferenza (28)
+- **2.3 Come un sistema AI apprende dai dati**: Che cosa significa apprendere dai dati (21) · Dati di addestramento ed esempi (22) · Individuare schemi e regolarità (23) · I parametri del modello (24) · Il ciclo di addestramento (25) · Generalizzare verso nuovi input (26) · Addestramento e inferenza (27)
   - *Messaggio chiave:* Nei sistemi di Machine Learning l'addestramento modifica i parametri del modello, mentre l'inferenza lo utilizza per elaborare nuovi input. Non tutti i sistemi AI apprendono dai dati.
-- **2.4 Che cosa sono i Large Language Models**: Un modello linguistico di grandi dimensioni (31) · I token: come il modello vede il testo (32) · Rappresentare il significato (33) · Il Transformer e il meccanismo di attenzione (34) · Come viene generata una risposta (35) · Più di un completamento automatico (36) · Capacità linguistiche, di analisi e di ragionamento (37) · Perché un modello può affrontare compiti diversi (38)
+- **2.4 Che cosa sono i Large Language Models**: Un modello linguistico di grandi dimensioni (30) · I token: come il modello vede il testo (31) · Rappresentare il significato (32) · Il Transformer e il meccanismo di attenzione (33) · Come viene generata una risposta (34) · Più di un completamento automatico (35) · Capacità linguistiche, di analisi e di ragionamento (36) · Perché un modello può affrontare compiti diversi (37)
   - *Messaggio chiave:* Gli LLM generano output usando regolarità apprese e il contesto disponibile; la spiegazione non va ridotta alla sola metafora del completamento automatico.
-- **2.5 Come funziona un'interazione con l'AI**: Input, prompt e output (41) · Il percorso di una richiesta (42) · La finestra di contesto (43) · La cronologia conversazionale (44) · Contesto temporaneo e memoria persistente (45) · Il modello e l'applicazione (46)
+- **2.5 Come funziona un'interazione con l'AI**: Input, prompt e output (40) · Il percorso di una richiesta (41) · La finestra di contesto (42) · La cronologia conversazionale (43) · Contesto temporaneo e memoria persistente (44) · Il modello e l'applicazione (45)
   - *Messaggio chiave:* Il risultato dipende anche dalle informazioni rese disponibili durante l'interazione; il funzionamento del modello e quello del prodotto che lo utilizza non coincidono sempre.
-- **2.6 Conoscenza e fonti informative**: Tre fonti di informazione (49) · Conoscenza incorporata e recupero di informazioni (50) · Aggiornamento dei dati e limiti temporali (51) · Grounding: ancorare le risposte alle fonti (52) · Introduzione alla Retrieval-Augmented Generation (53) · Adattare un sistema AI a un contesto specifico (54) · Tre equivoci frequenti (55)
+- **2.6 Conoscenza e fonti informative**: Tre fonti di informazione (48) · Conoscenza incorporata e recupero di informazioni (49) · Aggiornamento dei dati e limiti temporali (50) · Grounding: ancorare le risposte alle fonti (51) · Introduzione alla Retrieval-Augmented Generation (52) · Adattare un sistema AI a un contesto specifico (53) · Tre equivoci frequenti (54)
   - *Messaggio chiave:* Fornire un documento o collegare una fonte a un sistema AI non significa necessariamente riaddestrare il modello.
-- **2.7 Variabilità dei risultati**: Stessa richiesta, risposte diverse (58) · Che cosa influenza la variabilità (59) · I parametri di generazione: la temperatura (60) · Comportamento deterministico e probabilistico (61) · Riproducibilità dei risultati (62) · Variabilità non significa errore (63)
-  - *Messaggio chiave:* Una stessa richiesta può produrre risposte differenti; la variabilità è distinta dalla questione della correttezza e dell'affidabilità.
-- **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Glossario essenziale (1 di 2) (67) · Glossario essenziale (2 di 2) (68) · Da dove viene questa risposta? Una scheda pratica (69) · Che cosa evitare (70) · Prossimo passo: il Tema 3 (71) · Fonti e riferimenti (72)
+- **2.7 Variabilità dei risultati**: Stessa richiesta, risposte diverse (57) · Che cosa influenza la variabilità (58) · I parametri di generazione: la temperatura (59) · Comportamento deterministico e probabilistico (60) · Riproducibilità dei risultati (61) · Variabilità non significa errore (62)
+  - *Messaggio chiave:* Una stessa richiesta può produrre risposte differenti; la variabilità è distinta dalla questione della correttezza e dell'affidabilità, approfondita nel Tema 3.
+- **Conclusioni**: Le domande guida: le nostre risposte (64) · Che cosa portiamo a casa (65) · Glossario essenziale (1 di 2) (66) · Glossario essenziale (2 di 2) (67) · Prossimo passo: il Tema 3 (68) · Fonti e riferimenti (69)
 
 ### Tema 3 · Capacità, limiti e affidabilità dell'Intelligenza Artificiale
 *Area: Comprendere l'AI · 68 slide · file `Tema3_Capacita_limiti_affidabilita_AI.pptx` · esposizione stimata circa 1 h 12 min*
@@ -797,51 +792,3 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **18.8 Una governance proporzionata**: I presidi essenziali (65) · Esempio D: aziende diverse (66) · Framework e standard volontari (67) · Formazione e governance (68) · La checklist del documento (69) · Migliorare nel tempo (70)
   - *Messaggio chiave:* Non esiste un modello organizzativo unico, ma è necessario rispettare gli obblighi pertinenti e rendere effettivi i controlli scelti.
 - **Conclusioni**: Le domande guida: le nostre risposte (72) · Che cosa portiamo a casa (73) · Quattro equivoci, quattro esempi (74) · Che cosa evitare (75) · Il percorso completato (76) · Fonti e riferimenti (77)
-
----
-
-## 10. Mappa dei collegamenti tra temi
-
-Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le formazioni derivate (attività D): quando si selezionano slide o moduli, verificare qui che nessun concetto usato dia per scontato un tema escluso. Va compilata tema per tema durante la revisione. Nei deck i rimandi stanno solo nelle note (regola 11).
-
-### Tema 1 (compilato il 9 ottobre 2026)
-**Prerequisiti:** nessuno. **Concetti introdotti e ripresi in seguito:** software deterministico e sistemi probabilistici; digitalizzazione, automazione e AI; potenziale tecnologico e valore realizzato; frontiera frastagliata; possibile, affidabile, conveniente.
-
-| Concetto | Nel Tema 1 | Approfondito o ripreso in |
-|---|---|---|
-| Funzionamento degli LLM, parametri, Transformer, apprendimento dai dati | accennato (1.1, 1.2) | Tema 2 |
-| AGI | menzionata (1.1, 1.6) | Tema 2 (2.1) |
-| AI predittiva, discriminativa e generativa | accennata (1.3) | Tema 2 (2.2) |
-| Variabilità e sistemi probabilistici | introdotto (1.4) | Tema 2 (2.7), Tema 3 |
-| Errori, allucinazioni, bias, affidabilità | accennato (1.6) | Tema 3; verifica nel Tema 7 |
-| Prodotti, modelli e piattaforme | escluso | Tema 4 |
-| Dialogo con l'AI e formulazione delle richieste | accennato (1.3) | Temi 5 e 6 |
-| Applicazioni per tipo di attività | esempi indicativi (1.5) | Temi 8-11 |
-| Valore, costi, ROI | potenziale e valore (1.5) | Temi 12 e 15 |
-| Dati aziendali | accennato (1.2) | Tema 14 |
-| Individuazione delle opportunità | accennato (1.5) | Tema 15 |
-| Strategia e adozione | accennato (1.5) | Temi 12, 15 e 16 |
-| Hype cycle | trattato (1.6) | ripreso nel Tema 16 |
-| Studio Brynjolfsson (QJE 2025) | esempio (1.5) | Tema 12 |
-| Studio Dell'Acqua (Organization Science 2026) | esempio (1.6) | Temi 3 e 12 |
-| Shadow AI | accennato (1.5) | Temi 16, 17 e 18 |
-| Rischi e regole d'uso | accennato (1.6) | Temi 17 e 18 |
-
-### Tema 2 (compilato il 9 ottobre 2026)
-**Prerequisiti:** nessuno obbligatorio; riprende brevemente dal Tema 1 AI simbolica e Machine Learning, retropropagazione, software deterministico e sistemi probabilistici. **Concetti introdotti e ripresi in seguito:** addestramento e inferenza; parametri; token e finestra di contesto; contesto temporaneo e memoria persistente; modello e applicazione; tre fonti di informazione; grounding e RAG; fine-tuning; data limite (cutoff); temperatura e variabilità.
-
-| Concetto | Nel Tema 2 | Approfondito o ripreso in |
-|---|---|---|
-| Definizione di sistema di AI (AI Act, art. 3) | definizione operativa (2.1) | Tema 18 |
-| AGI | trattata (2.1) | dibattito nel Tema 1 (1.6) |
-| Antropomorfizzazione, effetto ELIZA | trattato (2.1) | Tema 5 (5.7) |
-| Bias dai dati di addestramento | accennato (2.3) | Temi 3 e 17 |
-| Uso delle conversazioni da parte del fornitore, memoria | accennato (2.3, 2.5, 2.6) | Temi 14 e 17; confronto tra strumenti nel Tema 4 |
-| Modello e applicazione, prodotti | trattato (2.5) | Tema 4 |
-| Tecniche di prompting, riproducibilità | accennato (2.5, 2.7) | Temi 5 e 6 |
-| "Lost in the Middle" (Liu 2024) | citato (2.5) | Temi 8 e 14 |
-| Grounding e RAG | introdotti (2.6) | Temi 8 e 14 |
-| Allucinazioni, accuratezza, affidabilità | accennato (2.6, 2.7) | Tema 3; verifica nel Tema 7 |
-| Variabilità e correttezza | trattato (2.7) | Temi 3 e 7 |
-| Multimodalità | introdotta (2.2) | Tema 10 |
-| Strumenti e azioni dei sistemi | accennato (2.5) | Tema 11 |
