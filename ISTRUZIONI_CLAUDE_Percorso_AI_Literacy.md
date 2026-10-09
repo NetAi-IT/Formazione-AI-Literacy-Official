@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5 e 6; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12, 13 e 14; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
 
 ---
 
@@ -94,13 +94,13 @@ Le aree vanno tenute con questi nomi in tutti i deck.
 | 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 70 |
 | 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 63 |
 | 6 | Interagire con l'AI | Prompting e tecniche di interazione | Tema6_Prompting_tecniche_interazione.pptx | 74 |
-| 7 | Interagire con l'AI | Verifica degli output e pensiero critico | Tema7_Verifica_output_pensiero_critico.pptx | 73 |
-| 8 | Esplorare le possibilità | Testi, documenti, conoscenza | Tema8_AI_testi_documenti_conoscenza.pptx | 81 |
-| 9 | Esplorare le possibilità | Dati e analisi | Tema9_AI_dati_analisi.pptx | 84 |
-| 10 | Esplorare le possibilità | AI multimodale e contenuti | Tema10_AI_multimodale_contenuti.pptx | 74 |
+| 7 | Interagire con l'AI | Verifica degli output e pensiero critico | Tema7_Verifica_output_pensiero_critico.pptx | 74 |
+| 8 | Esplorare le possibilità | Testi, documenti, conoscenza | Tema8_AI_testi_documenti_conoscenza.pptx | 82 |
+| 9 | Esplorare le possibilità | Dati e analisi | Tema9_AI_dati_analisi.pptx | 85 |
+| 10 | Esplorare le possibilità | AI multimodale e contenuti | Tema10_AI_multimodale_contenuti.pptx | 75 |
 | 11 | Esplorare le possibilità | Assistenti, agenti, automazioni | Tema11_Assistenti_agenti_automazioni.pptx | 77 |
 | 12 | Valore per l'azienda | Creazione di valore | Tema12_AI_creazione_valore_azienda.pptx | 72 |
-| 13 | Valore per l'azienda | Trasformazione del lavoro e dei processi | Tema13_AI_trasformazione_lavoro_processi.pptx | 63 |
+| 13 | Valore per l'azienda | Trasformazione del lavoro e dei processi | Tema13_AI_trasformazione_lavoro_processi.pptx | 64 |
 | 14 | Valore per l'azienda | Dati e conoscenza aziendale | Tema14_AI_dati_conoscenza_aziendale.pptx | 78 |
 | 15 | Valore per l'azienda | Opportunità e valutazione | Tema15_Opportunita_valutazione_AI.pptx | 76 |
 | 16 | Valore per l'azienda | Adozione e cambiamento organizzativo | Tema16_Adozione_AI_cambiamento_organizzativo.pptx | 76 |
@@ -162,19 +162,19 @@ Servono per non perdere il filo nella revisione.
 
 | Tema | Elementi notevoli |
 |---|---|
-| T7 | Fluidità e verità (Reber e Schwarz 1999), proporzionalità della verifica. "Che cosa viene dopo" aggiornato al Tema 8 |
-| T8 | Uso dell'AI su documenti, RAG solo accennato |
-| T9 | Quartetto di Anscombe, correlazioni spurie (Vigen) |
-| T10 | Deepfake (casi WSJ 2019 e Arup 2024), C2PA |
-| T11 | Livelli di automazione (Parasuraman, Sheridan e Wickens 2000), OWASP, accumulo degli errori negli agenti |
-| T12 | Valore, waterfall da teorico a reale, paradosso di Solow, teoria dei vincoli |
+| T7 | Fluidità e verità (Reber e Schwarz 1999), proporzionalità della verifica. "Che cosa viene dopo" aggiornato al Tema 8. **Revisionato il 9 ottobre 2026:** fonti uniformate al Tema 3 (Sharma ICLR 2024, Avianca giugno 2023); tolti i rimandi proiettati al Tema 3; aggiunta "Che cosa evitare" |
+| T8 | Uso dell'AI su documenti, RAG solo accennato. **Revisionato il 9 ottobre 2026:** Liu uniformato al Tema 2; tolti sei rimandi proiettati ad altri temi e le etichette "Integrazione C/D"; aggiunta "Che cosa evitare" |
+| T9 | Quartetto di Anscombe, correlazioni spurie (Vigen). **Revisionato il 9 ottobre 2026:** fonti e grafico di Anscombe verificati; tolti cinque rimandi proiettati e le etichette "Integrazione A/B/C/D"; aggiunta "Che cosa evitare" |
+| T10 | Deepfake (casi WSJ 2019 e Arup 2024), C2PA. **Revisionato il 9 ottobre 2026:** aggiunto l'art. 50 dell'AI Act (dichiarazione dei deepfake dal 2 agosto 2026; marcatura rinviata al 2 dicembre 2026 per i sistemi già sul mercato) in slide 66, note e fonti; tolti i rimandi proiettati e le etichette "Integrazione B/C"; aggiunta "Che cosa evitare" |
+| T11 | Livelli di automazione (Parasuraman, Sheridan e Wickens 2000), OWASP, accumulo degli errori negli agenti. **Revisionato il 9 ottobre 2026:** OWASP aggiornato alla Top 10 LLM 2026 (prompt injection prima, eccesso di autonomia terzo); nota su MCP; tolti nove rimandi proiettati e l'etichetta "Integrazione C"; "Che cosa evitare" portata al formato standard a sei voci |
+| T12 | Valore, waterfall da teorico a reale, paradosso di Solow, teoria dei vincoli. **Revisionato il 9 ottobre 2026:** studi di produttività aggiornati alle versioni pubblicate (Brynjolfsson QJE 2025: +15%, +36%; Dell'Acqua Organization Science 2026: +12,2%, +25,1%, +32%, -19 punti), coerenti con il T1; tolti i rimandi proiettati e le etichette "Integrazione A/B/C"; "Che cosa evitare" portata al formato standard a sei voci |
 
 **Temi 13-18**
 
 | Tema | Elementi notevoli |
 |---|---|
-| T13 | Compito, processo, ruolo; esposizione e trasformazione (Eloundou 2023); bancomat e cassieri (Bessen); Autor 2003 |
-| T14 | Quattro condizioni (disponibilità, accessibilità, utilizzabilità, affidabilità); iceberg della conoscenza tacita; RAG concettuale; classificazione delle informazioni; oversharing; scenario a 5 errori |
+| T13 | Compito, processo, ruolo; esposizione e trasformazione (Eloundou, Science 2024; analisi completa 2023); bancomat e cassieri (Bessen); Autor 2003. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati (compresa la mappa competenze e temi della slide 48) e le etichette interne; aggiunta "Che cosa evitare" |
+| T14 | Quattro condizioni (disponibilità, accessibilità, utilizzabilità, affidabilità); iceberg della conoscenza tacita; RAG concettuale; classificazione delle informazioni; oversharing; scenario a 5 errori. **Revisionato il 9 ottobre 2026:** fonti completate (Liu uniformato); tolti i rimandi proiettati e le etichette interne (A)-(D); grafico con percentuali inventate (slide 64) sostituito da un elenco senza numeri; "Che cosa evitare" nel formato standard a sei voci |
 | T15 | Percorso individuare, descrivere, valutare, confrontare, verificare; scenario delle richieste commerciali; matrice valore e fattibilità; limiti dei punteggi; criteri di insuccesso definiti prima |
 | T16 | Da disponibilità a valore; scenario A e B; Shadow AI; TAM e UTAUT; transfer della formazione; Kirkpatrick; sicurezza psicologica; diffusione rapida e graduale |
 | T17 | Esempi A-D (identificabilità, prompt injection, supervisione apparente, divulgazione via output); checklist in 5 domande; procedere, verificare, chiedere, interrompere |
@@ -207,12 +207,12 @@ Ordine consigliato: A, B e C prima di D; E ed F in parallelo dopo D. **Prima di 
 | Deepfake, casi WSJ 2019 e Arup 2024 | T10, T17 (nel T17 dovrebbe restare solo il richiamo) |
 | Caso Amazon (Dastin 2018) | T3, T17 |
 | Mata v. Avianca e piaggeria (Sharma 2023) | T3, T7 |
-| Studi di produttività (Brynjolfsson, Dell'Acqua) | T1, T3, T12 |
+| Studi di produttività (Brynjolfsson, Dell'Acqua) | T1, T3, T12. **Deciso il 9 ottobre 2026 (punto 11):** introdotti nel T1 come segnale di rilevanza, richiamati nel T3 (frontiera frastagliata), approfonditi nel T12 (slide 28) per ragionare sul valore; stessi dati delle versioni pubblicate in tutti e tre |
 | RAG e "Lost in the Middle" | T2, T8, T14 |
 | Classificazione delle informazioni (pubbliche, interne, riservate, sensibili o personali) | T14, T17 |
 | Shadow AI | T16 (adozione), T17 (rischio), T18 (governance) |
 | Waterfall da beneficio teorico a reale | T12, T15 |
-| Hype cycle | T1, T16 |
+| Hype cycle | T1, T16 (punto 11 ancora aperto: decidere con la revisione del T16) |
 | Formazione | T16 come leva di adozione, T18 come misura di alfabetizzazione |
 | Proporzionalità della verifica | T7, ripresa in T17 e T18 |
 
@@ -224,7 +224,7 @@ Ordine consigliato: A, B e C prima di D; E ed F in parallelo dopo D. **Prima di 
 **A3. Coerenza terminologica.**
 - Termini da uniformare: AI o IA; provider e deployer o fornitore e utilizzatore; prompt o richiesta; output o risultato; allucinazione.
 - Nomi delle aree identici in tutti i deck.
-- Formato delle citazioni uniforme. Liu et al. va citato come "(2024). Lost in the Middle: How Language Models Use Long Contexts. Transactions of the ACL, 12, 157-173": già corretto nel T2 (9 ottobre 2026), da uniformare nel T8 e T14.
+- Formato delle citazioni uniforme. Liu et al. va citato come "(2024). Lost in the Middle: How Language Models Use Long Contexts. Transactions of the ACL, 12, 157-173": uniformato nel T2, nel T8 e nel T14 (9 ottobre 2026).
 
 **A4. Coerenza dei passaggi tra temi.**
 - Controllare in tutti i 18 deck le slide "Che cosa viene dopo" e "Il percorso del modulo".
@@ -248,14 +248,14 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 | T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
 | T5 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare il DOI di Lee et al. 2025 (10.1145/3706598.3713778, nelle note della slide fonti) |
 | T6 | **Verificate il 9 ottobre 2026** (vedi registro). Il deck cita le guide al prompting di Anthropic, OpenAI e Google; resta da confermare sulla guida ufficiale OpenAI (Reasoning best practices) l'indicazione sui modelli che ragionano, verificata solo su fonti secondarie |
-| T7 | Reber e Schwarz 1999 |
-| T8 | Liu 2024; Lewis 2020 |
-| T9 | Anscombe 1973; Vigen 2015 |
-| T10 | Casi deepfake del 2019 e 2024 (cifre); C2PA |
-| T11 | Parasuraman, Sheridan e Wickens 2000; OWASP (versione corrente) |
-| T12 | Brynjolfsson 2023; Dell'Acqua 2023; Solow 1987; Goldratt e Cox 1984 |
-| T13 | Eloundou 2023 (80% e 19%); Bessen 2015 (bancomat e cassieri); Autor, Levy e Murnane 2003 |
-| T14 | Polanyi 1966; Nonaka e Takeuchi 1995; Lewis 2020; Liu 2024; Saltzer e Schroeder 1975 |
+| T7 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare le pagine di Reber e Schwarz 1999 (338-342) e di Parasuraman e Manzey 2010 (381-410), indicate a memoria |
+| T8 | **Verificate il 9 ottobre 2026** (vedi registro): Liu uniformato al Tema 2, Lewis confermato |
+| T9 | **Verificate il 9 ottobre 2026** (vedi registro): Anscombe (27(1), 17-21) e Vigen confermati |
+| T10 | **Verificate il 9 ottobre 2026** (vedi registro): casi deepfake confermati (circa 220.000 euro; circa 25 milioni di dollari, Arup). Da confermare sul testo ufficiale: rinvio al 2 dicembre 2026 della marcatura (art. 50(2)) e codice di condotta sulla trasparenza di giugno 2026, verificati su fonti secondarie |
+| T11 | **Verificate il 9 ottobre 2026** (vedi registro): Parasuraman, Sheridan e Wickens confermato (30(3), 286-297); OWASP Top 10 for LLM Applications 2026 (settembre 2026). Da verificare: la nota su MCP, citata a memoria |
+| T12 | **Verificate il 9 ottobre 2026** (vedi registro): Brynjolfsson e Dell'Acqua nelle versioni pubblicate, Solow e Goldratt confermati. Da verificare: pagina dell'articolo di Solow (p. 36), citata a memoria |
+| T13 | **Verificate il 9 ottobre 2026** (vedi registro): Eloundou citato nella versione Science 2024 con l'analisi completa del 2023; Bessen e Autor confermati. Da verificare: se la sintesi su Science riporta gli stessi valori (80% e 19%) |
+| T14 | **Verificate il 9 ottobre 2026** (vedi registro): Polanyi con l'edizione Doubleday 1966 e la ristampa del 2009; Lewis, Liu e Saltzer e Schroeder con volumi e pagine; Nonaka e Takeuchi confermato. Da verificare: pagine di Lewis e di Saltzer e Schroeder, edizione di Polanyi |
 | T15 | Popper; Brown 2009 e IDEO; Ohno 1988 (cinque perché); Nickerson 1998; effetto Hawthorne (citato con cautela) |
 | T16 | Rogers; Davis 1989; Venkatesh 2003; Baldwin e Ford 1988; Kirkpatrick; Edmondson 1999; legge di Goodhart; Deming; modello 70-20-10; curva dell'oblio (Ebbinghaus); hype cycle; Work Trend Index 2024 (cifre) |
 | T17 | Greshake 2023; OWASP; Sweeney 2000 (87%); Gender Shades 2018 (valori del grafico approssimati: 0,3%, 7,1%, 12%, 34,7%); Parasuraman e Manzey 2010; Reuters 2018; casi deepfake |
@@ -535,7 +535,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (69) · Che cosa portiamo a casa (70) · Uno schema per le richieste importanti (71) · Che cosa evitare (72) · Prossimo passo: il Tema 7 (73) · Nota sulle fonti e sugli esempi (74)
 
 ### Tema 7 · Verifica degli output e pensiero critico nell'utilizzo dell'AI
-*Area: Interagire con l'AI · 73 slide · file `Tema7_Verifica_output_pensiero_critico.pptx` · esposizione stimata circa 1 h 15 min*
+*Area: Interagire con l'AI · 74 slide · file `Tema7_Verifica_output_pensiero_critico.pptx` · esposizione stimata circa 1 h 17 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Undici domande guida per questo modulo (3) · Il filo conduttore: valutare, verificare, decidere (4) · Il percorso del modulo (5)
 - **7.1 Il pensiero critico nell'interazione con l'AI**: Che cos'è il pensiero critico (7) · Ricevere informazioni o valutarle (8) · Fatti, opinioni, ipotesi, interpretazioni (9) · Le domande critiche (10) · Evidenze, giudizio e competenze (11) · Atteggiamento critico, non sfiducia (12)
@@ -554,10 +554,10 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* L'affidabilità del processo dipende anche dall'atteggiamento di chi valuta il risultato e dalla capacità di riconoscere i propri bias.
 - **7.8 Validazione e responsabilità nell'uso**: Plausibile, verificato, validato (61) · Adeguatezza allo scopo e conseguenze (62) · L'economia della verifica (63) · Rapporto tra costo della verifica e rischio (64) · Le incertezze residue (65) · Competenze specialistiche e decisione (66) · Documentare e assumere la responsabilità (67)
   - *Messaggio chiave:* Validare significa decidere se un output, con le verifiche appropriate e le incertezze residue, sia adeguato a uno specifico utilizzo.
-- **Conclusioni**: Le domande guida: le nostre risposte (69) · Che cosa portiamo a casa (70) · Valutare, verificare, decidere: una scheda pratica (71) · Che cosa viene dopo (72) · Fonti e riferimenti (73)
+- **Conclusioni**: Le domande guida: le nostre risposte (69) · Che cosa portiamo a casa (70) · Valutare, verificare, decidere: una scheda pratica (71) · Che cosa evitare (72) · Che cosa viene dopo (73) · Fonti e riferimenti (74)
 
 ### Tema 8 · AI per testi, documenti e conoscenza
-*Area: Esplorare le possibilità dell'AI · 81 slide · file `Tema8_AI_testi_documenti_conoscenza.pptx` · esposizione stimata circa 1 h 31 min*
+*Area: Esplorare le possibilità dell'AI · 82 slide · file `Tema8_AI_testi_documenti_conoscenza.pptx` · esposizione stimata circa 1 h 32 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Undici domande guida (3) · Il filo conduttore: quattro modalità (4) · Attività diverse, controlli diversi (5) · Il percorso del modulo (6)
 - **8.1 Generazione di contenuti testuali**: Che cosa si può produrre (8) · Dalle istruzioni al testo (9) · Adattare il testo ai destinatari (10) · Tono, stile e registro (11) · Bozze e versioni alternative (12) · Automatica o supervisionata (13)
@@ -576,10 +576,10 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* L'AI può agevolare l'accesso alle informazioni documentali, ma non risolve da sola i problemi di organizzazione e qualità della conoscenza.
 - **8.8 Limiti e condizioni di efficacia**: Caricare non significa elaborare (69) · Qualità e struttura dei documenti (70) · Digitali, scansionati, impaginati (71) · Documenti lunghi e copertura (72) · Linguaggio tecnico e riferimenti (73) · Omissioni e alterazioni (74) · Controlli proporzionati all'uso (75)
   - *Messaggio chiave:* Poter caricare un documento non garantisce che il sistema ne abbia elaborato tutte le parti, interpretato correttamente il contenuto e preservato il significato.
-- **Conclusioni**: Le domande guida: le nostre risposte (77) · Che cosa portiamo a casa (78) · Quattro modalità: una scheda pratica (79) · Che cosa viene dopo (80) · Fonti e riferimenti (81)
+- **Conclusioni**: Le domande guida: le nostre risposte (77) · Che cosa portiamo a casa (78) · Quattro modalità: una scheda pratica (79) · Che cosa evitare (80) · Che cosa viene dopo (81) · Fonti e riferimenti (82)
 
 ### Tema 9 · AI per dati e analisi
-*Area: Esplorare le possibilità dell'AI · 84 slide · file `Tema9_AI_dati_analisi.pptx` · esposizione stimata circa 1 h 35 min*
+*Area: Esplorare le possibilità dell'AI · 85 slide · file `Tema9_AI_dati_analisi.pptx` · esposizione stimata circa 1 h 37 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Otto domande guida (3) · Il filo conduttore: quattro fasi (4) · Quattro tipi di analisi (5) · Il percorso del modulo (6)
 - **9.1 L'AI come supporto all'analisi dei dati**: Dati, informazioni, conoscenza (8) · Analisi dei dati e BI (9) · Il ruolo dell'AI nel processo (10) · Domande in linguaggio naturale (11) · Analisi tradizionale e assistita (12) · La democratizzazione dell'analisi (13) · Competenze umane e dominio (14)
@@ -598,10 +598,10 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* La solidità di una decisione non dipende solo dalla correttezza aritmetica degli indicatori.
 - **9.8 Limiti e condizioni di affidabilità**: Dove nascono gli errori (73) · Dati reali, stime, simulazioni (74) · Fondamento statistico (75) · Tracciabilità di dati ed elaborazioni (76) · L'apparenza non è affidabilità (77) · Validazione proporzionata all'uso (78)
   - *Messaggio chiave:* Un'analisi AI richiede controlli su dati, metodi e interpretazioni, proporzionati alle conseguenze dell'utilizzo.
-- **Conclusioni**: Le domande guida: le nostre risposte (80) · Che cosa portiamo a casa (81) · Quattro fasi: una scheda pratica (82) · Che cosa viene dopo (83) · Fonti e riferimenti (84)
+- **Conclusioni**: Le domande guida: le nostre risposte (80) · Che cosa portiamo a casa (81) · Quattro fasi: una scheda pratica (82) · Che cosa evitare (83) · Che cosa viene dopo (84) · Fonti e riferimenti (85)
 
 ### Tema 10 · AI multimodale e creazione di contenuti
-*Area: Esplorare le possibilità dell'AI · 74 slide · file `Tema10_AI_multimodale_contenuti.pptx` · esposizione stimata circa 1 h 22 min*
+*Area: Esplorare le possibilità dell'AI · 75 slide · file `Tema10_AI_multimodale_contenuti.pptx` · esposizione stimata circa 1 h 25 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida (3) · Il filo conduttore (4) · Il percorso del modulo (5)
 - **10.1 Fondamenti dell'AI multimodale**: Che cosa significa multimodale (7) · Testuali e multimodali (8) · Comprendere e generare (9) · Interazioni che combinano modalità (10) · Un modello o più modelli? (11) · Capacità che dipendono dal sistema (12)
@@ -620,10 +620,10 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* Il valore delle conversioni è legato alla loro utilità e alla fedeltà delle informazioni, non soltanto alla comodità o alla rapidità del processo.
 - **10.8 Limiti, autenticità e affidabilità**: Gli errori tipici (61) · Contenuti sintetici e deepfake (62) · Realismo, autenticità, accuratezza (63) · Provenienza e verifica (64) · Difendersi dalle frodi (65) · Comunicazione fuorviante (66) · Diritti su contenuti, immagini, voci (67) · Verifica e supervisione (68)
   - *Messaggio chiave:* Distinguere realismo, provenienza e accuratezza è essenziale per utilizzare in modo critico i contenuti multimodali.
-- **Conclusioni**: Le domande guida: le nostre risposte (70) · Che cosa portiamo a casa (71) · Una scheda pratica (72) · Che cosa viene dopo (73) · Fonti e riferimenti (74)
+- **Conclusioni**: Le domande guida: le nostre risposte (70) · Che cosa portiamo a casa (71) · Una scheda pratica (72) · Che cosa evitare (73) · Che cosa viene dopo (74) · Fonti e riferimenti (75)
 
 ### Tema 11 · Assistenti, agenti e automazioni con l'AI
-*Area: Esplorare le possibilità dell'AI · 77 slide · file `Tema11_Assistenti_agenti_automazioni.pptx` · esposizione stimata circa 1 h 28 min*
+*Area: Esplorare le possibilità dell'AI · 77 slide · file `Tema11_Assistenti_agenti_automazioni.pptx` · esposizione stimata circa 1 h 30 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Nove domande guida (3) · Il filo conduttore (4) · Chatbot, assistenti, agenti, automazioni (5) · Il percorso del modulo (6)
 - **11.1 Dalla conversazione all'azione**: Dai chatbot agli assistenti (8) · Assistenti integrati e copilot (9) · Suggerire, preparare, eseguire (10) · Capacità e limiti degli assistenti (11) · Nomi commerciali e funzionalità (12)
@@ -645,7 +645,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (72) · Che cosa portiamo a casa (73) · Prima di affidare un'attività (74) · Che cosa evitare (75) · Che cosa viene dopo (76) · Fonti e riferimenti (77)
 
 ### Tema 12 · AI e creazione di valore per l'azienda
-*Area: Comprendere il valore per l'azienda · 72 slide · file `Tema12_AI_creazione_valore_azienda.pptx` · esposizione stimata circa 1 h 20 min*
+*Area: Comprendere il valore per l'azienda · 72 slide · file `Tema12_AI_creazione_valore_azienda.pptx` · esposizione stimata circa 1 h 22 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Tre equivalenze da evitare (3) · Nove domande guida (4) · Il filo conduttore (5) · Il percorso del modulo (6)
 - **12.1 Che cosa significa creare valore con l'AI**: Dalla capacità al valore (8) · L'AI come mezzo (9) · Per chi e a quale livello (10) · Percepito o effettivo (11) · Adozione non è impatto (12)
@@ -667,7 +667,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (67) · Che cosa portiamo a casa (68) · Domande sul valore (69) · Che cosa evitare (70) · Che cosa viene dopo (71) · Fonti e riferimenti (72)
 
 ### Tema 13 · AI e trasformazione del lavoro e dei processi
-*Area: Comprendere il valore per l'azienda · 63 slide · file `Tema13_AI_trasformazione_lavoro_processi.pptx` · esposizione stimata circa 1 h 12 min*
+*Area: Comprendere il valore per l'azienda · 64 slide · file `Tema13_AI_trasformazione_lavoro_processi.pptx` · esposizione stimata circa 1 h 14 min*
 
 - **Introduzione**: Obiettivo del modulo (2) · Compito, processo, ruolo (3) · Nove domande guida (4) · Il filo conduttore (5) · Il percorso del modulo (6)
 - **13.1 Come l'AI modifica la natura del lavoro**: Attività, compiti, mansioni, ruoli (8) · Tipi di lavoro (9) · Assistite, automatizzate, trasformate (10) · Il compito non è il ruolo (11) · Esposizione e trasformazione (12) · Effetti diversi, scelte decisive (13)
@@ -686,7 +686,7 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
   - *Messaggio chiave:* Supervisione efficace e autonomia professionale richiedono competenze da preservare e sviluppare.
 - **13.8 Condizioni e rischi della trasformazione**: Adozione e trasformazione effettiva (54) · Effetti inattesi sul lavoro (55) · Rischi strutturali (56) · Osservare il lavoro reale (57)
   - *Messaggio chiave:* L'impatto dell'AI va valutato osservando l'intero lavoro effettivamente svolto, non solo le prestazioni degli strumenti.
-- **Conclusioni**: Le domande guida: le nostre risposte (59) · Che cosa portiamo a casa (60) · Domande sul cambiamento del lavoro (61) · Che cosa viene dopo (62) · Fonti e riferimenti (63)
+- **Conclusioni**: Le domande guida: le nostre risposte (59) · Che cosa portiamo a casa (60) · Domande sul cambiamento del lavoro (61) · Che cosa evitare (62) · Che cosa viene dopo (63) · Fonti e riferimenti (64)
 
 ### Tema 14 · AI, dati e conoscenza aziendale
 *Area: Comprendere il valore per l'azienda · 78 slide · file `Tema14_AI_dati_conoscenza_aziendale.pptx` · esposizione stimata circa 1 h 26 min*
@@ -915,4 +915,125 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Cambiamento dei modelli e manutenzione dei template | accennato (6.8) | Tema 4 (4.8) |
 | Librerie condivise, standard aziendali | accennato (6.8) | Temi 14 e 16 |
 | Dati riservati e strumenti autorizzati | avvertenza ricorrente | Temi 14, 17 e 18 |
+
+### Tema 7 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 3 (allucinazioni, compiacenza, autorevolezza apparente, caso Avianca, conseguenze degli errori), il Tema 5 (delega cognitiva, automation bias) e il Tema 6 (aderenza e correttezza, richieste di chiarimento), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** valutare, verificare, decidere; fatti, opinioni, ipotesi, interpretazioni; dimensioni della qualità; qualità espressiva e sostanziale; omissioni; livelli di certezza; fonti primarie e secondarie; tre controlli sulla fonte (autentica, pertinente, di supporto); premesse e conclusioni; correlazione e causalità; verifica di dati e calcoli; revisione assistita dall'AI e verifica indipendente; bias di conferma e fluidità; plausibile, verificato, validato; economia della verifica; incertezze residue.
+
+| Concetto | Nel Tema 7 | Approfondito o ripreso in |
+|---|---|---|
+| Allucinazioni, fonti inventate, caso Avianca | richiamato (7.3, 7.6) | Tema 3 |
+| Compiacenza, "sei sicuro?" | trattato (7.6) | introdotto nel Tema 3 |
+| Automation bias, delega cognitiva | trattato (7.7) | Temi 3 (3.8), 5 (5.7) e 17 |
+| Aderenza e correttezza, richieste di chiarimento | ripreso (7.2, 7.6) | Tema 6 |
+| Conseguenze degli errori (gravità, reversibilità) | applicato (7.8) | Tema 3 (3.8) |
+| Fedeltà delle sintesi, tracciabilità verso le fonti | principi (7.2, 7.3) | Temi 8 e 14 |
+| Verifica di dati, grafici, paradosso di Simpson | trattato (7.5) | Tema 9 |
+| Contenuti generati e deepfake | escluso | Tema 10 |
+| ROI e valore | escluso | Tema 12 |
+| Responsabilità giuridica, obblighi normativi | escluso | Tema 18 |
+
+### Tema 8 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (contesto, RAG in sintesi, "Lost in the Middle"), il Tema 3 (fonti inventate), il Tema 6 (prompting, formati strutturati) e il Tema 7 (verifica delle fonti, controlli proporzionati), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** quattro modalità (produrre, trasformare, analizzare e strutturare, recuperare conoscenza); generare o trasformare; modifiche formali e sostanziali; sintesi per scopi diversi; tracciabilità e riferimenti controllabili; perdita di significato; sintetizzare ed estrarre; dato estratto e dato validato; matrice comparativa; conoscenza incorporata e recuperata; archivio e conoscenza interrogabile; versionamento dei documenti; caricare non significa elaborare.
+
+| Concetto | Nel Tema 8 | Approfondito o ripreso in |
+|---|---|---|
+| Finestra di contesto, "Lost in the Middle" | applicato (8.3, 8.8) | introdotto nel Tema 2 |
+| Fonti e citazioni inventate | richiamato (8.3, 8.6) | Tema 3 |
+| Formati strutturati, istruzioni riutilizzabili | applicato (8.4) | Tema 6 |
+| Verifica delle fonti, controlli proporzionati | applicato (8.6, 8.8) | Tema 7 (7.3, 7.8) |
+| Dati estratti verso l'analisi | accennato (8.4) | Tema 9 |
+| Scansioni, immagini, multimodalità | impatto sui documenti (8.8) | Tema 10 |
+| Assistenti documentali, flussi di estrazione automatica | accennato (8.7) | Tema 11 |
+| RAG, conoscenza aziendale su larga scala, permessi | accennato (8.7) | Tema 14 |
+| Dati riservati e strumenti autorizzati | avvertenza | Temi 14 e 17 |
+
+### Tema 9 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (machine learning, generazione del testo), il Tema 3 (numeri e calcoli generati), il Tema 7 (verifica di dati e calcoli, correlazione e causalità) e il Tema 8 (estrazione di dati da documenti), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** quattro fasi (comprendere e preparare, elaborare e analizzare, rappresentare e prevedere, interpretare e valutare); analisi descrittiva, diagnostica, predittiva, prescrittiva; dati, metriche, indicatori; qualità e rappresentatività dei dati; calcolo eseguito e numero generato; tracciabilità delle operazioni; quartetto di Anscombe; correlazioni spurie e confronti multipli; grafici fuorvianti; previsioni, scenari e incertezza; falsa oggettività.
+
+| Concetto | Nel Tema 9 | Approfondito o ripreso in |
+|---|---|---|
+| Machine learning e previsione | richiamato (9.6) | Tema 2 |
+| Numeri generati, calcoli con codice | trattato (9.3) | introdotto nel Tema 3 |
+| Verifica di dati, calcoli e grafici | applicato (9.3, 9.5, 9.8) | Tema 7 (7.5) |
+| Correlazione e causalità | trattato (9.4) | Tema 7 (7.4) |
+| Dati estratti da documenti | richiamato (9.2) | Tema 8 (8.4) |
+| Grafici e contenuti visivi generati | accennato (9.5) | Tema 10 |
+| Analisi automatizzate e agenti | escluso | Tema 11 |
+| Valore e scelta dei progetti | escluso | Temi 12 e 15 |
+| BI, integrazioni, governance dei dati aziendali | accennato (9.1) | Tema 14 |
+| Decisioni sulle persone, vincoli etici e normativi | accennato (9.7) | Temi 17 e 18 |
+
+### Tema 10 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (modelli e generazione), il Tema 6 (principi di una buona richiesta), il Tema 7 (verifica e controlli proporzionati) e il Tema 8 (tracciabilità, perdita di significato), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** modalità (testo, immagini, audio, video); interpretare, generare, trasformare; modello multimodale nativo e catene di modelli; descrivere e comprendere un'immagine; generazione e modifica di immagini; trascrizione, attribuzione, traduzione del parlato; accessibilità; contenuto documentale e sintetico; catene di trasformazione; realismo, autenticità, accuratezza; provenienza (metadati, filigrane, C2PA); frodi con voce e volto; obblighi di trasparenza sui deepfake (AI Act, art. 50).
+
+| Concetto | Nel Tema 10 | Approfondito o ripreso in |
+|---|---|---|
+| Principi di formulazione delle richieste | applicato (10.3) | Tema 6 |
+| Controlli proporzionati all'uso | applicato (10.8) | Tema 7 (7.8) |
+| Tracciabilità, perdita di significato nelle trasformazioni | applicato (10.7) | Tema 8 (8.3) |
+| Scansioni e immagini nei documenti | ripreso (10.2) | Tema 8 (8.8) |
+| Grafici e infografiche coerenti con i dati | applicato (10.6) | Tema 9 (9.5) |
+| Flussi automatizzati tra modalità, agenti | escluso | Tema 11 |
+| Valore e casi d'uso | escluso | Temi 12 e 15 |
+| Frodi, sicurezza, dati personali in immagini e registrazioni | accennato (10.2, 10.4, 10.8) | Tema 17 |
+| Diritti, consenso, obblighi di trasparenza (AI Act, art. 50) | introdotto (10.3, 10.8) | Tema 18 |
+
+### Tema 11 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 3 (livelli di delega, automation bias), il Tema 4 (chatbot, assistenti, agenti come categorie), il Tema 5 (delega cognitiva, livelli di delega) e il Tema 7 (verifica, controlli proporzionati), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** chatbot, assistente, agente, automazione; rispondere, suggerire, preparare, eseguire; modello, applicazione e strumenti; operazioni informative e operazioni che modificano; principio del privilegio minimo; disponibile non è autorizzato; ciclo di un agente; accumulo degli errori; automazione tradizionale, RPA e automazione con AI; automazione, autonomia, supervisione; livelli operativi di autonomia; human-in-the-loop e human-on-the-loop; punti di approvazione; reversibilità; prompt injection ed eccesso di autonomia; dalla demo all'esercizio.
+
+| Concetto | Nel Tema 11 | Approfondito o ripreso in |
+|---|---|---|
+| Livelli di delega, automation bias | ripreso (11.5) | Temi 3 (3.8) e 5 (5.5) |
+| Categorie di sistemi, denominazioni commerciali | ripreso (11.1) | Tema 4 (4.5) |
+| Istruzioni riutilizzabili, assistenti configurati | ripreso (11.1) | Tema 6 (6.8) |
+| Verifica e controlli proporzionati | applicato ad azioni e processi (11.5, 11.8) | Tema 7 |
+| Estrazione e flussi documentali | esempi (11.4) | Tema 8 |
+| Valore, convenienza, selezione dei casi d'uso | escluso | Temi 12 e 15 |
+| Trasformazione di processi e ruoli | accennato (11.6, 11.7) | Temi 13 e 16 |
+| Architetture e integrazioni aziendali | escluso | Tema 14 |
+| Sicurezza, prompt injection, permessi | introdotto (11.2, 11.8) | Tema 17 |
+| Responsabilità giuridica, obblighi normativi | escluso | Tema 18 |
+
+### Tema 12 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 1 (studi di produttività in sintesi), il Tema 3 (frontiera frastagliata, affidabilità) e i Temi 8-11 (che cosa l'AI può fare), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** dalla capacità al valore; l'AI come mezzo; percepito ed effettivo; adozione e impatto; otto dimensioni del valore; tangibile e intangibile; compromessi; efficienza e produttività; risparmio apparente ed effettivo; paradosso della produttività (Solow); colli di bottiglia (teoria dei vincoli); qualità apparente ed effettiva; errori sistematici; amplificare o sostituire; ottimizzare o innovare; costi diretti, indiretti, nascosti; curva a J; beneficio lordo e netto; valore ipotizzato, percepito, misurato; legge di Goodhart.
+
+| Concetto | Nel Tema 12 | Approfondito o ripreso in |
+|---|---|---|
+| Studi di produttività (Brynjolfsson, Dell'Acqua) | approfondito (12.3) | introdotti nel Tema 1, richiamati nel Tema 3 |
+| Frontiera frastagliata | ripresa (12.3) | Temi 1 e 3 |
+| Capacità degli strumenti su testi, dati, contenuti, agenti | presupposto | Temi 8-11 |
+| Riorganizzazione del lavoro, ruoli, competenze | accennato (12.3, 12.5, 12.7) | Tema 13 |
+| Dati e conoscenza come condizione del valore | accennato (12.7) | Tema 14 |
+| ROI analitico, business case, selezione dei casi d'uso | escluso | Tema 15 |
+| Waterfall da beneficio teorico a reale | introdotto (12.7, 12.8) | Tema 15 |
+| Curva di adozione, gestione del cambiamento | accennato (12.7) | Tema 16 |
+| Normativa, sicurezza, governance | escluso | Temi 17 e 18 |
+
+### Tema 13 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 5 (collaborazione e delega), il Tema 11 (livelli di autonomia, supervisione) e il Tema 12 (valore, colli di bottiglia, indicatori), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** compito, mansione, ruolo, processo; attività assistite, automatizzate, trasformate; il compito non è il ruolo (bancomat e cassieri); esposizione e trasformazione; scomposizione del lavoro in attività; variabilità e giudizio; ottimizzazione locale e trasformazione del processo; automatizzare l'inefficienza; nuovo lavoro creato dalla trasformazione; dall'esecuzione alla supervisione; paradosso del supervisore inesperto; collaborazione nei team; competenze per lavorare con l'AI; adozione e trasformazione effettiva.
+
+| Concetto | Nel Tema 13 | Approfondito o ripreso in |
+|---|---|---|
+| Competenze per lavorare con l'AI (literacy, prompting, verifica, supervisione) | sintesi (13.7) | Temi 1-7, 9, 11 e 12 (corrispondenza nelle note della slide 48) |
+| Delega cognitiva e perdita delle competenze | ripreso (13.7) | Tema 5 (5.7) |
+| Livelli di autonomia, supervisione, eccezioni | ripreso (13.1, 13.4) | Tema 11 |
+| Valore, colli di bottiglia, indicatori di risultato | ripreso (13.3, 13.8) | Tema 12 |
+| Informazioni e conoscenza come condizione | accennato (13.2) | Tema 14 |
+| Scelta e priorità delle attività da trasformare | escluso | Tema 15 |
+| Diffusione, accompagnamento del cambiamento, coinvolgimento | accennato (13.6, 13.8) | Tema 16 |
+| Responsabilità e controllo nei processi automatizzati | accennato (13.8) | Temi 17 e 18 |
+
+### Tema 14 (compilato il 9 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (conoscenza del modello), il Tema 7 (verifica) e il Tema 8 (documenti e conoscenza), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** dati, informazioni, documenti, conoscenza; strutturate e non strutturate; conoscenza formalizzata e tacita; quattro condizioni (disponibilità, accessibilità, utilizzabilità, affidabilità); qualità e obsolescenza delle fonti; responsabili delle fonti; recupero e modifica del modello; accessibili, recuperate, usate; sola lettura e modifica; minimo privilegio; condivisioni eccessive; fonte corretta e risposta errata; prototipo e servizio.
+
+| Concetto | Nel Tema 14 | Approfondito o ripreso in |
+|---|---|---|
+| Conoscenza del modello, addestramento e data di riferimento | ripreso (14.4) | Tema 2 |
+| Risposte plausibili ma inventate | ripreso (14.4) | Tema 3 |
+| Verifica proporzionata, fluidità e affidabilità | ripreso (14.7) | Tema 7 |
+| Documenti, allegati, "Lost in the Middle" | ripreso (14.1, 14.4) | Temi 2 e 8 |
+| Sola lettura e modifica, rischio operativo | accennato (14.5) | Tema 11 |
+| Trasmissione della conoscenza tacita | ripreso (14.3) | Tema 13 |
+| Condizioni informative come criterio di scelta | accennato (14.8) | Tema 15 |
+| Classificazione delle informazioni, aspetti giuridici degli accessi | accennato (14.6) | Temi 17 e 18 |
 
