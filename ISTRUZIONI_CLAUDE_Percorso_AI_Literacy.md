@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12-16, area "Comprendere il valore per l'azienda", completata; revisione dei Temi 17 e 18, area "Utilizzare l'AI responsabilmente", completata: revisione dei 18 temi conclusa; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`).
+Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12-16, area "Comprendere il valore per l'azienda", completata; revisione dei Temi 17 e 18, area "Utilizzare l'AI responsabilmente", completata: revisione dei 18 temi conclusa; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`; correzione della slide 28 del Tema 18 sulle macchine dopo il Digital Omnibus; cartella `Normative/` con i testi ufficiali; prima formazione derivata: Laser Srl).
 
 ---
 
@@ -28,9 +28,12 @@ Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere 
   │   ├── tema_01_...md … tema_18_...md           18 documenti di perimetro
   │   ├── Tema1_...pptx … Tema18_...pptx          18 presentazioni complete
   │   └── sorgenti_slide.zip                      sorgenti per rigenerare i deck
-  └── Formazioni/                                 (da creare alla prima formazione)
-      └── <nome formazione>/                      una sottocartella per ciascuna formazione
+  ├── Normative/                                  testi normativi ufficiali (PDF)
+  │   └── AIAct/                                  Reg. (UE) 2024/1689 e Reg. (UE) 2026/1744, testo italiano GUUE
+  └── Formazioni/                                 una sottocartella per ciascuna formazione
+      └── 2026-10_LaserSrl_AI_Adoption/           Laser Srl, 3 sessioni da 4 ore (in progettazione)
   ```
+  - La cartella `Normative/` contiene i testi ufficiali aggiunti dall'utente: usarli come fonte primaria per le verifiche normative (estrazione con `pdftotext -layout`). Non si modifica.
   - I **18 documenti di perimetro** sono la fonte primaria dei contenuti, già "consolidati" dall'utente.
   - Le **18 presentazioni** sono una per tema, prodotte nella conversazione di produzione.
   - `sorgenti_slide.zip` contiene i sorgenti JavaScript (vedi sezione 6).
@@ -178,7 +181,7 @@ Servono per non perdere il filo nella revisione.
 | T15 | Percorso individuare, descrivere, valutare, confrontare, verificare; scenario delle richieste commerciali; matrice valore e fattibilità; limiti dei punteggi; criteri di insuccesso definiti prima. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati (anche nelle tabelle) e le etichette interne (A)-(D); grafici dello scenario mantenuti, perché calcoli dichiarati fittizi; "Che cosa evitare" nel formato standard a sei voci |
 | T16 | Da disponibilità a valore; scenario A e B; Shadow AI; TAM e UTAUT; transfer della formazione; Kirkpatrick; sicurezza psicologica; diffusione rapida e graduale. **Revisionato il 9 ottobre 2026:** tolti i rimandi proiettati e le etichette interne (A)-(D); hype cycle solo richiamato (slide 31, grafico tolto); grafico dell'uso per funzione (slide 22) sostituito da un elenco senza numeri; dato del Work Trend Index 2024 precisato (78%); "Che cosa evitare" nel formato standard a sei voci |
 | T17 | Esempi A-D (identificabilità, prompt injection, supervisione apparente, divulgazione via output); checklist in 5 domande; procedere, verificare, chiedere, interrompere. **Revisionato il 9 ottobre 2026:** OWASP 2026 come nel T11; tolti i rimandi proiettati e le lettere tra parentesi; lettere A-D mantenute come nome dei quattro esempi, ora "fittizi"; slide 68 rinominata "La checklist essenziale"; "Che cosa evitare" nel formato standard a sei voci |
-| T18 | Verificato a ottobre 2026: AI Act modificato dal **Digital Omnibus**. Dettagli sotto. **Revisionato il 9 ottobre 2026:** dati normativi verificati sui testi ufficiali (EUR-Lex, Gazzetta Ufficiale); tolti i rimandi proiettati e le lettere tra parentesi; equivoci numerati da 1 a 4, lettere solo per gli esempi; tolta dalla slide 76 la nota di lavoro; "Che cosa evitare" nel formato standard a sei voci |
+| T18 | Verificato a ottobre 2026: AI Act modificato dal **Digital Omnibus**. Dettagli sotto. **Revisionato il 9 ottobre 2026:** dati normativi verificati sui testi ufficiali (EUR-Lex, Gazzetta Ufficiale); tolti i rimandi proiettati e le lettere tra parentesi; equivoci numerati da 1 a 4, lettere solo per gli esempi; tolta dalla slide 76 la nota di lavoro; "Che cosa evitare" nel formato standard a sei voci. **Corretta il 9 ottobre 2026 la slide 28 (L'alto rischio):** Allegato I diviso in sezione A e sezione B; le macchine sono passate nella sezione B con il Digital Omnibus (requisiti AI nel Regolamento Macchine 2023/1230, atti delegati entro il 2 agosto 2028) |
 
 **Dettagli del Tema 18 (normativa verificata a ottobre 2026)**
 - Il Digital Omnibus è il Reg. (UE) 2026/1744, pubblicato in GUUE (serie L) il 24 luglio 2026 e in vigore dal 27 luglio 2026. **Verificato sul testo ufficiale il 9 ottobre 2026** (EUR-Lex: considerando 38, 40 e 46; articolo 1, punto 5, per l'articolo 4).
@@ -189,6 +192,7 @@ Servono per non perdere il filo nella revisione.
 - Nuovi divieti (art. 5, par. 1, lettere ba e bb: contenuti intimi senza consenso, materiale pedopornografico): esistenza verificata; **data di applicazione non verificata sul testo ufficiale, quindi non riportata nelle slide** (indicazione dell'utente: non usare dati senza riferimento ufficiale).
 - Standard armonizzati: stato non verificato su fonte ufficiale; nelle slide "verificarne lo stato".
 - Legge italiana 132/2025 (GU Serie Generale n. 223 del 25 settembre 2025), in vigore dal 10 ottobre 2025; artt. 7, 11, 13, 20 e 25 verificati sul testo; deleghe al Governo entro dodici mesi dall'entrata in vigore.
+- Macchine (verificato sul testo ufficiale il 9 ottobre 2026): il Reg. 2026/1744 sopprime il punto 1 della sezione A dell'Allegato I e aggiunge il Reg. (UE) 2023/1230 come punto 21 della sezione B (art. 1, punto 41); per la sezione B l'AI Act si applica solo in parte (art. 2, par. 2, modificato); i requisiti per l'AI ad alto rischio nelle macchine entrano nel Regolamento Macchine con atti delegati applicabili entro il 2 agosto 2028 (art. 3; considerando 42). Stato degli atti delegati: da verificare.
 - Esempi A-D, checklist di governance in 9 punti, esempio di policy di una pagina (fittizio).
 
 ---
@@ -335,6 +339,7 @@ La base è volutamente completa. Ogni formazione futura va progettata a partire 
 - Una pagina con le checklist: T15 (scheda opportunità), T17 (5 domande), T18 (governance in 9 punti).
 - Un glossario unico del percorso, utile anche per l'attività A3.
 - Una guida per il formatore con le avvertenze, in particolare quelle normative del T18.
+- **Lacune emerse con la formazione Laser Srl (9 ottobre 2026):** NIS2 non compare in nessuno dei 18 deck; l'AI nel prodotto (manutenzione predittiva, qualità visiva, servitization) è solo accennata. Valutare se portare nella base le slide nuove create per Laser (vedi `Formazioni/2026-10_LaserSrl_AI_Adoption/note_scelte.md`).
 
 ---
 

@@ -611,3 +611,28 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ### Controlli eseguiti
 validate.py: All validations PASSED · trattini medi e lunghi: 0 · confronto con il file precedente: cambiano solo le note delle slide 66 e 75.
+
+---
+
+## 9 ottobre 2026 · Tema 18 · Correzione della slide 28 (macchine e Digital Omnibus)
+
+**Richiesta:** emersa nella progettazione della formazione Laser Srl (costruttore di macchine); correzione autorizzata dall'utente.
+**File modificati:** `Tema18_Normativa_regole_governance_AI.pptx` (77 slide, invariate nel numero), `sorgenti_slide.zip` (`body18b.js`, `build18.js`).
+
+### Correzione di fatto (verificata sul testo ufficiale)
+| Slide | Prima | Dopo | Fonte |
+|---|---|---|---|
+| L'alto rischio (28), pannello "Allegato I" | "macchine, dispositivi medici, giocattoli, veicoli. Dal 2 agosto 2028." | Sezione A (dispositivi medici, giocattoli, ascensori, apparecchi a gas): requisiti dell'AI Act dal 2 agosto 2028. Sezione B (veicoli e, dal 2026, macchine): requisiti integrati nella norma di settore, entro il 2 agosto 2028 | Reg. (UE) 2026/1744, considerando 42; art. 1, punto 41 (Allegato I: soppresso il punto 1 della sezione A, aggiunto il punto 21 alla sezione B); art. 3 (modifiche al Reg. 2023/1230: art. 8, atti delegati applicabili entro il 2 agosto 2028; art. 20, par. 10) |
+| Note della slide 28 | Allegato I trattato come blocco unico, con le macchine tra gli esempi | Spiegate le due sezioni; per la sezione B l'AI Act si applica solo in parte (art. 2, par. 2, come modificato); per le macchine i requisiti AI entrano nel Regolamento Macchine | come sopra; Reg. (UE) 2024/1689, Allegato I e art. 2, par. 2 |
+| Note della slide 77 (fonti) | | Aggiunta la verifica sullo spostamento del Regolamento Macchine | come sopra |
+
+Precisazione: anche i veicoli erano già nella sezione B nel testo originale dell'AI Act; la slide li presentava insieme ai prodotti della sezione A.
+
+### Da verificare prima di ogni edizione
+Stato degli atti delegati della Commissione sull'allegato III del Regolamento Macchine.
+
+### Nota sui sorgenti
+Aggiornati il pannello e le note della slide 28 in `body18b.js` e `build18.js`; nel pptx il pannello usa 12 pt con "Sezione A/B" in grassetto (modifica fatta direttamente sul file). I sorgenti del Tema 18 risultavano già non allineati al pptx in altre note (per esempio slide 77): prima di rigenerare il deck dai sorgenti, riallinearli.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 · render della slide 28 controllato a vista.
