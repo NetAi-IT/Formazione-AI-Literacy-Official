@@ -17,7 +17,7 @@ Ultimo aggiornamento: 10 ottobre 2026 · **Proposta da validare con il committen
 ## Obiettivi
 
 1. **Consapevolezza:** capire come funziona e come sbaglia l'AI generativa, e quali rischi nuovi introduce per le informazioni (dati dei clienti, prompt injection, deepfake, Shadow AI).
-2. **Normativa:** conoscere il quadro essenziale (AI Act dopo il Digital Omnibus, GDPR, NIS2, Legge 132/2025) e sapere che esistono standard volontari di gestione per l'AI (ISO/IEC 42001, solo un accenno).
+2. **Normativa:** conoscere il quadro essenziale (AI Act dopo il Digital Omnibus, GDPR, Legge 132/2025) e sapere che esistono standard volontari di gestione per l'AI (ISO/IEC 42001, solo un accenno).
 3. **Policy:** uscire con **tre bozze di policy di reparto** sull'uso dell'AI, scritte su un modello comune, da sottoporre alla direzione.
 
 ## Durata e formato
@@ -57,5 +57,4 @@ Da definire.
 2. Esistenza di una policy AI aziendale o di gruppo VEM, anche solo abbozzata.
 3. Strumenti AI oggi autorizzati (per esempio Copilot) e strumenti usati di fatto.
 4. Chi approva le policy: direzione, responsabile del sistema di gestione, DPO.
-5. Inquadramento di Certego nella NIS2 (soggetto essenziale o importante).
-6. Numero di partecipanti per reparto e sede.
+5. Numero di partecipanti per reparto e sede.

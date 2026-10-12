@@ -9,8 +9,8 @@ Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026)
 | Incontro | Tema | Slide dalla base | Slide nuove | Durata |
 |---|---|---|---|---|
 | 1 | Capire l'AI e i suoi rischi | 88 | 5 | 4 h, pausa e 10' di margine compresi |
-| 2 | Regole, governance e policy di reparto | 54 | 11 | 4 h, pausa e 10' di margine compresi |
-| **Totale** | | **142** | **16** | 8 h |
+| 2 | Regole, governance e policy di reparto | 54 | 10 | 4 h, pausa e 10' di margine compresi |
+| **Totale** | | **142** | **15** | 8 h |
 
 **Ritmo:** circa 25 slide all'ora, più del percorso A perché non ci sono attività. Le note del relatore della base sono scritte per un'esposizione completa: in questo percorso il formatore **ne usa solo il nucleo**, circa un terzo, e salta gli approfondimenti.
 
@@ -45,7 +45,7 @@ Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026)
 | 0:10 | **Perché serve una governance** | 15' | T18·9 Che cos'è la governance dell'AI · T18·11 Conformità e governo · T18·12 Il prezzo dell'assenza · T18·14 Abilitante e proporzionata | |
 | 0:25 | **Il quadro normativo** | 25' | T18·17 L'AI Act: obiettivi e impostazione · T18·18 Le grandi categorie di obblighi · T18·19 Un'applicazione progressiva · T18·20 AI Act e GDPR · T18·21 Non solo AI Act · T18·22 Il quadro italiano · T18·23 Che cosa obbliga, che cosa orienta | |
 | 0:50 | **L'approccio basato sul rischio** | 25' | T18·26 La logica della piramide · T18·27 Le pratiche vietate · T18·28 L'alto rischio · T18·30 La finalità decide · T18·31 Esempio B: la selezione · T18·32 Trasparenza e modelli generali · T18·33 Generativa non è alto rischio · T10·66 Comunicazione fuorviante (art. 50) | "Un assistente che risponde ai clienti è ad alto rischio?" |
-| 1:15 | **Ruoli e responsabilità** | 20' | T18·36 I ruoli della filiera · T18·37 Le responsabilità del deployer · T18·38 Esempio A: il prodotto "conforme" · T18·39 Quando cambia il ruolo · T18·40 Documentazione e contratti · T18·41 Chi fa che cosa, all'interno · C9 NIS2 e uso dell'AI in un fornitore di servizi di sicurezza · C10 Contratti con i clienti: riservatezza e fornitori di AI | |
+| 1:15 | **Ruoli e responsabilità** | 20' | T18·36 I ruoli della filiera · T18·37 Le responsabilità del deployer · T18·38 Esempio A: il prodotto "conforme" · T18·39 Quando cambia il ruolo · T18·40 Documentazione e contratti · T18·41 Chi fa che cosa, all'interno · C10 Contratti con i clienti: riservatezza e fornitori di AI | |
 | 1:35 | *Pausa* | 15' | | |
 | 1:50 | **AI literacy e standard** | 15' | T18·59 Che cos'è l'AI literacy · T18·60 L'articolo 4, prima e dopo · T18·61 Misure commisurate · T18·62 Esempio C: il corso completato · T18·67 Framework e standard volontari · C11 ISO/IEC 42001 in una slide (solo accenno) | |
 | 2:05 | **Le policy** | 30' | T18·44 A che cosa serve una policy · T18·45 Gli elementi di una policy · T18·46 Quattro categorie di uso · T18·47 Scritta o praticata · T18·48 Un esempio di policy essenziale · T16·57 Che cosa si può usare, e come · T16·58 Materiali e referenti · T16·61 Gestire gli usi non autorizzati · C12 Il modello di policy di reparto | |
@@ -56,11 +56,11 @@ Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026)
 
 ---
 
-## Slide nuove (16)
+## Slide nuove (15)
 
 | Tipo | Slide |
 |---|---|
-| In comune con il percorso A | C1 Titolo · C2 Il percorso · C4 Dati tipici di Certego · C9 NIS2 · C10 Contratti con i clienti · C11 ISO/IEC 42001 in una slide · C12 Modello di policy di reparto · C15 Che cosa va alla direzione · C16 Questionario |
+| In comune con il percorso A | C1 Titolo · C2 Il percorso · C4 Dati tipici di Certego · C10 Contratti con i clienti · C11 ISO/IEC 42001 in una slide · C12 Modello di policy di reparto · C15 Che cosa va alla direzione · C16 Questionario |
 | Solo percorso B | B1 Posso caricarlo? Otto documenti commentati · B2 Che cosa vedremo nel secondo incontro · B3 Che cosa abbiamo visto · B4, B5, B6 Esempi di policy compilata per reparto (fittizi) · B7 Nove situazioni commentate |
 
 B1 e B7 riusano i materiali dei workshop del percorso A (gli otto documenti fittizi e le nove situazioni in `modello_policy_reparto.md`): si preparano una volta sola.

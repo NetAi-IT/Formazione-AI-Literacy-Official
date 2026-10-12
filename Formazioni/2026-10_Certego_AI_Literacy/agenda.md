@@ -7,8 +7,8 @@ Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026)
 | Incontro | Tema | Slide dalla base | Slide nuove | Durata |
 |---|---|---|---|---|
 | 1 | Capire l'AI e i suoi rischi | 33 | 7 | 4 h, pausa e 10' di margine compresi |
-| 2 | Regole e policy di reparto | 20 | 9 | 4 h, pausa e 10' di margine compresi |
-| **Totale** | | **53** | **16** | 8 h |
+| 2 | Regole e policy di reparto | 20 | 8 | 4 h, pausa e 10' di margine compresi |
+| **Totale** | | **53** | **15** | 8 h |
 
 Esiste un percorso alternativo tutto frontale, da usare come riserva se il pubblico partecipa poco: `agenda_B_frontale.md`. I due percorsi si possono alternare in aula (vedi i punti di passaggio nel percorso B).
 
@@ -42,7 +42,7 @@ Il filo conduttore delle due giornate: **ogni blocco di contenuto alimenta una s
 | Ora | Blocco | Durata | Slide | Interazione | Sezione della policy alimentata |
 |---|---|---|---|---|---|
 | 0:00 | **Ripresa** | 15' | C8 Le mappe degli usi dei tre reparti | Ogni reparto presenta in 3' la propria mappa e le situazioni dubbie raccolte | |
-| 0:15 | **Il quadro normativo** | 55' | T18·2 Prima di cominciare · T18·4 Tre piani da distinguere · T18·17 L'AI Act: obiettivi e impostazione · T18·19 Un'applicazione progressiva · T18·26 La logica della piramide · T18·27 Le pratiche vietate · T18·30 La finalità decide · T18·32 Trasparenza e modelli generali · T18·36 I ruoli della filiera · T18·37 Le responsabilità del deployer · T18·60 L'articolo 4, prima e dopo · T18·20 AI Act e GDPR · T18·22 Il quadro italiano · C9 NIS2 e uso dell'AI in un fornitore di servizi di sicurezza · C10 Contratti con i clienti: riservatezza e fornitori di AI | Sempre con la precisazione: sintesi, non parere legale | Usi vietati e da autorizzare; fornitori; trasparenza |
+| 0:15 | **Il quadro normativo** | 55' | T18·2 Prima di cominciare · T18·4 Tre piani da distinguere · T18·17 L'AI Act: obiettivi e impostazione · T18·19 Un'applicazione progressiva · T18·26 La logica della piramide · T18·27 Le pratiche vietate · T18·30 La finalità decide · T18·32 Trasparenza e modelli generali · T18·36 I ruoli della filiera · T18·37 Le responsabilità del deployer · T18·60 L'articolo 4, prima e dopo · T18·20 AI Act e GDPR · T18·22 Il quadro italiano · C10 Contratti con i clienti: riservatezza e fornitori di AI | Sempre con la precisazione: sintesi, non parere legale | Usi vietati e da autorizzare; fornitori; trasparenza |
 | 1:10 | **Standard volontari: un accenno** | 10' | T18·67 Framework e standard volontari · C11 ISO/IEC 42001 in una slide: che cos'è, stessa struttura della ISO 27001 già in essere, la certificazione esiste anche in Italia | Solo informativo, nessun approfondimento. Messaggio: le policy di oggi sono un primo passo utile anche in vista di un eventuale sistema di gestione | |
 | 1:20 | *Pausa* | 15' | | | |
 | 1:35 | **Dalla norma alla policy** | 15' | T18·44 A che cosa serve una policy · T18·45 Gli elementi di una policy · T18·46 Quattro categorie di uso · T18·47 Scritta o praticata · C12 Il modello di policy di reparto | Si distribuisce il modello stampato | |
@@ -55,13 +55,13 @@ Il filo conduttore delle due giornate: **ogni blocco di contenuto alimenta una s
 
 ---
 
-## Slide nuove da creare (16)
+## Slide nuove da creare (15)
 
 | Gruppo | Slide |
 |---|---|
 | Apertura, consegne e chiusure | C1, C2, C3, C5, C6, C7, C8, C13, C14, C15, C16 |
 | Contesto Certego | C4 Dati dei clienti, report di incidente, ticket, contratti |
-| Normativa | C9 NIS2 e AI · C10 Contratti con i clienti e fornitori di AI |
+| Normativa | C10 Contratti con i clienti e fornitori di AI |
 | Standard | C11 ISO/IEC 42001 in una slide |
 | Policy | C12 Il modello di policy di reparto |
 
@@ -76,6 +76,5 @@ Il filo conduttore delle due giornate: **ogni blocco di contenuto alimenta una s
 ## Da verificare prima delle sessioni
 
 - Slide C11: struttura della ISO/IEC 42001 e stato della certificazione accreditata in Italia (circolare Accredia DC 08/2026).
-- Inquadramento di Certego nella NIS2 e obblighi collegati.
 - Date dell'AI Act dopo il Digital Omnibus (Reg. (UE) 2026/1744): ricontrollare prima dell'edizione.
 - Stato dei decreti attuativi della Legge 132/2025.

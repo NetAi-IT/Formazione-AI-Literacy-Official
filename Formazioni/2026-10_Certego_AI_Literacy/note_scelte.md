@@ -10,7 +10,7 @@ Ultimo aggiornamento: 10 ottobre 2026
 4. **Formato:** due mezze giornate da 4 ore, con un compito tra i due incontri.
 5. **ISO/IEC 42001:** solo un **accenno di 10'** (una slide, insieme a T18·67 sugli standard volontari). L'utente non è pronto per una formazione sulla norma (decisione del 10 ottobre 2026, che sostituisce la prima ipotesi di un blocco di 30' e di un modello di policy agganciato ai controlli della norma). I 20' liberati vanno al quadro normativo (+10') e al Workshop 3 (+15'), con 5' tolti dal margine finale.
 6. **Brand:** tema neutro.
-7. **Percorso di riserva tutto frontale** (`agenda_B_frontale.md`): stessi argomenti e stesso formato, 142 slide della base e 16 nuove, con i punti di passaggio tra i due percorsi. Con il percorso B le policy di reparto sono esempi del formatore e non bozze scritte dai partecipanti.
+7. **Percorso di riserva tutto frontale** (`agenda_B_frontale.md`): stessi argomenti e stesso formato, 142 slide della base e 15 nuove, con i punti di passaggio tra i due percorsi. Con il percorso B le policy di reparto sono esempi del formatore e non bozze scritte dai partecipanti.
 
 ## Perché questa impostazione
 
@@ -45,19 +45,17 @@ Ultimo aggiornamento: 10 ottobre 2026
 
 | Slide | Contenuto | Nota |
 |---|---|---|
-| C9 | NIS2 e uso dell'AI | NIS2 assente nella base (già segnalato con la formazione Laser). I fornitori di servizi di sicurezza gestiti rientrano tra i settori della direttiva: **inquadramento di Certego da verificare** |
 | C10 | Contratti con i clienti e fornitori di AI | Clausole di riservatezza, subfornitori, trasferimenti di dati |
 | C11 | ISO/IEC 42001 in una slide | Assente nella base (il T18 ha solo un cenno agli standard volontari, slide 67). Solo informativa: che cos'è, legame con la ISO 27001, esistenza della certificazione accreditata in Italia |
 | C4 | Dati tipici di Certego | Esempi fittizi |
 
-**Proposta per la base:** valutare se portare nella base, dopo l'edizione, la slide sulla NIS2 e l'accenno alla ISO/IEC 42001, eventualmente nel T18.
+**Proposta per la base:** valutare se portare nella base, dopo l'edizione, l'accenno alla ISO/IEC 42001, eventualmente nel T18.
 
 ## Fonti da verificare
 
 - ISO/IEC 42001:2023: contenuto della slide C11 (struttura della norma).
 - Accredia, Circolare tecnica DC 08/2026 sull'accreditamento per la certificazione dei sistemi di gestione per l'AI: https://accredia.it/wp-content/uploads/2026/02/Circolare_tecnica_DC_08-2026_ITA-Accreditamento-MS-per-la-certificazione-dei-sistemi-di-gestione-IA.pdf
 - Certificazioni di Certego (ISO 27001, ISO 9001), dal sito aziendale: https://www.certego.net/iso/Cert_3917107_iso_27001_it.pdf
-- NIS2 (Direttiva (UE) 2022/2555) e D.Lgs. 138/2024: settore dei servizi gestiti di sicurezza.
 - AI Act, art. 50 (trasparenza dei sistemi che interagiscono con persone), per l'eventuale assistente rivolto ai clienti del Customer Care.
 - Date dell'AI Act dopo il Reg. (UE) 2026/1744: ricontrollare prima dell'edizione.
 
@@ -65,3 +63,7 @@ Ultimo aggiornamento: 10 ottobre 2026
 
 - **Terzo incontro facoltativo di 2 ore,** dopo 4-6 settimane: riesame delle policy approvate e dei primi casi reali.
 - **Eventuale percorso ISO/IEC 42001** in futuro, per direzione, responsabile del sistema di gestione e Legal, se Certego lo chiederà e quando il materiale sarà pronto. Le bozze di policy ne sarebbero il punto di partenza.
+
+## NIS2 esclusa (decisione del 12 ottobre 2026)
+
+La NIS2 è stata tolta dal programma, dalla proposta Word e dai punti da concordare: il formatore preferisce non trattarla, perché in un'azienda di cyber security il pubblico può conoscerla meglio di quanto serva per una sintesi. La slide C9 è eliminata. Se in aula emergono domande, si rimandano al responsabile interno della sicurezza. Resta nel programma il richiamo generico alle "altre norme applicabili".
