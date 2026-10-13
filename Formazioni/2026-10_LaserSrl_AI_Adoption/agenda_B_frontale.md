@@ -93,7 +93,7 @@ Totale: circa 224 minuti; riserva circa 10 minuti. Slide della base: 93; slide n
 | Attività nel percorso A | Nel percorso B |
 |---|---|
 | Sondaggio iniziale e vero o falso a squadre | **B1**: il formatore legge sei affermazioni e dà la risposta |
-| Caccia all'allucinazione dal vivo | Video di 5 minuti (preparato a casa) dopo T3·21 |
+| Caccia all'allucinazione dal vivo | Slide N6: il formatore fa le tre domande a Copilot e commenta (oppure video di 5 minuti preparato a casa). È l'unico test con Copilot della sessione 1; le tre demo sono nella sessione 2 |
 | Completamento della mappa per reparto | **N7** già compilata per tutti e sette i reparti |
 | Esercizio sugli sprechi con i post-it | **B3** e **B4**: mappa degli sprechi di un costruttore di macchine fittizio, commentata; più T13·16 e T13·17 su come scomporre il lavoro |
 | Compito per casa | Resta (**N11**): non richiede interazione in aula; nella sessione 2 si riprende con **B5** |
