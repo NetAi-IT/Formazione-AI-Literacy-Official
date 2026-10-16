@@ -2,7 +2,7 @@
 
 Ultimo aggiornamento: 10 ottobre 2026 · **Bozza da validare**
 
-Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026). **C1** = slide nuova da creare per questa formazione. Ritmo previsto: circa 15 slide all'ora nelle parti espositive.
+Notazione: **T17·27** = Tema 17, slide 27 della base (numeri al 9 ottobre 2026; Tema 5 aggiornato alla versione del 16 ottobre 2026). **C1** = slide nuova da creare per questa formazione. Ritmo previsto: circa 15 slide all'ora nelle parti espositive.
 
 | Incontro | Tema | Slide dalla base | Slide nuove | Durata |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Il filo conduttore delle due giornate: **ogni blocco di contenuto alimenta una s
 | 0:15 | **Come funziona l'AI generativa** | 35' | T2·7 Una definizione operativa · T2·10 L'effetto ELIZA · T2·31 Un modello linguistico di grandi dimensioni · T2·35 Come viene generata una risposta · T2·46 Il modello e l'applicazione · T2·50 Conoscenza incorporata e recupero · T2·58 Stessa richiesta, risposte diverse | Domanda: "dove finisce quello che scrivo in un prompt?" (si riprende nel blocco rischi) | |
 | 0:50 | **Capacità e limiti** | 35' | T3·20 Che cos'è un'allucinazione · T3·21 Citazioni, riferimenti e fonti inesistenti · T3·23 Plausibilità linguistica e veridicità · T3·24 L'autorevolezza apparente · T3·32 Bias di conferma e tendenza ad assecondare · T3·58 Le conseguenze di un errore · T3·63 La responsabilità resta umana | **Caccia all'allucinazione dal vivo:** tre domande all'AI (una normativa, una su un'azienda fittizia, una con citazioni); verifica in plenaria | Verifica e controllo umano |
 | 1:25 | *Pausa* | 15' | | | |
-| 1:40 | **Verificare e restare responsabili** | 25' | T7·25 Una fonte esistente non basta · T7·61 Plausibile, verificato, validato · T7·63 L'economia della verifica · T5·54 Automation bias · T17·58 Quattro condizioni del controllo | | Verifica e controllo umano |
+| 1:40 | **Verificare e restare responsabili** | 25' | T7·25 Una fonte esistente non basta · T7·61 Plausibile, verificato, validato · T7·63 L'economia della verifica · T5·42 Automation bias e verifica proporzionata · T17·58 Quattro condizioni del controllo | | Verifica e controllo umano |
 | 2:05 | **Rischi per le informazioni** | 40' | T17·16 Quali informazioni · T17·17 Che cosa succede ai dati · T17·19 Minimizzare · T17·20 Anonimo, pseudonimo, oscurato · T17·21 Esempio A: identificabile lo stesso · T17·27 Il prompt injection · T17·28 Esempio B: istruzioni nascoste · T10·62 Contenuti sintetici e deepfake · T10·65 Difendersi dalle frodi · T17·50 Possedere non è poter usare · T16·14 Lo Shadow AI · C4 Nel lavoro di Certego: dati dei clienti, report di incidente, ticket, contratti | Domanda per reparto: "qual è il documento più delicato che maneggiate ogni settimana?" | Dati; usi vietati; segnalazioni |
 | 2:45 | **Workshop 1 · Posso caricarlo?** | 25' | C5 Consegna del workshop · T14·51 Livelli di classificazione · T14·52 Ruoli e minimo privilegio | A gruppi misti, 8 documenti fittizi: per ognuno classificazione, strumento ammesso, eventuale oscuramento. Risultato: **tabella condivisa** dati e strumenti | Dati e strumenti ammessi (quadro comune) |
 | 3:10 | **Workshop 2 · La mappa degli usi** | 30' | C6 Consegna: usi reali, usi desiderati, dati coinvolti, frequenza | Per reparto, su cartellone: che cosa fate già con l'AI, che cosa vorreste fare, con quali dati | Ambito; usi |

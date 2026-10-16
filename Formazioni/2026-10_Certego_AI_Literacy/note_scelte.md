@@ -10,7 +10,7 @@ Ultimo aggiornamento: 10 ottobre 2026
 4. **Formato:** due mezze giornate da 4 ore, con un compito tra i due incontri.
 5. **ISO/IEC 42001:** solo un **accenno di 10'** (una slide, insieme a T18·67 sugli standard volontari). L'utente non è pronto per una formazione sulla norma (decisione del 10 ottobre 2026, che sostituisce la prima ipotesi di un blocco di 30' e di un modello di policy agganciato ai controlli della norma). I 20' liberati vanno al quadro normativo (+10') e al Workshop 3 (+15'), con 5' tolti dal margine finale.
 6. **Brand:** tema neutro.
-7. **Percorso di riserva tutto frontale** (`agenda_B_frontale.md`): stessi argomenti e stesso formato, 142 slide della base e 15 nuove, con i punti di passaggio tra i due percorsi. Con il percorso B le policy di reparto sono esempi del formatore e non bozze scritte dai partecipanti.
+7. **Percorso di riserva tutto frontale** (`agenda_B_frontale.md`): stessi argomenti e stesso formato, 141 slide della base e 15 nuove (142 prima della revisione del Tema 5 del 16 ottobre 2026, che ha accorpato "Fiducia eccessiva e accettazione passiva" in "Automation bias e verifica proporzionata"), con i punti di passaggio tra i due percorsi. Con il percorso B le policy di reparto sono esempi del formatore e non bozze scritte dai partecipanti.
 
 ## Perché questa impostazione
 

@@ -184,6 +184,41 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide e note) 
 
 ---
 
+## 16 ottobre 2026 · Tema 5 · Revisione orientata alle opportunità (48 slide)
+
+**File modificati:** `Tema5_Dialogo_uomo_AI.pptx` (da 63 a 48 slide) e `sorgenti_slide.zip` (aggiornati `build5.js` e `body5.js`), nella cartella `Base/` sul computer. **File nuovo:** `Tema5_Report_Modifiche.md` (esito di ognuna delle 63 slide originali, nuove slide, riepilogo, fonti, controlli). Versione precedente del deck: su GitHub.
+**Copia nel progetto Claude:** aggiornati i documenti di testo; il .pptx e lo .zip non si possono caricare con lo strumento del progetto (solo testo), quindi nel progetto il deck del Tema 5 resta quello a 63 slide finché l'utente non lo sostituisce a mano.
+**Tema grafico:** neutro, invariato (richiesta esplicita di mantenere il design originale; brand NetAi non applicato).
+
+### Sintesi
+- Eliminate 19 slide: 3, 5, 12, 20, 27, 31, 33, 34, 35, 39, 41, 43, 47, 50, 53, 57, 58, 59, 61 (concetti chiave, domande guida, sintesi ripetitive; otto accorpate in altre slide).
+- Nuove 4 slide: "L'AI come partner di ragionamento" (22), "Da richiesta generica a collaborazione efficace" (26), "Quando aumentare la delega" (34), "Un metodo pratico di collaborazione uomo-AI" (45). Esempi fittizi, dichiarati tali.
+- Riequilibrio: opportunità in primo piano; rischi come elementi da gestire (verifica proporzionata, fiducia calibrata, effetti sulle competenze dipendenti dall'uso); distinzione tra modello, funzionalità del prodotto e integrazioni; l'AI può supportare anche la validazione, responsabilità e autorizzazioni secondo ruoli e processi.
+- Tolta l'affermazione sul livello 3 come miglior equilibrio per molte attività intellettuali (non supportata da evidenze).
+- Titoli cambiati: 6 "Opportunità e aspetti da gestire", 12 "Un processo di miglioramento progressivo", 32 "Come evolve il ruolo umano", 42 "Automation bias e verifica proporzionata", 43 "Delega cognitiva: benefici e attenzioni", 44 "Utilizzare l'AI mantenendo autonomia e competenze", 46 "Principi per un dialogo efficace".
+
+### Fonti (verificate il 16 ottobre 2026)
+- Weizenbaum (1966), CACM 9(1), 36-45: confermato.
+- Parasuraman e Manzey (2010), Human Factors 52(3), 381-410: confermato; pagine aggiunte alla slide. Chiude il "da verificare" del Tema 7 sulle pagine.
+- Lee et al. (2025), CHI 2025, 1-22, DOI 10.1145/3706598.3713778: **DOI verificato**; confermati 319 partecipanti, 936 esempi, dati auto-riferiti, nessun rapporto causale dichiarato dagli autori.
+
+### Nota sui sorgenti
+L'archivio conteneva ancora la versione a 61 slide (precedente alla revisione del 9 ottobre). Il deck è stato ricostruito dai sorgenti per la grafica e dal deck a 63 slide per testi e note. Il nuovo `build5.js` è autosufficiente (layout e componenti comuni seguiti da `body5.js`) e allineato al deck a 48 slide.
+
+### Corrispondenza tra vecchia e nuova numerazione
+Vecchio → nuovo: 1→1 · 2→2 · 4→3 · 6→4 · 7→5 · 8→6 · 9→7 · 10→8 · 11→9 · 13→10 · 14→11 · 15→12 · 16→13 · 17→14 · 18→15 · 19→16 · 21→17 · 22→18 · 23→19 · 24→20 · 25→21 · (nuova) 22 · 26→23 · 28→24 · 29→25 · (nuova) 26 · 30→27 · 32→28 · 36→29 · 37→30 · 38→31 · 40→32 · 42→33 · (nuova) 34 · 44→35 · 45→36 · 46→37 · 48→38 · 49→39 · 51→40 · 52→41 · 54→42 · 55→43 · 56→44 · (nuova) 45 · 60→46 · 62→47 · 63→48. Eliminate: 3, 5, 12, 20, 27, 31, 33, 34, 35, 39, 41, 43, 47, 50, 53, 57, 58, 59, 61.
+
+### Effetti su altri file (aggiornati il 16 ottobre 2026)
+- **Officina38** (`agenda.md`, incontro 2): T5·22, 26, 37, 42, 55 diventano 18, 23, 30, 33, 43.
+- **Laser Srl:** `agenda.md` (T5·54 diventa 42); `agenda_B_frontale.md`, sessione 1 (T5·45, 49, 54, 55 diventano 36, 39, 42, 43) e sessione 2 (T5·14, 16, 22, 25, 37 diventano 11, 13, 18, 21, 30); `note_scelte.md` (T5·54 diventa 42).
+- **Certego:** `agenda.md` (T5·54 diventa 42); `agenda_B_frontale.md` (T5·52, 54, 55 diventano 41, 42, 43; T5·53 eliminata perché accorpata nella 42, quindi le slide della base dell'incontro 1 passano da 88 a 87 e il totale da 142 a 141); `note_scelte.md` (conteggio 141).
+- `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`: inventario (48 slide), note sul T5 (sezione 4), fonti (sezione 5, anche la riga del T7 sulle pagine di Parasuraman e Manzey), durate dell'area (circa 3 h 15 min), indice del Tema 5 con la tabella di corrispondenza (sezione 9), mappa dei collegamenti (sezione 10).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 48 slide controllato a vista · trattini medi e lunghi: 0 (slide, note e sorgente) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 47 · titoli duplicati: nessuno · note su tutte le 48 slide (circa 7.700 parole, circa 55 minuti di esposizione).
+
+---
+
 ## 9 ottobre 2026 · Tema 5 · Il dialogo uomo-AI
 
 **File modificati:** `Tema5_Dialogo_uomo_AI.pptx` (da 61 a 63 slide), `sorgenti_slide.zip` (aggiornati `body5.js` e `build5.js`, con `build5.js` = `common5.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body5.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.

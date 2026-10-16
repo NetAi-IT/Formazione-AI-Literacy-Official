@@ -24,7 +24,7 @@ Ultimo aggiornamento: 9 ottobre 2026
 - **Temi 4, 6, 8, 11, 14 (sessione 2):** strumenti, prompting, documenti, agenti. Le tre demo del preventivo corrispondono ai sottotemi 8.7 e 14.4 (knowledge assistant), 8.4 (estrazione da richiesta cliente), 8.3 (sintesi).
 - **Temi 9, 10, 12, 13, 15, 16 (sessione 2):** processi e prodotto. La base ha poco sull'AI nel prodotto: si usano T9·38 (anomalie), T9·56 (previsioni), T10·18 (difetti visivi) come appoggio concettuale e si aggiungono slide nuove ambientate nei forni e nelle linee.
 - **Temi 15, 16, 17, 18 (sessione 3):** sicurezza, norme, governance, matrice e scheda dell'opportunità per il workshop.
-- **Non usati:** Temi 5 e 7 quasi del tutto (si prende solo T5·54 sull'automation bias), perché il preventivo non li richiede in modo esplicito e il tempo è poco.
+- **Non usati:** Temi 5 e 7 quasi del tutto (si prende solo T5·42 sull'automation bias, numerazione del 16 ottobre 2026), perché il preventivo non li richiede in modo esplicito e il tempo è poco.
 
 ## Lacune della base colmate con slide nuove
 
