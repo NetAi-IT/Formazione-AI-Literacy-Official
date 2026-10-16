@@ -384,6 +384,34 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ---
 
+## 16 ottobre 2026 · Tema 8 · Revisione orientata a valore pratico e tecniche (61 slide)
+
+**File nuovi** nella cartella `Base/` sul computer: `Tema8_AI_testi_documenti_conoscenza_REV.pptx` (da 82 a 61 slide) e `Tema8_Report_Modifiche.md` (esito di ognuna delle 82 slide, nuovi esempi, correzioni, controlli, corrispondenza tra numerazioni).
+**File modificati:** `sorgenti_slide.zip` (aggiunto `build8_rev.js`, autosufficiente; `build8.js` e gli altri sorgenti invariati). `Tema8_AI_testi_documenti_conoscenza.pptx` (82 slide) resta invariato, come richiesto: la versione revisionata è la `_REV`.
+**Copia nel progetto Claude:** aggiornati report, registro e istruzioni; il .pptx e lo .zip non si possono caricare con lo strumento del progetto (solo testo), quindi vanno sostituiti a mano dalla cartella `Base/`.
+**Tema grafico:** neutro, invariato (richiesta esplicita di preservare la grafica originale; brand NetAi non applicato).
+
+### Sintesi
+- Eliminate 5 slide: 3 (domande guida), 6 (percorso del modulo, ora nelle note della 3), 48, 60 (nelle note del divisore 8.7), 80 (Che cosa evitare).
+- Accorpate: 10+11, 9+12, 21+22, 27+28, 30+31, 35+36, 39+40+41, 46+49, 54+57, 55+56, 61+66, 69+72, 70+71, 73+74, 77+78. Non richiesti: 35+36, 39 nella 40-41, 55+56, 69+72, eliminazione della 60.
+- Quattro esempi fittizi che sostituiscono contenuti ripetitivi: da appunti a verbale (16), sintesi esecutiva con riferimenti (22), tre offerte in una matrice (36), dalle procedure alle risposte (48). Brevi esempi di istruzione nelle slide 7, 14, 17, 21, 29.
+- Riequilibrio: ogni sottotema va da che cosa permette di fare, benefici, esempio, come ottenere di più, a limiti e come gestirli; le avvertenze ricorrenti restano una volta nel punto più pertinente.
+- Correzioni: ritraduzione utile ma non certificazione (15); informazioni recuperate non automaticamente aggiornate (41); l'AI rende più accessibili e aiuta a organizzare anche archivi imperfetti (49); "Lost in the Middle" come osservazione del 2024, variabile nei sistemi attuali (53); livello di supervisione e di controllo legato a rischio, processo e verifiche, non a una regola universale (9, 56).
+
+### Fonti
+Nessuna fonte nuova. Liu et al. (2024) e Lewis et al. (2020) invariati.
+
+### Nota sui sorgenti
+L'archivio conteneva per il Tema 8 la versione dell'8 ottobre (81 slide). Il deck revisionato è stato ricostruito dai sorgenti per la grafica e dal deck a 82 slide per testi e note.
+
+### Effetti su altri file (non modificati)
+Le formazioni Officina38 (`agenda.md`) e Laser Srl (`agenda_B_frontale.md`, `materiali/guida_demo.md`) citano il Tema 8 con la numerazione a 82 slide, che resta valida finché il deck base non viene sostituito. Corrispondenza nella sezione 9 del report.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 61 slide controllato a vista · trattini medi e lunghi: 0 (slide, note, sorgente e report) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 60 · note su tutte le 61 slide (circa 10.800 parole, circa 77 minuti di esposizione).
+
+---
+
 ## 9 ottobre 2026 · Tema 8 · AI per testi, documenti e conoscenza
 
 **File modificati:** `Tema8_AI_testi_documenti_conoscenza.pptx` (da 81 a 82 slide), `sorgenti_slide.zip` (aggiornati `body8a.js`, `body8b.js`, `body8c.js` e `build8.js`, con `build8.js` = `common8.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `extra8.js` + `body8a.js` + `body8b.js` + `body8c.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
