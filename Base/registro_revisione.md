@@ -4,6 +4,59 @@ Ogni modifica ai file di `Base/` è annotata qui. Le versioni precedenti sono co
 
 ---
 
+## 16 ottobre 2026 · Tema 10 · Revisione orientata alle opportunità e alle applicazioni pratiche (60 slide)
+
+**File nuovi:** `Tema10_AI_multimodale_contenuti_REV.pptx` (da 75 a 60 slide) e `Tema10_Report_Modifiche.md` (eliminazioni, accorpamenti, riscritture, nuove slide, verifiche normative, controlli, corrispondenza tra numerazioni).
+**File modificati:** `sorgenti_slide.zip` (aggiunto `build10_rev.js`, autosufficiente; la lingua italiana si imposta con il `lang_it.py` già presente; `build10.js` e gli altri sorgenti invariati). `Tema10_AI_multimodale_contenuti.pptx` (75 slide) resta invariato: la versione revisionata è la `_REV`.
+**Copia nel progetto Claude:** aggiornati report e registro; il .pptx e lo .zip non si possono caricare con lo strumento del progetto (solo testo), quindi vanno caricati a mano.
+**Tema grafico:** neutro, invariato (richiesta esplicita di conservare l'identità visiva originale; brand NetAi non applicato).
+
+### Sintesi
+- Eliminate 11 slide: 3 (domande guida), le otto "Concetto chiave" (13, 21, 29, 39, 44, 51, 59, 69), 61 (errori tipici), 73 (Che cosa evitare). Messaggi nei sottotitoli dei divisori, esercizi nelle note.
+- Accorpate come richiesto: 8+10, 17+18, 27+28, 33+34, 49+50, 57+58, 70+71.
+- Nuove 3 slide dimostrative fittizie: "Esempio: un'immagine in due passi" (21), "Esempio: dalla riunione al verbale" (27), "Esempio: dal documento alle slide" (39).
+- Riequilibrio: ogni sottotema parte dalle applicazioni; limiti come elementi da gestire con pratiche precise; immagini generate non più solo bozze (usabili, da rifinire, da verificare); benefici vocali prima degli errori; video come prova legato alla provenienza; contenuti sintetici con gli usi legittimi in primo piano.
+- Registrazioni: informare sempre; il consenso non è l'unica base giuridica possibile, la definisce l'azienda.
+- Art. 50 AI Act (slide 54): quattro obblighi distinti, eccezioni e date; non ogni contenuto generato va etichettato.
+
+### Fonti (verificate il 16 ottobre 2026)
+- Commissione europea, FAQ sull'art. 50: obblighi, eccezioni, 2 agosto 2026, transitorio al 2 dicembre 2026 solo per la marcatura dei sistemi già sul mercato. Reg. (UE) 2026/1744 confermato (GUUE 24 luglio 2026, considerando 38).
+- **Codice di buone pratiche sulla trasparenza dei contenuti generati:** trovato sulla pagina ufficiale della Commissione (10 giugno 2026, adesione volontaria). Chiude il punto aperto del 9 ottobre.
+
+### Effetti su altri file (non modificati)
+Le formazioni che citano il Tema 10 usano la numerazione a 75 slide. Corrispondenza nella sezione 9 del report.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 60 slide controllato a vista · trattini medi e lunghi: 0 (slide, note, sorgente e report) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 59 · note su tutte le 60 slide (circa 10.450 parole, circa 75 minuti di esposizione).
+
+---
+
+## 16 ottobre 2026 · Tema 9 · Revisione orientata al valore concreto dell'AI nell'analisi (61 slide)
+
+**File nuovi:** `Tema9_AI_dati_analisi_REV.pptx` (da 85 a 61 slide) e `Tema9_Report_Modifiche.md` (eliminazioni, accorpamenti, modifiche, nuove slide, correzioni tecniche e numeriche, controlli, corrispondenza tra numerazioni).
+**File modificati:** `sorgenti_slide.zip` (aggiunto `build9_rev.js`, autosufficiente; `build9.js` e gli altri sorgenti invariati). `Tema9_AI_dati_analisi.pptx` (85 slide) resta invariato: la versione revisionata è la `_REV`.
+**Copia nel progetto Claude:** aggiornati report e registro; il .pptx e lo .zip non si possono caricare con lo strumento del progetto (solo testo), quindi vanno caricati a mano.
+**Tema grafico:** neutro, invariato (richiesta esplicita di conservare l'identità visiva originale; brand NetAi non applicato).
+
+### Sintesi
+- Messaggio centrale nuovo, in apertura (2) e chiusura (59): l'AI rende l'analisi dei dati più accessibile, veloce ed esplorativa, anche senza competenze di programmazione; la qualità dipende da uso corretto degli strumenti, qualità dei dati e interpretazione.
+- Eliminate 16 slide: 3, 6, 41, 73, 77, 80, 81, 83 e le otto "Concetto chiave" (15, 25, 35, 44, 53, 62, 71, 79), con i messaggi nei sottotitoli dei divisori e nelle note.
+- Accorpate come richiesto: 10 nella 4, 14 nella 13, 19 nella 18, 23 nella 24, 33 nella 32, 42 nella 40, 49 nella 52, 59 nella 58, 60 nella 55, 66 nella 64, 69 nella 68, 76 nella 34.
+- Nuove 4 slide: "Come cambia il workflow" (11), "Analizzare un Excel con l'AI" (13), "Cinque prompt per l'analisi" (41), "Un caso completo: le vendite" (49). Caso fittizio di vendite coerente in dieci slide.
+- Correzioni: niente "lenta" e "molto rapida" (9); ripetibile non significa corretto (26); capacità di analisi file e codice solo negli strumenti che le prevedono (7, 13, 26, 41); scelta del grafico senza regole fisse (36); ruolo dei dati storici (44); proiezione allineata tra grafico, testo e note (45); scenari ricalcolati da una base dichiarata (46); scenario distinto dalla simulazione (56).
+- Lingua del testo impostata su italiano (passaggio dopo la generazione).
+
+### Nota sui sorgenti
+L'archivio conteneva per il Tema 9 la versione dell'8 ottobre (84 slide). Il deck revisionato è stato ricostruito dai sorgenti per la grafica e dal deck a 85 slide per testi e note.
+
+### Effetti su altri file (non modificati)
+Le formazioni che citano il Tema 9 usano la numerazione a 85 slide, valida finché il deck base non viene sostituito. Corrispondenza nella sezione 9 del report.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 61 slide controllato a vista · trattini medi e lunghi: 0 (slide, note, sorgente e report) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 60 · note su tutte le 61 slide (circa 10.550 parole, circa 75 minuti di esposizione).
+
+---
+
 ## 9 ottobre 2026 · Tema 1 · Evoluzione e rilevanza dell'AI
 
 **File modificati:** `Tema1_Evoluzione_e_rilevanza_AI.pptx` (da 55 a 59 slide), `sorgenti_slide.zip` (aggiornato `build.js`).
