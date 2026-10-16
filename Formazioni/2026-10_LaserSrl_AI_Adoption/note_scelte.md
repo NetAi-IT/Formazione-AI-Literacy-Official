@@ -63,3 +63,15 @@ Ultimo aggiornamento: 9 ottobre 2026
 - Quale Copilot è in uso e con quali impostazioni sui dati.
 - Verifiche normative elencate in fondo a `agenda.md`.
 - Facoltativa: estendere le slide nuove sull'AI nel prodotto e su NIS2 alla base, come contenuto riutilizzabile per altri clienti manifatturieri.
+
+## Sessione 2 (16 ottobre 2026)
+
+| Tema | Decisione |
+|---|---|
+| Recupero del Tema 3 | Nella sessione 1 non c'è stato tempo per il Tema 3. Si recupera in apertura della sessione 2 (40'), concentrato su allucinazioni e bias, con le slide del blocco Tema 3 già adattate nel deck della sessione 1 più T3·23, T3·33, T3·48, T3·67 dalla base |
+| Tempi | Gli altri blocchi della sessione 2 si accorciano di 35' in tutto; tolte T4·22, T4·48, T11·24, T10·18, T9·56, T15·43, N20, N23 (contenuti assorbiti in N19 e N21). Margine finale 15' |
+| Deck | `slide/Sessione2_Laser.pptx`, 63 slide: 45 dalla base e dal deck della sessione 1, 18 nuove (titoli, N13, N14, N15, N16-N18, N19, N21, N22, N24, N25, mappa sprechi, esercizio sui bias), generate con i sorgenti della base e lo stesso master Laser |
+| Slide nascoste | Alcune slide di origine erano nascoste (T3·23, T3·33, T3·48, T3·67, T15·17, T15·18 e la caccia all'allucinazione della sessione 1): nel deck della sessione 2 sono visibili |
+| Esercizi | Ancorati agli sprechi reali della sessione 1, sempre con materiali fittizi: `sessione2_esercitazioni.md` |
+| Mappa degli sprechi | Riordinata in `mappa_sprechi_sessione1.md`: 22 post-it, 6 temi trasversali. Nuovo reparto emerso: Elettrico. Colonne Commerciale e Acquisti vuote |
+| Brand | Neutro, confermato il 16 ottobre 2026 |

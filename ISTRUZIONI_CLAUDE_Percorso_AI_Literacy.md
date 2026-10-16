@@ -2,7 +2,7 @@
 
 > **Leggi questo file per intero prima di lavorare sul percorso.** Riassume il lavoro fatto nella conversazione di produzione delle slide (8 e 9 ottobre 2026), le regole da rispettare, le attività che restano per la revisione dell'intero percorso e, nella sezione 9, l'indice completo degli argomenti delle slide; nella sezione 10, la mappa dei collegamenti tra temi.
 
-Ultimo aggiornamento: 9 ottobre 2026 (revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12-16, area "Comprendere il valore per l'azienda", completata; revisione dei Temi 17 e 18, area "Utilizzare l'AI responsabilmente", completata: revisione dei 18 temi conclusa; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`; correzione della slide 28 del Tema 18 sulle macchine dopo il Digital Omnibus; cartella `Normative/` con i testi ufficiali; prima formazione derivata: Laser Srl).
+Ultimo aggiornamento: 16 ottobre 2026 (Tema 4 ridotto da 70 a 49 slide, vedi `Base/Tema4_Report_Modifiche.md` e la tabella di corrispondenza nella sezione 9; revisione dei Temi 1-4, area "Comprendere l'AI", completata; revisione dei Temi 5-7, area "Interagire con l'AI", completata; revisione dei Temi 8-11, area "Esplorare le possibilità dell'AI", completata; revisione dei Temi 12-16, area "Comprendere il valore per l'azienda", completata; revisione dei Temi 17 e 18, area "Utilizzare l'AI responsabilmente", completata: revisione dei 18 temi conclusa; regola sui rimandi e mappa dei collegamenti, sezione 10; indice degli argomenti; base indipendente da singole formazioni; nuova struttura con le cartelle `Base/` e `Formazioni/`; cartella di lavoro spostata in `Formazione AI Literacy Official`; correzione della slide 28 del Tema 18 sulle macchine dopo il Digital Omnibus; cartella `Normative/` con i testi ufficiali; prima formazione derivata: Laser Srl).
 
 ---
 
@@ -94,7 +94,7 @@ Le aree vanno tenute con questi nomi in tutti i deck.
 | 1 | Comprendere l'AI | Evoluzione e rilevanza dell'AI | Tema1_Evoluzione_e_rilevanza_AI.pptx | 59 |
 | 2 | Comprendere l'AI | Fondamenti e funzionamento | Tema2_Fondamenti_e_funzionamento_AI.pptx | 72 |
 | 3 | Comprendere l'AI | Capacità, limiti, affidabilità | Tema3_Capacita_limiti_affidabilita_AI.pptx | 70 |
-| 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 70 |
+| 4 | Comprendere l'AI | Ecosistema AI | Tema4_Ecosistema_AI.pptx | 49 |
 | 5 | Interagire con l'AI | Dialogo uomo e AI | Tema5_Dialogo_uomo_AI.pptx | 63 |
 | 6 | Interagire con l'AI | Prompting e tecniche di interazione | Tema6_Prompting_tecniche_interazione.pptx | 74 |
 | 7 | Interagire con l'AI | Verifica degli output e pensiero critico | Tema7_Verifica_output_pensiero_critico.pptx | 74 |
@@ -157,7 +157,7 @@ Servono per non perdere il filo nella revisione.
 | T1 | Storia (Turing, Dartmouth), transformer, crescita del calcolo (Epoch AI), studi di produttività (Brynjolfsson QJE 2025: +15%, +36%; Dell'Acqua Organization Science 2026: +12,2%, +25,1%, +32%, -19 punti), hype cycle (Gartner 2025: GenAI in disillusione). **Revisionato il 9 ottobre 2026** |
 | T2 | **Revisionato il 9 ottobre 2026.** Definizione AI Act (art. 3, non modificato dal Digital Omnibus) e OCSE, ELIZA, transformer, RLHF (Ouyang 2022), RAG (Lewis 2020), "Lost in the Middle" (Liu 2024, TACL 12) |
 | T3 | **Revisionato il 9 ottobre 2026.** Allucinazioni (Mata v. Avianca, Kalai 2025), piaggeria (Sharma, ICLR 2024), bias (caso Amazon), frontiera irregolare. Esempio didattico di frase vera e falsa sull'AI Act |
-| T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo.** **Revisionato il 9 ottobre 2026:** Copilot multi-modello (OpenAI, Anthropic, Microsoft); esempi open-weight aggiornati (Gemma, Mistral, gpt-oss, Qwen, DeepSeek; Meta verso modelli chiusi) |
+| T4 | Ecosistema di prodotti e fornitori. **Contenuto molto sensibile al tempo.** **Revisionato il 9 ottobre 2026:** Copilot multi-modello (OpenAI, Anthropic, Microsoft); esempi open-weight aggiornati (Gemma, Mistral, gpt-oss, Qwen, DeepSeek; Meta verso modelli chiusi). **Revisione del 16 ottobre 2026 (da 70 a 49 slide):** tolte domande guida, percorso del modulo, slide chiave dei sottotemi (concetto chiave e domanda di verifica ora nelle note dell'ultima slide di ogni sottotema), risposte alle domande guida, risultati attesi, Che cosa evitare e nota di aggiornamento (ora nelle note della slide 49); il deck quindi non segue più la struttura standard della sezione 3.2. Modelli classificati su due dimensioni (input e output, specializzazione); slide degli assistenti riscritta e verificata su fonti ufficiali; più spazio alle opportunità; nuova slide "Un esempio di agente al lavoro" (29). Modifiche fatte sul .pptx: **`body4.js` e `build4.js` non sono allineati**. Dettagli in `Base/Tema4_Report_Modifiche.md` |
 | T5 | ELIZA, automation bias (Parasuraman e Manzey 2010), Lee et al. 2025 sul pensiero critico. **Revisionato il 9 ottobre 2026:** nessun dato da aggiornare; tolti i rimandi proiettati ai Temi 4 e 6; aggiunte "Il filo conduttore" e "Che cosa evitare" |
 | T6 | Tecniche di prompting. **Revisionato il 9 ottobre 2026:** nota sui modelli che ragionano prima di rispondere (note di "Scegliere la tecnica in base al compito"); guide dei fornitori citate per nome nella slide finale; tolti i rimandi proiettati al Tema 7; aggiunte "Il filo conduttore" e "Che cosa evitare" |
 
@@ -252,7 +252,7 @@ Le fonti sono state citate a memoria e vanno verificate una per una, con WebSear
 | T1 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare solo i dati bibliografici aggiunti a memoria (Rosenblatt, Shortliffe, Rumelhart, Deng, Krizhevsky, Radford, Brown, Kaplan, Ouyang) |
 | T2 | **Verificate il 9 ottobre 2026** (vedi registro). Confermato sul testo ufficiale (revisione del T18) che il Reg. 2026/1744 non modifica l'art. 3, punto 1 |
 | T3 | **Verificate il 9 ottobre 2026** (vedi registro). Aggiunta la fonte Parasuraman e Manzey 2010 per l'automation bias |
-| T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** La slide fonti non è stata estratta automaticamente: aprire il deck |
+| T4 | **Tutto il contenuto su prodotti, fornitori, modelli, prezzi e funzioni: rivedere integralmente, perché invecchia rapidamente.** **Verificati il 16 ottobre 2026 su fonti ufficiali** gli assistenti della slide 15 (ChatGPT, Claude, Gemini, Microsoft 365 Copilot) e la Open Source AI Definition 1.0 (slide 13). Da verificare: Claude in Google Docs, Sheets e Slides in beta; scelta della regione UE (slide 35); distribuzioni dedicate di modelli proprietari (note della slide 12). Il deck non ha una slide fonti: le fonti sono nelle note e nel report |
 | T5 | **Verificate il 9 ottobre 2026** (vedi registro). Resta da confermare il DOI di Lee et al. 2025 (10.1145/3706598.3713778, nelle note della slide fonti) |
 | T6 | **Verificate il 9 ottobre 2026** (vedi registro). Il deck cita le guide al prompting di Anthropic, OpenAI e Google; resta da confermare sulla guida ufficiale OpenAI (Reasoning best practices) l'indicazione sui modelli che ragionano, verificata solo su fonti secondarie |
 | T7 | **Verificate il 9 ottobre 2026** (vedi registro). Restano da verificare le pagine di Reber e Schwarz 1999 (338-342) e di Parasuraman e Manzey 2010 (381-410), indicate a memoria |
@@ -479,26 +479,28 @@ Indice generato dai 18 deck. Per ogni tema: introduzione, sottotemi con i titoli
 - **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Prima di usare un risultato AI: una checklist (67) · Che cosa evitare (68) · Prossimo passo: il Tema 4 (69) · Fonti e riferimenti (70)
 
 ### Tema 4 · Ecosistema AI: modelli, strumenti e piattaforme
-*Area: Comprendere l'AI · 70 slide · file `Tema4_Ecosistema_AI.pptx` · esposizione stimata circa 1 h 14 min*
+*Area: Comprendere l'AI · 49 slide · file `Tema4_Ecosistema_AI.pptx` · esposizione stimata circa 1 h 14 min (note complete; in aula si può sintetizzare) · revisionato il 16 ottobre 2026*
 
-- **Introduzione**: Obiettivo del modulo (2) · Dieci domande guida per questo modulo (3) · Il filo conduttore (4) · Il percorso del modulo (5)
-- **4.1 La struttura dell'ecosistema AI**: Modello, sistema, applicazione, piattaforma (7) · Foundation models e modelli specializzati (8) · Gli attori dell'ecosistema (9) · Com'è fatta un'applicazione AI (10) · Più modelli, modelli che cambiano (11) · Ecosistemi integrati e soluzioni composte (12)
-  - *Messaggio chiave:* Un'applicazione AI è spesso composta da più elementi tecnologici e non coincide necessariamente con il modello che utilizza.
-- **4.2 Le principali famiglie di modelli AI**: Quattro famiglie di modelli (15) · Capacità, dimensioni e requisiti (16) · Modelli proprietari e modelli con pesi accessibili (17) · Open-weight non significa open-source (18) · Modelli aperti, chiusi e controllo tecnologico (19)
-  - *Messaggio chiave:* Modelli differenti rispondono a esigenze differenti; non esiste un unico modello migliore per qualunque attività.
-- **4.3 Le principali piattaforme e gli strumenti AI**: Gli assistenti AI generalisti (22) · Le categorie di strumenti (23) · Funzionalità comuni e differenze principali (24) · Capacità del modello e funzionalità dell'applicazione (25) · Disponibilità delle funzionalità (26) · Capacità dichiarate e funzionalità disponibili (27)
-  - *Messaggio chiave:* Due prodotti dall'interfaccia simile possono offrire capacità, integrazioni, controlli e condizioni molto diversi.
-- **4.4 AI generalista, specializzata e integrata**: Tre approcci (30) · L'AI nei software di produttività e nei gestionali (31) · Soluzioni pronte all'uso e personalizzate (32) · Vantaggi e limiti dei diversi approcci (33) · Usare uno strumento o integrare l'AI in un processo (34)
-  - *Messaggio chiave:* Le capacità AI possono essere disponibili in prodotti generalisti, strumenti dedicati o software già presenti in azienda; adottare AI non richiede necessariamente un nuovo applicativo separato. Sottot
-- **4.5 Chatbot, assistenti, agenti e automazioni**: Uno spettro di autonomia (37) · Chatbot e assistenti configurati (38) · Sistemi con strumenti e agenti (39) · Automazioni tradizionali e workflow con AI (40) · Livelli di autonomia e supervisione umana (41) · Una terminologia non standardizzata (42)
-  - *Messaggio chiave:* Conversare, ricevere assistenza, automatizzare e delegare l'esecuzione di attività rappresentano modalità e livelli di autonomia differenti.
-- **4.6 Modalità di accesso e utilizzo dell'AI**: Le principali modalità di accesso (45) · Applicazioni e API: due modi di usare lo stesso modello (46) · Cloud ed esecuzione locale (47) · Soluzioni individuali, team ed enterprise (48)
-  - *Messaggio chiave:* Capacità analoghe possono essere rese disponibili attraverso modalità differenti, con implicazioni tecniche, economiche e organizzative diverse.
-- **4.7 Criteri per confrontare e scegliere**: Undici criteri (51) · Adeguatezza, qualità e facilità d'uso (52) · Funzionalità, integrazione e costi complessivi (53) · Dati, sicurezza e controlli amministrativi (54) · Indipendenza tecnologica e vendor lock-in (55) · Verificare ciò che è davvero disponibile (56) · Una scheda di confronto (57)
-  - *Messaggio chiave:* Lo strumento più noto o il modello più potente non è necessariamente la scelta migliore per l'azienda.
-- **4.8 L'evoluzione e la dinamicità dell'ecosistema AI**: Che cosa cambia (60) · Obsolescenza di strumenti, procedure e competenze (61) · Competenze e conoscenze trasferibili (62) · Orientarsi senza inseguire ogni novità (63)
-  - *Messaggio chiave:* I principi di funzionamento e valutazione hanno maggiore durata rispetto alle caratteristiche di una singola versione di un prodotto.
-- **Conclusioni**: Le domande guida: le nostre risposte (65) · Che cosa portiamo a casa (66) · Prima di scegliere uno strumento AI: una checklist (67) · Che cosa evitare (68) · Prossimo passo: il Tema 5 (69) · Nota sull'aggiornamento dei contenuti (70)
+- **Introduzione**: Obiettivo del modulo (2) · Il filo conduttore (3)
+- **4.1 La struttura dell'ecosistema AI**: Modello, sistema, applicazione, piattaforma (5) · Gli attori dell'ecosistema (6) · Com'è fatta un'applicazione AI: un esempio (7) · Più modelli, modelli che cambiano (8)
+  - *Messaggio chiave (nelle note della slide 8):* Un'applicazione AI è spesso composta da più elementi tecnologici e non coincide necessariamente con il modello che utilizza.
+- **4.2 Le principali famiglie di modelli AI**: Due dimensioni per classificare i modelli (10) · Capacità, dimensioni e requisiti (11) · Modelli proprietari e modelli con pesi accessibili (12) · Open-weight non significa open-source (13)
+  - *Messaggio chiave (nelle note della slide 13):* Modelli differenti rispondono a esigenze differenti; non esiste un unico modello migliore per qualunque attività.
+- **4.3 Le principali piattaforme e gli strumenti AI**: Gli assistenti AI generalisti (15) · Le categorie di strumenti (16) · Funzionalità comuni e differenze principali, con l'esempio "stesso compito, strumenti diversi" (17) · Capacità del modello e funzionalità dell'applicazione (18) · Come scoprire e provare le funzionalità AI disponibili (19)
+  - *Messaggio chiave (nelle note della slide 19):* Due prodotti dall'interfaccia simile possono offrire capacità, integrazioni, controlli e condizioni molto diversi.
+- **4.4 AI generalista, specializzata e integrata**: Tre approcci (21) · L'AI nei software di produttività e nei gestionali (22) · Soluzioni pronte all'uso e personalizzate (23) · Usare uno strumento o integrare l'AI in un processo (24)
+  - *Messaggio chiave (nelle note della slide 24):* Adottare l'AI non richiede necessariamente un nuovo applicativo separato; i tre approcci spesso si combinano.
+- **4.5 Chatbot, assistenti, agenti e automazioni**: Uno spettro di autonomia (26) · Chatbot e assistenti configurati (27) · Sistemi con strumenti e agenti (28) · Un esempio di agente al lavoro (29) · Automazioni tradizionali e workflow con AI (30) · Livelli di autonomia e supervisione umana (31)
+  - *Messaggio chiave (slide 28 e note della slide 31):* Gli agenti ampliano le possibilità di automazione e delega, con livelli di autonomia e controllo da adattare al contesto.
+- **4.6 Modalità di accesso e utilizzo dell'AI**: Le principali modalità di accesso (33) · Applicazioni e API: due modi di usare lo stesso modello (34) · Cloud ed esecuzione locale (35) · Soluzioni individuali, team ed enterprise (36)
+  - *Messaggio chiave (nelle note della slide 36):* Capacità analoghe possono essere rese disponibili attraverso modalità differenti, con implicazioni tecniche, economiche e organizzative diverse.
+- **4.7 Criteri per confrontare e scegliere**: Undici criteri (38) · Adeguatezza, qualità e facilità d'uso (39) · Funzionalità, integrazione e costi complessivi (40) · Dati, sicurezza e controlli amministrativi (41) · Indipendenza tecnologica e vendor lock-in (42) · Una scheda di confronto (43)
+  - *Messaggio chiave (nelle note della slide 43):* Lo strumento più noto o il modello più potente non è necessariamente la scelta migliore per l'azienda.
+- **4.8 L'evoluzione e la dinamicità dell'ecosistema AI**: Che cosa cambia, e quali opportunità porta (45) · Competenze e conoscenze trasferibili (46) · Orientarsi senza inseguire ogni novità (47)
+  - *Messaggio chiave (nelle note della slide 47):* I principi di funzionamento e valutazione hanno maggiore durata rispetto alle caratteristiche di una singola versione di un prodotto.
+- **Conclusioni**: Prima di scegliere uno strumento AI: una checklist (48) · Prossimo passo: il Tema 5 (49, facoltativa; nelle note la nota di aggiornamento dei contenuti)
+
+**Corrispondenza con la numerazione precedente (70 slide), utile per le formazioni progettate prima del 16 ottobre 2026.** Vecchio → nuovo: 1→1 · 2→2 · 4→3 · 6→4 · 7→5 · 9→6 · 10→7 · 11→8 · 14→9 · 15→10 · 16→11 · 17→12 · 18→13 · 21→14 · 22→15 · 23→16 · 24→17 · 25→18 · 27→19 · 29→20 · 30→21 · 31→22 · 32→23 · 34→24 · 36→25 · 37→26 · 38→27 · 39→28 · (nuova) 29 · 40→30 · 41→31 · 44→32 · 45→33 · 46→34 · 47→35 · 48→36 · 50→37 · 51→38 · 52→39 · 53→40 · 54→41 · 55→42 · 57→43 · 59→44 · 60→45 · 62→46 · 63→47 · 67→48 · 69→49. Eliminate: 3, 5, 8, 12, 13, 19, 20, 26, 28, 33, 35, 42, 43, 49, 56, 58, 61, 64, 65, 66, 68, 70.
 
 ### Tema 5 · Il dialogo uomo-AI
 *Area: Interagire con l'AI · 63 slide · file `Tema5_Dialogo_uomo_AI.pptx` · esposizione stimata circa 1 h 04 min*
@@ -873,8 +875,8 @@ Serve all'agente per i controlli (attività A1, A2, A4) e per progettare le form
 | Agenti e livelli di delega | accennato (3.8) | Temi 5 (5.5) e 11 |
 | Benchmark e dimostrazioni | trattato (3.5) | Temi 1 (1.6) e 4 |
 
-### Tema 4 (compilato il 9 ottobre 2026)
-**Prerequisiti:** consigliati il Tema 2 (modello e applicazione, token, contesto) e il Tema 3 (affidabilità, benchmark e dimostrazioni), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** modello, sistema, applicazione, piattaforma; foundation models; open-weight e open-source; generalista, specializzata, integrata; spettro chatbot, assistente, sistema con strumenti, agente, automazione; persona nel, sopra e fuori dal ciclo; app, API, cloud, locale; versioni individuali, team, enterprise; undici criteri di scelta; vendor lock-in e portabilità. **Contenuto più sensibile al tempo dell'intera base: esempi da ricontrollare prima di ogni edizione (slide 70).**
+### Tema 4 (compilato il 9 ottobre 2026, aggiornato il 16 ottobre 2026)
+**Prerequisiti:** consigliati il Tema 2 (modello e applicazione, token, contesto) e il Tema 3 (affidabilità, benchmark e dimostrazioni), richiamati brevemente nelle note. **Concetti introdotti e ripresi in seguito:** modello, sistema, applicazione, piattaforma; foundation models; open-weight e open-source; generalista, specializzata, integrata; spettro chatbot, assistente, sistema con strumenti, agente, automazione; persona nel, sopra e fuori dal ciclo; app, API, cloud, locale; versioni individuali, team, enterprise; undici criteri di scelta; vendor lock-in e portabilità; opportunità di agenti, AI integrata ed evoluzione tecnologica. Dal 16 ottobre 2026 i foundation models non hanno più una slide propria: i modelli sono classificati su due dimensioni (tipo di dati, grado di specializzazione). **Contenuto più sensibile al tempo dell'intera base: esempi da ricontrollare prima di ogni edizione (nota nelle note della slide 49).**
 
 | Concetto | Nel Tema 4 | Approfondito o ripreso in |
 |---|---|---|

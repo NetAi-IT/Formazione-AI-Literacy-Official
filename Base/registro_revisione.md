@@ -149,6 +149,41 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ---
 
+## 16 ottobre 2026 · Tema 4 · La versione revisionata diventa la base
+
+`Tema4_Ecosistema_AI.pptx` sostituito con la versione revisionata (49 slide, nessuna nascosta). `Tema4_Ecosistema_AI_REVISIONATO.pptx` resta come copia identica, da eliminare quando l'utente lo ritiene. Aggiornati in `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md` l'inventario (3.1), le note sul T4 (sezioni 4 e 5), l'indice (sezione 9, con la tabella di corrispondenza tra vecchia e nuova numerazione) e la mappa (sezione 10).
+**Attenzione:** le formazioni Laser Srl (`agenda.md`, `agenda_B_frontale.md`, `note_scelte.md`, `sessione2_scaletta_formatore.md`) e Officina38 (`agenda.md`) citano slide del Tema 4 con la numerazione precedente (es. T4·22 ora è T4·15). Non sono state modificate: usare la tabella di corrispondenza.
+
+---
+
+## 16 ottobre 2026 · Tema 4 · Versione revisionata (47-49 slide)
+
+**File nuovi:** `Tema4_Ecosistema_AI_REVISIONATO.pptx` (49 slide, da 70) e `Tema4_Report_Modifiche.md` (dettaglio completo delle modifiche, fonti verificate e punti aperti). Revisione fatta direttamente sul .pptx: `sorgenti_slide.zip` non è allineato.
+**File base:** in `Tema4_Ecosistema_AI.pptx` nascosta anche la slide 26.
+**Sintesi:** eliminate 22 slide (3, 5, 8, 12, 13, 19, 20, 26, 28, 33, 35, 42, 43, 49, 56, 58, 61, 64, 65, 66, 68, 70); aggiunta "Un esempio di agente al lavoro"; concetti chiave e domande di verifica spostati nelle note; slide 22 riscritta con verifica sulle fonti ufficiali; più spazio alle opportunità (31, 39, 60) e formulazioni meno assolute (16, 17, 40, 46, 47, 48). Controlli: validate.py PASSED, trattini 0, render controllato a vista.
+
+---
+
+## 16 ottobre 2026 · Tema 4 · Slide nascoste e revisione del sottotema 4.2
+
+**File modificato:** `Tema4_Ecosistema_AI.pptx` (70 slide, di cui 7 nascoste; 63 proiettate). Modifica fatta direttamente sul .pptx: `sorgenti_slide.zip` (`body4.js`) **non è allineato** a queste modifiche.
+**Tema grafico:** neutro.
+
+### Slide nascoste
+- Dall'utente, prima di questa sessione: 3 (Dieci domande guida), 5 (Il percorso del modulo), 8 (Foundation models e modelli specializzati), 12 (Ecosistemi integrati e soluzioni composte), 13 (slide chiave 4.1).
+- Su richiesta dell'utente: 19 (Modelli aperti, chiusi e controllo tecnologico), 20 (slide chiave 4.2).
+- Punti aperti segnalati: la slide 65 (Le domande guida: le nostre risposte) resta visibile senza la slide 3, e le note delle slide 33 e 62 citano le domande guida; i sottotemi 4.1 e 4.2 non hanno più la slide chiave proiettata (le domande di verifica restano solo nelle note delle slide nascoste 13 e 20); il termine "foundation model" non è più proiettato.
+
+### Contenuti modificati
+- **Slide 15**, ora "Due dimensioni per classificare i modelli": le quattro famiglie, non mutuamente esclusive, riorganizzate su due dimensioni, modalità di input e output (solo testo, multimodali, per un media specifico) e grado di specializzazione (generalisti, adattati a un'attività, specializzati in un dominio). Messaggio: "Non sono categorie esclusive: un modello può essere generalista, multimodale e usato per compiti specializzati". Note riscritte.
+- **Slide 16** (Capacità, dimensioni e requisiti): affermazioni attenuate ("generalmente", "a parità di condizioni", "di norma"); messaggio: "Tendenze generali, non regole: dipende dall'architettura e dal compito. Il più grande non è sempre il migliore." Note riscritte: un modello piccolo non è sempre meno efficace, uno grande non è sempre più lento.
+- **Slide 17** (Modelli proprietari e modelli con pesi accessibili): "Di norma accessibili tramite i servizi del fornitore"; "Come servizio remoto, i dati transitano verso il fornitore"; "Possono essere personalizzati e mantenuti nella versione scelta". Note allineate.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide e note) · slide 15, 16 e 17 controllate a vista.
+
+---
+
 ## 9 ottobre 2026 · Tema 5 · Il dialogo uomo-AI
 
 **File modificati:** `Tema5_Dialogo_uomo_AI.pptx` (da 61 a 63 slide), `sorgenti_slide.zip` (aggiornati `body5.js` e `build5.js`, con `build5.js` = `common5.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body5.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
