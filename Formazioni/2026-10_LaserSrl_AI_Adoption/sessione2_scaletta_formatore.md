@@ -10,7 +10,7 @@ Nella sessione 1 non c'è stato tempo per il **Tema 3** (capacità, limiti, affi
 
 Per far posto a 40 minuti di recupero, gli altri blocchi si accorciano di 35 minuti in tutto. Slide tolte rispetto all'agenda: T4·22, T4·48, T11·24, T10·18, T9·56, T15·43, N20 e N23 (contenuti assorbiti in N19 e N21). Margine finale: 15 minuti.
 
-**Notazione.** Il numero è la slide del deck della sessione 2. Tra parentesi l'origine: **S1·n** = slide n del deck della sessione 1 (blocco Tema 3 già adattato, non presentato); **T3·23** = Tema 3, slide 23 della base; **Nuova** = slide creata per questa sessione. Le note del relatore delle slide riprese dalla base e dalla S1 sono quelle originali.
+**Notazione.** Il numero è la slide del deck della sessione 2. Tra parentesi l'origine: **S1·n** = slide n del deck della sessione 1 (blocco Tema 3 già adattato, non presentato); **T3·23** = Tema 3, slide 23 della base; **Nuova** = slide creata per questa sessione. Le note del relatore delle slide riprese dalla base e dalla S1 sono quelle originali. **Tema 6:** le origini usano la numerazione della versione del 16 ottobre 2026 (57 slide); il deck della sessione 2 contiene le slide nella versione precedente, con contenuti equivalenti salvo la slide 35: il ciclo del miglioramento progressivo nella nuova base è sostituito da "Il prompting come conversazione" (T6·30).
 
 ## Sintesi dei tempi
 
@@ -88,12 +88,12 @@ Messaggio del blocco: **calibrare la fiducia**. Né fidarsi sempre, né scartare
 
 | # | Slide | Origine | Che cosa fare |
 |---|---|---|---|
-| 31 | Prima il problema, poi il prompt | T6·16 | Si aggancia a "prima il problema, poi lo strumento" della sessione 1 |
-| 32 | Otto elementi possibili | T6·17 | |
-| 33 | Anatomia di una richiesta | T6·18 | |
-| 34 | Zero-shot e few-shot | T6·33 | Esempio: dare due traduzioni già approvate come modello (spreco D5) |
-| 35 | Il ciclo del miglioramento progressivo | T6·41 | |
-| 36 | Uno schema per le richieste importanti | T6·71 | |
+| 31 | Prima il problema, poi il prompt | T6·12 | Si aggancia a "prima il problema, poi lo strumento" della sessione 1 |
+| 32 | Otto elementi possibili | T6·13 | |
+| 33 | Anatomia di una richiesta | T6·14 | |
+| 34 | Zero-shot e few-shot | T6·25 | Esempio: dare due traduzioni già approvate come modello (spreco D5) |
+| 35 | Il ciclo del miglioramento progressivo | T6·30 | |
+| 36 | Uno schema per le richieste importanti | T6·55 | |
 | 37 | Gara di prompt | Nuova (N15) | **Esercizio 3** (12-15'): stesso compito per tutti, prompt a coppie, il formatore ne prova 2-3 su Copilot |
 
 **Percorso B:** il formatore mostra un prompt debole e la versione migliorata, poi lancia la versione migliorata dal vivo.

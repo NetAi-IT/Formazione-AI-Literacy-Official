@@ -1,6 +1,6 @@
 # Agenda · Percorso B (frontale) · Laser Srl · AI Adoption
 
-Ultimo aggiornamento: 10 ottobre 2026 · **Bozza da validare**
+Ultimo aggiornamento: 16 ottobre 2026 (numeri del Tema 6 aggiornati alla versione a 57 slide) · **Bozza da validare**
 
 Il percorso B è l'alternativa al percorso A (interattivo, in `agenda.md`). Copre gli stessi argomenti del preventivo, ma **parla solo il formatore**: le attività in aula sono sostituite da esempi guidati, demo e video. Si possono anche alternare: vedi i punti di passaggio più sotto.
 
@@ -11,14 +11,14 @@ Il percorso B è l'alternativa al percorso A (interattivo, in `agenda.md`). Copr
 - **Due pause da 10 minuti** per sessione: quattro ore di esposizione stancano, meglio spezzarle.
 - **Riserva:** per ogni blocco alcune slide in più, da usare se avanza tempo o se mancano domande.
 - **Domande finali:** 10 minuti a fine sessione. Se non arrivano domande, si usano le slide di riserva.
-- Notazione: **T2·17** = Tema 2, slide 17 della base (Tema 5 nella versione del 16 ottobre 2026, 48 slide). **N** = slide nuova in comune con il percorso A. **B** = slide nuova solo del percorso B.
+- Notazione: **T2·17** = Tema 2, slide 17 della base (Tema 5 nella versione del 16 ottobre 2026, 48 slide; Tema 6 nella versione del 16 ottobre 2026, 57 slide). **N** = slide nuova in comune con il percorso A. **B** = slide nuova solo del percorso B.
 
 | Sessione | Durata (pause e domande comprese) | Riserva | Slide dalla base | Slide nuove |
 |---|---|---|---|---|
 | 1 | circa 216 min | circa 14 min | 91 | 11 |
-| 2 | circa 230 min | circa 22 min | 89 | 15 |
+| 2 | circa 230 min | circa 22 min | 88 | 15 |
 | 3 | circa 224 min | circa 10 min | 93 | 12 |
-| **Totale** | | | **273** | |
+| **Totale** | | | **272** | |
 
 **Ritmo consigliato:** alternare ogni 20-25 minuti un cambio di registro (un video, una demo, un esempio Laser, una domanda retorica). Le slide con esempi industriali della base (T2·17, T2·23, T9·38, T10·18) sono i punti in cui legare il discorso alle macchine Laser.
 
@@ -55,7 +55,7 @@ Totale: circa 216 minuti; riserva circa 14 minuti. Slide della base: 91; slide n
 | 0:00 | **Ripresa** | 2 | **B5** Riepilogo della sessione 1 |  |
 | 0:02 | **Ecosistema e strumenti** | 21 | T4·7 Modello, sistema, applicazione, piattaforma · T4·22 Gli assistenti AI generalisti · T4·24 Funzionalità comuni e differenze principali · T4·25 Capacità del modello e funzionalità dell'applicazione · T4·30 Tre approcci · T4·31 L'AI nei software di produttività e nei gestionali · T4·34 Usare uno strumento o integrare l'AI in un processo · T4·46 Applicazioni e API: due modi di usare lo stesso modello · T4·47 Cloud ed esecuzione locale · T4·48 Soluzioni individuali, team ed enterprise · T4·54 Dati, sicurezza e controlli amministrativi · **N14** Copilot in Laser: che cosa c'è e che cosa no | T4·57 Una scheda di confronto · T4·15 Quattro famiglie di modelli · T4·17 Modelli proprietari e modelli con pesi accessibili |
 | 0:23 | **Dialogo con l'AI** | 8 | T5·11 Richiesta isolata e dialogo articolato · T5·13 Un esempio di dialogo · T5·18 Sette ruoli possibili · T5·21 L'AI come strumento di confronto critico · T5·30 Cinque livelli di delega |  |
-| 0:30 | **Prompting** | 30 | T6·7 Che cos'è un prompt · T6·16 Prima il problema, poi il prompt · T6·17 Otto elementi possibili · T6·18 Anatomia di una richiesta · T6·19 Vincoli, formato e criteri di qualità · T6·21 Non serve sempre un prompt lungo · T6·24 Che cosa è contesto · T6·27 Chiedere all'AI di esplicitare le informazioni mancanti · T6·33 Zero-shot e few-shot · T6·35 Scomporre i compiti complessi · T6·36 Alternative e confronto con criteri · T6·37 Chiedere chiarimenti prima dell'esecuzione · T6·41 Il ciclo del miglioramento progressivo · T6·42 Feedback efficaci · **B6** Prompt debole e prompt efficace: tre esempi da Laser · **B7** Lo schema applicato: un'offerta per un cliente estero · T6·64 Template di prompt · T6·71 Uno schema per le richieste importanti | T6·65 Librerie, istruzioni persistenti, assistenti configurati · T6·48 Definire il formato desiderato · T6·50 Dettaglio, tono e destinatario |
+| 0:30 | **Prompting** | 30 | T6·5 Che cos'è un prompt · T6·12 Prima il problema, poi il prompt · T6·13 Gli elementi di una richiesta: una lista di controllo · T6·14 Anatomia di una richiesta · T6·40 Vincoli di presentazione e criteri verificabili · T6·16 Non serve sempre un prompt lungo · T6·18 Che cosa è contesto e come renderlo efficace · T6·20 Far emergere informazioni mancanti e ipotesi · T6·25 Zero-shot e few-shot · T6·27 Scomporre i compiti complessi · T6·28 Alternative e confronto con criteri · T6·30 Il prompting come conversazione · T6·32 Feedback efficaci · **B6** Prompt debole e prompt efficace: tre esempi da Laser · **B7** Lo schema applicato: un'offerta per un cliente estero · T6·50 Template di prompt · T6·55 Uno schema per le richieste importanti | T6·51 Librerie, istruzioni persistenti, assistenti configurati · T6·37 Scegliere il formato in base all'uso · T6·38 Dettaglio, tono e destinatario |
 | 1:00 | *Pausa* | 10 | | |
 | 1:10 | **Documenti e conoscenza, con tre demo** | 57 | T8·4 Il filo conduttore: quattro modalità · T8·10 Adattare il testo ai destinatari · T8·19 Tradurre e localizzare · T8·25 Le possibilità su un documento · T8·26 Sintesi diverse per scopi diversi · T8·27 Tracciabilità: risalire alle fonti · T8·30 Dove si perde il significato · T8·31 Controllare una sintesi · **N16** Demo 1: dal manuale al knowledge assistant · *video o demo, 8 min* · T14·11 Formalizzata e tacita · T14·36 Il recupero, in sintesi · T14·39 Quando il recupero sbaglia · T8·63 Assistenti sulla documentazione · T8·65 Aggiornamento e versionamento · T8·37 Dal non strutturato al dato utilizzabile · T8·40 Accuratezza e completezza · **N17** Demo 2: dalla richiesta del cliente alla bozza strutturata · *video o demo, 4 min* · T8·44 Tre tipi di confronto · T8·45 Identificare le modifiche · T8·46 La matrice comparativa · T8·47 Contraddizioni e lacune · **N18** Demo 3: dai ticket alla sintesi operativa · *video o demo, 4 min* · T8·69 Caricare non significa elaborare | T8·71 Digitali, scansionati, impaginati · T10·16 Schermate e interfacce · T10·31 Le capacità vocali |
 | 2:08 | **Agenti e automazioni** | 22 | T11·5 Chatbot, assistenti, agenti, automazioni · T11·10 Suggerire, preparare, eseguire · T11·16 Che cosa possono fare gli strumenti · T11·18 Identità, autorizzazioni, permessi · T11·24 Il ciclo di un agente · T11·25 Un esempio passo per passo · T11·28 L'accumulo degli errori · T11·36 Regole e AI insieme · T11·38 Quando l'AI non serve · T11·42 I livelli operativi di autonomia · T11·44 Punti di approvazione · T11·46 Reversibili e irreversibili | T11·53 Le attività più adatte · T11·34 La Robotic Process Automation |
@@ -65,7 +65,7 @@ Totale: circa 216 minuti; riserva circa 14 minuti. Slide della base: 91; slide n
 | 3:37 | **Chiusura e domande** | 12 | **N25** Che cosa portiamo alla sessione 3 · *domande, 10 min (se non ce ne sono: slide di riserva)* |  |
 | 3:49 | *Fine* | | | |
 
-Totale: circa 230 minuti; riserva circa 22 minuti. Slide della base: 89; slide nuove: 15.
+Totale: circa 230 minuti; riserva circa 22 minuti. Slide della base: 88; slide nuove: 15.
 
 ---
 
@@ -126,7 +126,7 @@ Il preventivo promette "un portfolio di casi d'uso prioritizzati e una proposta 
 | B4 | Come uno spreco diventa un'opportunità (e quando la soluzione non è l'AI) |
 | B5 | Riepilogo della sessione 1 e risultati dei compiti, se qualcuno li ha mandati |
 | B6 | Tre coppie di prompt (offerta, report d'intervento, procedura): prima e dopo |
-| B7 | Lo schema della T6·71 applicato passo per passo a un'offerta per un cliente estero |
+| B7 | Lo schema della T6·55 applicato passo per passo a un'offerta per un cliente estero |
 | B8 | 12-15 casi d'uso tipici per un costruttore di macchine, per reparto |
 | B9 | Gli stessi casi divisi in AI interna, per i clienti, nella macchina |
 | B10 | Riepilogo delle sessioni 1 e 2 |

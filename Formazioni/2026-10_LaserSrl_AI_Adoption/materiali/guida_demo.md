@@ -42,7 +42,7 @@ I materiali sono collegati tra loro: i ticket citano gli allarmi e i ricambi del
 
 ## Demo 2 · Dalla richiesta del cliente alla bozza strutturata (video)
 
-**Messaggio:** l'AI organizza in pochi secondi una richiesta in inglese e trova le lacune; prezzi, tempi e referenze restano al commerciale. Collegamenti: T8·37 (dal non strutturato al dato), T8·47 (contraddizioni e lacune), T6·71 (schema delle richieste importanti), scheda progetto C10 del portfolio.
+**Messaggio:** l'AI organizza in pochi secondi una richiesta in inglese e trova le lacune; prezzi, tempi e referenze restano al commerciale. Collegamenti: T8·37 (dal non strutturato al dato), T8·47 (contraddizioni e lacune), T6·55 (schema delle richieste importanti), scheda progetto C10 del portfolio.
 
 **Preparazione:** allegare `Richiesta_offerta_Galletas_Ejemplo_fittizia.docx`.
 

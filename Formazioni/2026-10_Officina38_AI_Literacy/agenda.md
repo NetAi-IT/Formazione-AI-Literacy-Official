@@ -25,8 +25,8 @@ Notazione: **T2·7** = Tema 2, slide 7 della base. Riferimenti indicativi: la se
 | Min | Blocco | Base |
 |---|---|---|
 | 10 | Ripresa | |
-| 25 | Elementi di una richiesta efficace, miglioramento iterativo | T6·16, T6·17, T6·18, T6·41 |
-| 10 | **Demo 2** Copilot: richiesta generica e ben costruita | T6·71 |
+| 25 | Elementi di una richiesta efficace, miglioramento iterativo | T6·12, T6·13, T6·14, T6·30 |
+| 10 | **Demo 2** Copilot: richiesta generica e ben costruita | T6·55 |
 | 10 | Pausa | |
 | 25 | Il dialogo con l'AI: ruoli che può assumere, livelli di delega, rischio di delega cognitiva | T5·18, T5·23, T5·30, T5·33, T5·43 |
 | 20 | Verificare i risultati | T7·16, T7·23, T7·63 |
@@ -64,5 +64,5 @@ Notazione: **T2·7** = Tema 2, slide 7 della base. Riferimenti indicativi: la se
 
 - Stato dell'AI Act e del Digital Omnibus alla data del corso (standard armonizzati, linee guida, decreti attuativi della Legge 132/2025).
 - Contenuti del T4 su prodotti e versioni; impostazioni di Copilot usate per le demo (account aziendale, nessun dato reale).
-- Numeri di slide della base (riferiti al 9 ottobre 2026; Tema 5 aggiornato alla versione del 16 ottobre 2026, 48 slide).
+- Numeri di slide della base (riferiti al 9 ottobre 2026; Tema 5 aggiornato alla versione del 16 ottobre 2026, 48 slide; Tema 6 aggiornato alla versione del 16 ottobre 2026, 57 slide).
 - Strumento di lavagna digitale condivisa per il formato A.

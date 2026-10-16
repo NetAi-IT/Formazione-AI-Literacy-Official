@@ -1,12 +1,12 @@
 # Agenda · Percorso A (interattivo) · Laser Srl · AI Adoption
 
-Ultimo aggiornamento: 10 ottobre 2026 · **Bozza da validare**
+Ultimo aggiornamento: 16 ottobre 2026 (numeri del Tema 6 aggiornati alla versione a 57 slide) · **Bozza da validare**
 
 Esiste un percorso alternativo tutto frontale, in cui parla solo il formatore: `agenda_B_frontale.md`. I due percorsi coprono gli stessi argomenti e si possono alternare in aula (vedi i punti di passaggio nel percorso B).
 
 **Lavagna digitale:** AFFiNE, spazio di lavoro locale sul PC del formatore (schema in `board_affine.md`). In aula carta e post-it; trascrizione nella board in pausa o a fine sessione; nel workshop la board si proietta.
 
-Notazione: **T2·17** = Tema 2, slide 17 della base (numeri al 9 ottobre 2026; Tema 5 aggiornato alla versione del 16 ottobre 2026). **N1** = slide nuova da creare per questa formazione. Ritmo previsto: circa 12-15 slide all'ora, perché esercizi e demo occupano molto tempo.
+Notazione: **T2·17** = Tema 2, slide 17 della base (numeri al 9 ottobre 2026; Temi 5 e 6 aggiornati alle versioni del 16 ottobre 2026). **N1** = slide nuova da creare per questa formazione. Ritmo previsto: circa 12-15 slide all'ora, perché esercizi e demo occupano molto tempo.
 
 | Sessione | Tema | Slide dalla base | Slide nuove | Durata |
 |---|---|---|---|---|
@@ -45,7 +45,7 @@ Notazione: **T2·17** = Tema 2, slide 17 della base (numeri al 9 ottobre 2026; T
 |---|---|---|---|---|
 | 0:00 | **Ripresa** | 15' | N13 Che cosa avete provato | Giro rapido sui compiti per casa; nuovi post-it sul parcheggio. In apertura si proietta la board AFFiNE con gli sprechi della sessione 1 |
 | 0:15 | **Panoramica strumenti** | 20' | T4·7 Modello, sistema, applicazione, piattaforma · T4·22 Gli assistenti AI generalisti · T4·25 Capacità del modello e funzionalità dell'applicazione · T4·31 L'AI nei software di produttività · T4·48 Soluzioni individuali, team ed enterprise · N14 Copilot in Laser: che cosa c'è e che cosa no | **Contenuto sensibile al tempo:** ricontrollare T4 prima dell'edizione |
-| 0:35 | **Prompting essenziale** | 35' | T6·16 Prima il problema, poi il prompt · T6·17 Otto elementi possibili · T6·18 Anatomia di una richiesta · T6·33 Zero-shot e few-shot · T6·41 Il ciclo del miglioramento progressivo · T6·71 Uno schema per le richieste importanti · N15 Gara di prompt (consegna) | **Gara per reparto:** stesso compito, prompt scritti a coppie, il formatore li prova su Copilot e si confrontano |
+| 0:35 | **Prompting essenziale** | 35' | T6·12 Prima il problema, poi il prompt · T6·13 Gli elementi di una richiesta: una lista di controllo · T6·14 Anatomia di una richiesta · T6·25 Zero-shot e few-shot · T6·30 Il prompting come conversazione · T6·55 Uno schema per le richieste importanti · N15 Gara di prompt (consegna) | **Gara per reparto:** stesso compito, prompt scritti a coppie, il formatore li prova su Copilot e si confrontano |
 | 1:10 | *Pausa* | 15' | | |
 | 1:25 | **Assistenti per documenti e tre demo** | 45' | T8·4 Quattro modalità · N16 Demo 1: dal manuale al knowledge assistant · T14·36 Il recupero, in sintesi · T8·27 Tracciabilità: risalire alle fonti · N17 Demo 2: dalla richiesta del cliente alla bozza strutturata · T8·37 Dal non strutturato al dato utilizzabile · N18 Demo 3: dai ticket alla sintesi operativa · T8·69 Caricare non significa elaborare | Demo 1 dal vivo; demo 2 e 3 in video. Dopo ogni demo: "che cosa verifichereste prima di usarlo?" |
 | 2:10 | **Agenti AI** | 15' | T11·5 Chatbot, assistenti, agenti, automazioni · T11·24 Il ciclo di un agente · T11·28 L'accumulo degli errori · T11·46 Reversibili e irreversibili | |

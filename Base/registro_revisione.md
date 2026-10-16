@@ -251,6 +251,38 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ---
 
+## 16 ottobre 2026 · Tema 6 · Revisione orientata alla collaborazione con l'AI (57 slide)
+
+**File modificati:** `Tema6_Prompting_tecniche_interazione.pptx` (da 74 a 57 slide) e `sorgenti_slide.zip` (aggiornati `body6.js` e `build6.js`, con `build6.js` = `common6.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body6.js`). **File nuovo:** `Tema6_Report_Modifiche.md` (eliminazioni, accorpamenti, modifiche, nuove slide, correzioni concettuali, corrispondenza tra numerazioni, effetti su altri file). Versione precedente del deck: su GitHub.
+**Tema grafico:** neutro, invariato (richiesta esplicita di conservare l'identità visiva; brand NetAi non applicato).
+
+### Sintesi
+- Messaggio centrale nuovo, in apertura (2) e chiusura (54): il prompting è la capacità di collaborare efficacemente con l'AI per trasformare obiettivi, informazioni e idee in risultati utili.
+- Eliminate 10 slide: 3 (domande guida), 72 (Che cosa evitare) e le otto slide "Concetto chiave" (14, 22, 30, 39, 46, 53, 61, 68), con i messaggi integrati nelle slide precedenti o nelle note.
+- Accorpate: 4+5, 7+8, 11+13, 17+18+19, 24+26, 27+37, 32+38, 45+46, 48+49, 19+52, 66+67, 69+70; ripetizioni ridotte tra 49, 56 e 60.
+- Nuove: "Da una richiesta generica a un risultato utile" e "Che cosa cambia nel risultato" (6 e 7, output illustrativi dichiarati tali), "Il prompting come conversazione" (30), "Esercitazione: dal compito reale al template" (53, con criterio di confronto da 0 a 3).
+- Correzioni concettuali: programmazione tradizionale (10, non più "esegue esattamente, sempre uguale"); limiti delle istruzioni trasformati in "Come aumentare la qualità delle risposte" (9); contraddizioni (21: l'AI può riconoscerle ma non sempre le segnala); scomposizione (27: controllo dei risultati intermedi, non più accuratezza garantita); limiti dell'iterazione (35, "Aderenza e correttezza"); istruzioni persistenti e assistenti configurati (51); standardizzazione con benefici prima della manutenzione (52).
+- Il deck non segue più la struttura standard della sezione 3.2 (come i Temi 4 e 5): niente domande guida, slide chiave e Che cosa evitare.
+
+### Fonti (verificate il 16 ottobre 2026)
+- Anthropic, Prompt engineering overview: ora su platform.claude.com (docs.claude.com reindirizza).
+- OpenAI, Prompt engineering e Reasoning best practices: ora su developers.openai.com (platform.openai.com reindirizza). **Confermata sulla guida ufficiale** l'indicazione sui modelli che ragionano (provare prima senza esempi; non chiedere di "ragionare passo passo"), prima verificata solo su fonti secondarie; ora nelle note della slide 24.
+- Google, Prompt design strategies (Gemini API, ai.google.dev): confermata.
+
+### Nota sui sorgenti
+L'archivio conteneva il `body6.js` precedente alla revisione del 9 ottobre (72 slide). Il deck è stato ricostruito dai sorgenti per la grafica e dal deck a 74 slide per testi e note; ora sorgenti e deck sono allineati.
+
+### Effetti su altri file (aggiornati il 16 ottobre 2026)
+- **Laser Srl:** `agenda.md` (T6·16, 17, 18, 33, 41, 71 diventano 12, 13, 14, 25, 30, 55); `agenda_B_frontale.md` (blocco Prompting rinumerato; 27 e 37 confluiscono nella 20, quindi le slide della base della sessione 2 passano da 89 a 88 e il totale da 273 a 272; B7 rimanda alla T6·55); `sessione2_scaletta_formatore.md` (origini rinumerate, con nota sul deck già prodotto); `materiali/guida_demo.md` (T6·55).
+- **Officina38** (`agenda.md`, incontro 2): T6·16, 17, 18, 41, 71 diventano 12, 13, 14, 30, 55.
+- **Certego:** nessun riferimento al Tema 6.
+- `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`: inventario (57 slide), note sul T6 (sezioni 4 e 5), indice e corrispondenza (sezione 9), mappa (sezione 10).
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 57 slide controllato a vista · trattini medi e lunghi: 0 (slide, note, sorgente e report) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 56 · note su tutte le 57 slide (circa 8.600 parole, circa 62 minuti di esposizione).
+
+---
+
 ## 9 ottobre 2026 · Tema 6 · Prompting e tecniche di interazione con l'AI
 
 **File modificati:** `Tema6_Prompting_tecniche_interazione.pptx` (da 72 a 74 slide), `sorgenti_slide.zip` (aggiornati `body6.js` e `build6.js`, con `build6.js` = `common6.js` + `helpers.js` + `helpers4.js` + `extra5.js` + `body6.js`). Nessuna copia di backup: le versioni precedenti sono su GitHub.
@@ -280,6 +312,35 @@ Titolo: "Contenuti aggiornati a ottobre 2026", con nota per il relatore. Slide f
 
 ### Controlli eseguiti
 validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e sorgente) · slide nuove e modificate controllate a vista · note su tutte le 74 slide (circa 10.300 parole, circa 74 minuti di esposizione).
+
+---
+
+## 16 ottobre 2026 · Tema 7 · Revisione orientata alla verifica proporzionata (58 slide)
+
+**File nuovi** nella cartella `Base/` sul computer: `Tema7_Verifica_output_pensiero_critico_REV.pptx` (da 74 a 58 slide) e `Tema7_Report_Modifiche.md` (slide eliminate, accorpate, modificate e nuove, con numerazione originale e nuova; fonti; controlli).
+**File modificati:** `sorgenti_slide.zip` (aggiornati `build7.js`, autosufficiente, e `body7.js`; aggiunto `lang_it.py`, che imposta la lingua italiana sul deck generato). `Tema7_Verifica_output_pensiero_critico.pptx` (74 slide) resta invariato, come richiesto: la versione revisionata è la `_REV`.
+**Copia nel progetto Claude:** aggiornati report e registro; il .pptx e lo .zip non si possono caricare con lo strumento del progetto (solo testo), quindi nel progetto restano il deck a 74 slide e l'archivio precedente finché l'utente non li sostituisce a mano.
+**Tema grafico:** neutro, invariato (richiesta esplicita di conservare il template; brand NetAi non applicato).
+
+### Sintesi
+- Eliminate 7 slide: 3, 36, 41, 57, 69, 70, 72 (la 41 non era richiesta: si sovrapponeva alla nuova 22, contenuto trasferito).
+- Accorpate 12 slide: 8, 11, 16, 20, 27, 32, 40, 44, 49, 56, 62, 65.
+- Nuove 3 slide nel 7.6: ciclo generare, revisionare, migliorare, validare (36); esempio di verifica quantitativa (39); esempio di confronto documentale (40). La 48 è diventata l'esempio di revisione di un'offerta (38). Risultati attesi, non esiti di prove: dichiarato nelle note e nelle fonti.
+- Riscritte come richiesto le slide 7, 12, 19, 24, 28, 34, 47, 50, 64, 67; la 71 è la scheda pratica conclusiva con il messaggio finale del modulo.
+- Lingua del testo impostata su italiano; spaziatura dell'etichetta "CONCETTO CHIAVE" ridotta.
+
+### Fonti (verificate il 16 ottobre 2026)
+- Reber e Schwarz (1999), pagine 338-342: **confermate** (chiude il "da verificare" del 9 ottobre).
+- Sharma et al.: confermato negli atti di ICLR 2024. Parasuraman e Manzey e Mata v. Avianca invariati.
+
+### Nota sui sorgenti
+L'archivio conteneva per il Tema 7 la versione a 73 slide, non allineata al deck a 74. Il nuovo archivio parte da quello sul computer (che comprende già le modifiche del Tema 6) e sostituisce solo i file del Tema 7. Il deck revisionato è stato ricostruito dai sorgenti per la grafica e dal deck a 74 slide per testi e note.
+
+### Effetti su altri file (non modificati)
+Le formazioni che citano il Tema 7 usano la numerazione a 74 slide: tabella di corrispondenza nella sezione 10 del report. `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md` (inventario e indice del Tema 7): da aggiornare se la `_REV` sostituisce il deck attuale.
+
+### Controlli eseguiti
+validate.py: All validations PASSED · render di tutte le 58 slide controllato a vista · trattini medi e lunghi: 0 (slide, note e sorgente) · nel testo proiettato nessun rimando ad altri temi, salvo la slide facoltativa 57 · note su tutte le 58 slide (circa 9.400 parole, circa 65 minuti di esposizione).
 
 ---
 
