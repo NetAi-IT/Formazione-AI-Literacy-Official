@@ -146,6 +146,6 @@ validate.py: All validations PASSED · render di tutte le 58 slide controllato a
 
 L'archivio `sorgenti_slide.zip` conteneva per il Tema 7 la versione a 73 slide (senza "Che cosa evitare" e con le fonti precedenti), non allineata al deck a 74 slide. Il deck revisionato è stato ricostruito dai sorgenti per la grafica e dal deck a 74 slide per testi e note. Il nuovo archivio parte da quello sul computer (con le modifiche del Tema 6) e sostituisce solo i file del Tema 7: `build7.js` è autosufficiente e genera il deck a 58 slide; la lingua italiana del testo si imposta dopo la generazione con `lang_it.py`.
 
-## 10. Effetti su altri file (non modificati)
+## 10. Effetti su altri file (aggiornati)
 
-Le formazioni che citano slide del Tema 7 con la numerazione originale vanno aggiornate quando il nuovo deck sostituisce quello attuale. Corrispondenza principale: 7→6 · 12→9 · 15→12 · 19→15 · 23→18 · 24→19 · 28→22 · 31→25 · 39→31 · 43→33 · 47→37 · 48→38 · 50→41 · 51→42 · 54→45 · 61→50 · 63→51 · 64→52 · 66→53 · 67→54 · 71→56.
+Il 16 ottobre 2026 la versione revisionata è diventata la base (`Tema7_Verifica_output_pensiero_critico.pptx`, 58 slide). Aggiornati i riferimenti al Tema 7 nelle agende di Certego (`agenda.md`, `agenda_B_frontale.md`), Laser Srl (`agenda_B_frontale.md`) e Officina38 (`agenda.md`), e l'indice in `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`, che contiene la tabella di corrispondenza completa. Corrispondenza principale: 7→6 · 12→9 · 15 e 16→12 · 19→15 · 23 e 27→18 · 24→19 · 25→20 · 28→22 · 31→25 · 39 e 40→31 · 43→33 · 47→37 · 48→38 · 50→41 · 51→42 · 54→45 · 61→50 · 63→51 · 64→52 · 66→53 · 67→54 · 71→56.

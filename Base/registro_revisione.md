@@ -315,6 +315,15 @@ validate.py: All validations PASSED · trattini medi e lunghi: 0 (slide, note e 
 
 ---
 
+## 16 ottobre 2026 · Tema 7 · La versione revisionata diventa la base
+
+`Tema7_Verifica_output_pensiero_critico.pptx` sostituito con la versione revisionata (58 slide). `Tema7_Verifica_output_pensiero_critico_REV.pptx` resta come copia identica, da eliminare quando l'utente lo ritiene. Versione precedente: su GitHub.
+- `ISTRUZIONI_CLAUDE_Percorso_AI_Literacy.md`: aggiornati l'inventario (58 slide), gli elementi notevoli e le fonti del T7, l'indice del Tema 7 (con la tabella di corrispondenza tra vecchia e nuova numerazione) e la mappa dei concetti.
+- Riferimenti alle slide del Tema 7 aggiornati nelle formazioni: Certego (`agenda.md`: 25→20, 61→50, 63→51; `agenda_B_frontale.md`: 16→12, 27→18, 24→19, 25→20, 50→41, 61→50, 63→51, 64→52, 71→56, con i titoli nuovi), Laser Srl (`agenda_B_frontale.md`: 16→12, 25→20, 40→31, 61→50, 63→51), Officina38 (`agenda.md`, incontro 2: 16→12, 23→18, 63→51). I tempi delle agende non sono stati ricalcolati: le slide sostitutive coprono gli stessi contenuti.
+- **Copia nel progetto Claude:** aggiornati i documenti di testo; il .pptx e lo .zip vanno sostituiti a mano dalla cartella `Base/` (lo strumento del progetto accetta solo testo).
+
+---
+
 ## 16 ottobre 2026 · Tema 7 · Revisione orientata alla verifica proporzionata (58 slide)
 
 **File nuovi** nella cartella `Base/` sul computer: `Tema7_Verifica_output_pensiero_critico_REV.pptx` (da 74 a 58 slide) e `Tema7_Report_Modifiche.md` (slide eliminate, accorpate, modificate e nuove, con numerazione originale e nuova; fonti; controlli).

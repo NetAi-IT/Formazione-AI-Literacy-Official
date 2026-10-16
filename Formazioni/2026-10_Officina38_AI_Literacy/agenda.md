@@ -29,7 +29,7 @@ Notazione: **T2·7** = Tema 2, slide 7 della base. Riferimenti indicativi: la se
 | 10 | **Demo 2** Copilot: richiesta generica e ben costruita | T6·55 |
 | 10 | Pausa | |
 | 25 | Il dialogo con l'AI: ruoli che può assumere, livelli di delega, rischio di delega cognitiva | T5·18, T5·23, T5·30, T5·33, T5·43 |
-| 20 | Verificare i risultati | T7·16, T7·23, T7·63 |
+| 20 | Verificare i risultati | T7·12, T7·18, T7·51 |
 | 15 | **Brainstorming 2:** un compito reale da provare | |
 | 5 | Chiusura | |
 
